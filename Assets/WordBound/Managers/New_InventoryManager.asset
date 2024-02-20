@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5a2543a119f842959d20e84db3140dd, type: 3}
+  m_Name: New_InventoryManager
+  m_EditorClassIdentifier: 
+  items:
+  - label: Book
+    id: 1
+    altLabel: 
+    carryOnStart: 1
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 3dc1d0cdd23580c4fb373154af63866d, type: 3}
+    activeTex: {fileID: 0}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 11400000, guid: 0cf98d68d9057de4fa08e552208ae94e, type: 2}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineInteractions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledGiveActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+  - label: Keyword_door
+    id: 2
+    altLabel: Door
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 1
+    itemStackingMode: 0
+    tex: {fileID: 0}
+    activeTex: {fileID: 0}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 0
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineInteractions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledGiveActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+  bins:
+  - label: Word
+    id: 0
+    notForItems: 0
+    forObjectives: 0
+    forDocuments: 0
+  - label: Objects
+    id: 1
+    notForItems: 0
+    forObjectives: 0
+    forDocuments: 0
+  invVars: []
+  unhandledCombine: {fileID: 0}
+  unhandledHotspot: {fileID: 0}
+  passUnhandledHotspotAsParameter: 0
+  unhandledGive: {fileID: 0}
+  recipes: []
+  documents:
+  - ID: 0
+    title: Room of walls
+    titleLineID: -1
+    rememberLastOpenPage: 0
+    carryOnStart: 0
+    texture: {fileID: 0}
+    pages:
+    - lineID: -1
+      text: "\u0412 \u0442\u0435\u043C\u043D\u043E\u0439 \u043A\u043E\u043C\u043D\u0430\u0442\u0435
+        \u0434\u0440\u0435\u0432\u043D\u0435\u0433\u043E \u0437\u0430\u043C\u043A\u0430,
+        \u0447\u0435\u0440\u043D\u044B\u0439 \u043C\u0430\u0433 \u0441\u043E\u0441\u0440\u0435\u0434\u043E\u0442\u043E\u0447\u0435\u043D\u043D\u043E
+        \u0432\u043F\u0438\u0441\u044B\u0432\u0430\u043B \u0437\u043D\u0430\u043A\"    
+        \" \u0432 \u0441\u0432\u043E\u044E \u043C\u0430\u0433\u0438\u0447\u0435\u0441\u043A\u0443\u044E
+        \u043A\u043D\u0438\u0433\u0443. \u042D\u0442\u043E\u0442 \u0441\u0438\u043C\u0432\u043E\u043B
+        \u0431\u044B\u043B \u043A\u043B\u044E\u0447\u043E\u043C \u043A \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043D\u0438\u044E
+        \u0435\u0433\u043E \u0437\u0430\u0442\u043E\u0447\u0435\u043D\u0438\u044F.
+        \u041F\u0435\u0440\u043E \u0441\u043A\u0440\u0435\u0431\u043B\u043E \u043F\u043E
+        \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u0430\u043C \u0441 \u0433\u043B\u0443\u0445\u0438\u043C
+        \u0448\u043E\u0440\u043E\u0445\u043E\u043C, \u0438 \u0432\u043E\u0437\u0434\u0443\u0445
+        \u0437\u0430\u043F\u043E\u043B\u043D\u0438\u043B\u0441\u044F \u0442\u0430\u0438\u043D\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u043C\u0438
+        \u0432\u0438\u0431\u0440\u0430\u0446\u0438\u044F\u043C\u0438. \u0427\u0435\u0440\u043D\u044B\u0439
+        \u043C\u0430\u0433 \u043E\u0449\u0443\u0442\u0438\u043B, \u043A\u0430\u043A
+        \u0438\u0437\u043C\u0435\u043D\u0435\u043D\u0438\u0435 \u0443\u0436\u0435
+        \u043D\u0430\u0447\u0438\u043D\u0430\u043B\u043E \u043D\u0430\u043A\u0430\u043B\u044F\u0442\u044C\u0441\u044F,
+        \u0438 \u0437\u043D\u0430\u043B, \u0447\u0442\u043E \u043D\u043E\u0447\u044C\u044E
+        \u043D\u0430\u0447\u043D\u0435\u0442\u0441\u044F \u0447\u0442\u043E-\u0442\u043E
+        \u043D\u0435\u0432\u0435\u0440\u043E\u044F\u0442\u043D\u043E\u0435."
+      texture: {fileID: 0}
+    binID: -1
+  objectives: []
+  objectiveStateActiveLabel:
+    label: Active
+    lineID: -1
+  objectiveStateCompleteLabel:
+    label: Complete
+    lineID: -1
+  objectiveStateFailLabel:
+    label: Fail
+    lineID: -1
