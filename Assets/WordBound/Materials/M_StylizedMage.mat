@@ -10,6 +10,7 @@ Material:
   m_Name: M_StylizedMage
   m_Shader: {fileID: 4800000, guid: bee44b4a58655ee4cbff107302a3e131, type: 3}
   m_ValidKeywords:
+  - DR_RIM_ON
   - _TEXTUREBLENDINGMODE_MULTIPLY
   m_InvalidKeywords:
   - _CELPRIMARYMODE_NONE
@@ -79,11 +80,11 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _FlatRimEdgeSmoothness: 0
-    - _FlatRimLightAlign: 0.91
-    - _FlatRimSize: 0.508
-    - _FlatSpecularEdgeSmoothness: 1
-    - _FlatSpecularSize: 0
+    - _FlatRimEdgeSmoothness: 0.132
+    - _FlatRimLightAlign: 0.5
+    - _FlatRimSize: 0.172
+    - _FlatSpecularEdgeSmoothness: 0
+    - _FlatSpecularSize: 0.803
     - _Flatness: 0.813
     - _FlatnessExtra: 1
     - _GlossMapScale: 1
@@ -103,7 +104,7 @@ Material:
     - _OverrideLightmapDir: 0
     - _Parallax: 0.02
     - _QueueOffset: 0
-    - _RimEnabled: 0
+    - _RimEnabled: 1
     - _SelfShadingSize: 0.719
     - _SelfShadingSizeExtra: 0.63
     - _ShadowEdgeSize: 0.097
@@ -123,14 +124,14 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 0.894, g: 0.8286849, b: 0.8613425, a: 1}
-    - _ColorDim: {r: 1, g: 0.8066038, b: 0.8066038, a: 1}
-    - _ColorDimCurve: {r: 0.9716981, g: 0.8979229, b: 0.85711104, a: 1}
+    - _ColorDim: {r: 0.8773585, g: 0.7669207, b: 0.75734246, a: 1}
+    - _ColorDimCurve: {r: 0.8962264, g: 0.6275626, b: 0.48616055, a: 1}
     - _ColorDimExtra: {r: 1, g: 1, b: 1, a: 1}
-    - _ColorDimSteps: {r: 0.85023, g: 0.85034, b: 0.8504499, a: 0.85056}
+    - _ColorDimSteps: {r: 0.894, g: 0.8286849, b: 0.8613425, a: 1}
     - _ColorGradient: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FlatRimColor: {r: 0.5754717, g: 0.09500711, b: 0.09500711, a: 1}
-    - _FlatSpecularColor: {r: 0.990566, g: 0.990566, b: 0.990566, a: 1}
+    - _FlatRimColor: {r: 0.42976967, g: 0.13725491, b: 0.54901963, a: 1}
+    - _FlatSpecularColor: {r: 0.46226418, g: 0.11992704, b: 0.3849393, a: 1}
     - _LightmapDirection: {r: 0, g: 1, b: 0, a: 0}
     - _UnityShadowColor: {r: 0.85023, g: 0.85034, b: 0.8504499, a: 0.85056}
   m_BuildTextureStacks: []
