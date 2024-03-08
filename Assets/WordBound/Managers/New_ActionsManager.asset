@@ -918,4 +918,10 @@ MonoBehaviour:
     description: This is for change palyer scale.
     isEnabled: 1
     color: {r: 1, g: 0.667, b: 0.667, a: 1}
+  - fileName: FixAngle
+    category: 21
+    title: FixAngle
+    description: This is for fixing player angle.
+    isEnabled: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
   defaultActionCategoryDatas: []
