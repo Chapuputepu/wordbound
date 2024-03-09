@@ -21,8 +21,9 @@ Material:
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
+  m_CustomRenderQueue: 3000
+  stringTagMap:
+    RenderType: Transparent
   disabledShaderPasses:
   - GRABPASS
   - DepthOnly
@@ -88,7 +89,7 @@ Material:
     - _DistortionEnabled: 0
     - _DistortionStrength: 1
     - _DistortionStrengthScaled: 0
-    - _DstBlend: 1
+    - _DstBlend: 10
     - _DstBlendAlpha: 1
     - _EmissionEnabled: 0
     - _FlipbookBlending: 0
@@ -99,7 +100,7 @@ Material:
     - _InvFade: 3
     - _LightingEnabled: 0
     - _Metallic: 0
-    - _Mode: 4
+    - _Mode: 2
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _QueueOffset: 0
