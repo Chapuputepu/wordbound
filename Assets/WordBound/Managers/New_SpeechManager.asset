@@ -65,6 +65,12 @@ MonoBehaviour:
     lipsyncAssetBundle: 
     fallbackLanguageIndex: 0
     isDisabled: 0
+  - name: New 1
+    isRightToLeft: 0
+    audioAssetBundle: 
+    lipsyncAssetBundle: 
+    fallbackLanguageIndex: 0
+    isDisabled: 0
   ignoreOriginalText: 0
   sfxDucking: 0
   musicDucking: 0

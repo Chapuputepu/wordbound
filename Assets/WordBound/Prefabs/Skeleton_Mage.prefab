@@ -1752,7 +1752,7 @@ MonoBehaviour:
   motionControl: 0
   talkingAnimation: 0
   separateTalkingLayer: 0
-  speechLabel: "\u0418\u0433\u0440\u043E\u043A"
+  speechLabel: '[var:0]'
   lineID: -1
   displayLineID: -1
   speechColor: {r: 1, g: 1, b: 1, a: 1}

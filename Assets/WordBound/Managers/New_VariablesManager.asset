@@ -12,7 +12,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e62f4daee811464dbcf224bb5b367b4, type: 3}
   m_Name: New_VariablesManager
   m_EditorClassIdentifier: 
-  vars: []
+  vars:
+  - label: Player Name
+    id: 0
+    type: 2
+    val: 0
+    floatVal: 0
+    textVal: Player
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    ignorePresets: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
+  - label: Word
+    id: 1
+    type: 2
+    val: 0
+    floatVal: 0
+    textVal: "\u0432\u043E\u043B\u043E\u0441\u0430\u0442\u043E\u0435 \u043C\u044F\u0441\u043E"
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    ignorePresets: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
   varPresets: []
   updateRuntime: 1
   popUpLabelData:
