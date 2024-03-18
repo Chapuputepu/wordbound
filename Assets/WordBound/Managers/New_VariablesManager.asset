@@ -33,12 +33,53 @@ MonoBehaviour:
     textValLineID: -1
     popUpsLineID: -1
     description: 
-  - label: Word
+  - label: 'Entered Word '
     id: 1
     type: 2
     val: 0
     floatVal: 0
-    textVal: "\u0432\u043E\u043B\u043E\u0441\u0430\u0442\u043E\u0435 \u043C\u044F\u0441\u043E"
+    textVal: "\u0441\u043B\u043E\u0442 \u0434\u043B\u044F \u0441\u043E\u0445\u0440\u0430\u043D\u0435\u043D\u0438\u044F
+      \u0441\u043B\u043E\u0432\u0430"
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    ignorePresets: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
+  - label: word
+    id: 2
+    type: 2
+    val: 0
+    floatVal: 0
+    textVal: "\u043B\u043E\u0445"
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    ignorePresets: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
+  - label: Variable 4
+    id: 3
+    type: 2
+    val: 0
+    floatVal: 0
+    textVal: "\u0442\u043E\u0442"
     gameObjectVal: {fileID: 0}
     gameObjectSaveReferences: 1
     objectVal: {fileID: 0}
