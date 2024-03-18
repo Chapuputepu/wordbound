@@ -104,6 +104,20 @@ MonoBehaviour:
     vector3Value: {x: 0, y: 0, z: 0}
     gameObjectParameterReferences: 0
     variables: {fileID: 0}
+  - label: "\u0421\u0438\u043D\u043E\u043D\u0438\u043C"
+    description: 
+    ID: 2
+    parameterType: 4
+    intValue: -1
+    constantID: 0
+    popUpID: 0
+    floatValue: 0
+    stringValue: 
+    gameObject: {fileID: 0}
+    objectValue: {fileID: 0}
+    vector3Value: {x: 0, y: 0, z: 0}
+    gameObjectParameterReferences: 0
+    variables: {fileID: 0}
   tagID: 0
   backupData: []
 --- !u!114 &7770637806167649578
@@ -142,7 +156,7 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 213
+    height: 241
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
@@ -181,13 +195,27 @@ MonoBehaviour:
     constantID: 0
     popUpID: 0
     floatValue: 0
-    stringValue: "\u0445\u0443\u0439\u043B\u043E"
+    stringValue: "\u0432\u043E\u043B\u043E\u0441\u0430\u0442\u043E\u0435 \u043C\u044F\u0441\u043E"
     gameObject: {fileID: 0}
     objectValue: {fileID: 0}
     vector3Value: {x: 0, y: 0, z: 0}
     gameObjectParameterReferences: 0
     variables: {fileID: 0}
-  parameterIDs: 0100000000000000
+  - label: "\u0441\u0438\u043D\u043E\u043D\u0438\u043C"
+    description: 
+    ID: 2
+    parameterType: 4
+    intValue: -1
+    constantID: 0
+    popUpID: 0
+    floatValue: 0
+    stringValue: "\u043C\u044F\u0441\u043E \u0441 \u0432\u043E\u043B\u043E\u0441\u0430\u043C\u0438"
+    gameObject: {fileID: 0}
+    objectValue: {fileID: 0}
+    vector3Value: {x: 0, y: 0, z: 0}
+    gameObjectParameterReferences: 0
+    variables: {fileID: 0}
+  parameterIDs: 010000000000000002000000
   setParameters: 0
   runMode: 2
   hasUpgradedAgain: 1
