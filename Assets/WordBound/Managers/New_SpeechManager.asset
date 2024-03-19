@@ -20,13 +20,13 @@ MonoBehaviour:
   playScrollAudioEveryCharacter: 1
   speechScrollAudioSource: 0
   waitTimeOffset: 0
-  displayForever: 1
+  displayForever: 0
   displayNarrationForever: 1
   playAnimationForever: 1
   canSkipWithMouseClicks: 1
   minimumDisplayTime: 1
   screenTimeFactor: 0.1
-  allowSpeechSkipping: 0
+  allowSpeechSkipping: 1
   allowGameplaySpeechSkipping: 0
   skipThresholdTime: 0
   endScrollBeforeSkip: 0
@@ -45,7 +45,7 @@ MonoBehaviour:
   translateAudio: 1
   separateVoiceAndTextLanguages: 0
   fallbackAudio: 0
-  keepTextInBuffer: 0
+  keepTextInBuffer: 1
   relegateBackgroundSpeechAudio: 0
   usePlayerRealName: 0
   separateSharedPlayerAudio: 0

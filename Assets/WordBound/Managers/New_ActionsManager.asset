@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: New_ActionsManager
   m_EditorClassIdentifier: 
   customFolderPaths:
-  - WordBound/Scripts
+  - WordBound/AC_Scripts
   - 
   allFavouriteActionData: []
   displayActionsInInspector: 1
@@ -917,7 +917,7 @@ MonoBehaviour:
     title: ChangeScale
     description: This is for change palyer scale.
     isEnabled: 1
-    color: {r: 1, g: 0.667, b: 0.667, a: 1}
+    color: {r: 1, g: 1, b: 1, a: 1}
   - fileName: FixAngle
     category: 21
     title: FixAngle

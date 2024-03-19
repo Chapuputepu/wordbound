@@ -265,8 +265,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 365
-    y: 310
+    x: 340
+    y: 288
     width: 300
     height: 260
   overrideColor: {r: 1, g: 1, b: 1, a: 1}

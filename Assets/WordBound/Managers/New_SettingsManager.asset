@@ -54,10 +54,10 @@ MonoBehaviour:
   movementMethod: 0
   inputMethod: 0
   simulatedCursorMoveSpeed: 4
-  interactionMethod: 0
+  interactionMethod: 2
   selectInteractions: 0
   autoHideInteractionIcons: 1
-  cancelInteractions: 0
+  cancelInteractions: 2
   seeInteractions: 0
   closeInteractionMenuIfTapHotspot: 1
   stopPlayerOnClickHotspot: 0

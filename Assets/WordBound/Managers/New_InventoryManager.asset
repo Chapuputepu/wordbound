@@ -16,7 +16,7 @@ MonoBehaviour:
   - label: Book
     id: 1
     altLabel: 
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []
@@ -71,12 +71,12 @@ MonoBehaviour:
   - label: Eraser
     id: 2
     altLabel: "\u041B\u0430\u0441\u0442\u0438\u043A"
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []
     canCarryMultiple: 1
-    count: 2
+    count: 1
     canBeLowerCase: 0
     maxCount: 3
     itemStackingMode: 1
@@ -126,7 +126,7 @@ MonoBehaviour:
   - label: Pen
     id: 0
     altLabel: "\u041F\u0435\u0440\u043E"
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []

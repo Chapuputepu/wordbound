@@ -511,7 +511,8 @@ namespace AC
 				if (ignoreMe) continue;
 
 				if (!string.IsNullOrEmpty (customFolderPath) && actionsManager.FolderPath != ("Assets/" + customFolderPath))
-				{
+				{	
+
 					try
 					{
 						AddActionsFromFolder (actionsManager, "Assets/" + customFolderPath, oldActionTypes);

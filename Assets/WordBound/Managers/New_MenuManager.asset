@@ -273,9 +273,9 @@ MonoBehaviour:
   _isLocked: 0
   id: 18
   title: PlayerName
-  manualSize: {x: 19.899998, y: 16.678228}
+  manualSize: {x: 19.9, y: 14.929294}
   positionType: 0
-  manualPosition: {x: 743, y: 418}
+  manualPosition: {x: 880, y: 495}
   positionSmoothing: 0
   alignment: 4
   toggleKey: 
@@ -348,13 +348,13 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 288.28397, y: 132}
+  biggestElementSize: {x: 341.44, y: 139}
   rect:
     serializedVersion: 2
-    x: 595.143
-    y: 348.285
-    width: 295.71396
-    height: 139.43
+    x: 704.88
+    y: 421.1
+    width: 350.24
+    height: 147.8
 --- !u!114 &-8498751845352017788
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1243,10 +1243,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 7.43
-    y: 43.859997
-    width: 280.85397
-    height: 35.111996
+    x: 8.8
+    y: 52.599995
+    width: 332.64
+    height: 41.579998
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: Player
@@ -2587,7 +2587,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 0
   title: Label
-  slotSize: {x: 16.083445, y: 3.4688995}
+  slotSize: {x: 16.363636, y: 3.5353534}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -2612,10 +2612,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 7.43
-    y: 7.43
-    width: 238.99998
-    height: 28.999998
+    x: 8.8
+    y: 8.8
+    width: 288
+    height: 34.999996
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
@@ -3877,7 +3877,7 @@ MonoBehaviour:
   rectTransformID: 87518
   uiTransitionType: 0
   uiPositionType: 0
-  _isLocked: 0
+  _isLocked: 1
   id: 8
   title: Book
   manualSize: {x: 0.5, y: 0.5414541}
@@ -4112,11 +4112,11 @@ MonoBehaviour:
   positionSmoothing: 0
   alignment: 4
   toggleKey: 
-  ignoreMouseClicks: 0
-  pauseWhenEnabled: 0
+  ignoreMouseClicks: 1
+  pauseWhenEnabled: 1
   showWhenPaused: 0
   canClickInCutscene: 0
-  enabledOnStart: 0
+  enabledOnStart: 1
   actionListOnTurnOn: {fileID: 0}
   actionListOnTurnOff: {fileID: 0}
   updateWhenFadeOut: 1
@@ -4893,7 +4893,7 @@ MonoBehaviour:
   rectTransformID: 276360
   uiTransitionType: 0
   uiPositionType: 0
-  _isLocked: 0
+  _isLocked: 1
   id: 3
   title: WordInventory
   manualSize: {x: 100, y: 12.60303}
@@ -5401,7 +5401,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 2
   title: Button
-  slotSize: {x: 11.911171, y: 3.8277512}
+  slotSize: {x: 12.102273, y: 3.939394}
   sizeType: 0
   positionType: 1
   slotSpacing: 0
@@ -5428,8 +5428,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 110
     y: 100
-    width: 177
-    height: 31.999998
+    width: 213.00002
+    height: 39
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -5982,7 +5982,7 @@ MonoBehaviour:
   rectTransform: {fileID: 0}
   rectTransformID: 15198304
   uiTransitionType: 1
-  uiPositionType: 2
+  uiPositionType: 3
   _isLocked: 0
   id: 6
   title: Interaction
