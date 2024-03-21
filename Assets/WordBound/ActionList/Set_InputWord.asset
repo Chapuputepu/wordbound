@@ -118,6 +118,21 @@ MonoBehaviour:
     vector3Value: {x: 0, y: 0, z: 0}
     gameObjectParameterReferences: 0
     variables: {fileID: 0}
+  - label: "\u041A\u0430\u0442\u0441\u0446\u0435\u043D\u043001"
+    description: "\u0415\u0441\u043B\u0438 \u0441\u0440\u0430\u0431\u043E\u0442\u0430\u043B\u043E
+      \u0441\u043B\u043E\u0432\u043E 01"
+    ID: 3
+    parameterType: 0
+    intValue: -1
+    constantID: 0
+    popUpID: 0
+    floatValue: 0
+    stringValue: 
+    gameObject: {fileID: 0}
+    objectValue: {fileID: 0}
+    vector3Value: {x: 0, y: 0, z: 0}
+    gameObjectParameterReferences: 0
+    variables: {fileID: 0}
   tagID: 0
   backupData: []
 --- !u!114 &7770637806167649578
@@ -156,7 +171,7 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 241
+    height: 269
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
@@ -195,7 +210,7 @@ MonoBehaviour:
     constantID: 0
     popUpID: 0
     floatValue: 0
-    stringValue: "\u0432\u043E\u043B\u043E\u0441\u0430\u0442\u043E\u0435 \u043C\u044F\u0441\u043E"
+    stringValue: "\u043E\u0433\u043D\u044F"
     gameObject: {fileID: 0}
     objectValue: {fileID: 0}
     vector3Value: {x: 0, y: 0, z: 0}
@@ -209,13 +224,29 @@ MonoBehaviour:
     constantID: 0
     popUpID: 0
     floatValue: 0
-    stringValue: "\u043C\u044F\u0441\u043E \u0441 \u0432\u043E\u043B\u043E\u0441\u0430\u043C\u0438"
+    stringValue: "\u043F\u043B\u0430\u043C\u0435\u043D\u0438"
     gameObject: {fileID: 0}
     objectValue: {fileID: 0}
     vector3Value: {x: 0, y: 0, z: 0}
     gameObjectParameterReferences: 0
     variables: {fileID: 0}
-  parameterIDs: 010000000000000002000000
+  - label: Cutscene01
+    description: "\u043A\u0430\u0442\u0441\u0446\u0435\u043D\u0430 \u0435\u0441\u043B\u0438
+      \u0441\u0440\u0430\u0431\u043E\u0442\u0430\u043B\u043E \u0441\u043B\u043E\u0432\u043E
+      01"
+    ID: 3
+    parameterType: 0
+    intValue: 0
+    constantID: 0
+    popUpID: 0
+    floatValue: 0
+    stringValue: 
+    gameObject: {fileID: 0}
+    objectValue: {fileID: 0}
+    vector3Value: {x: 0, y: 0, z: 0}
+    gameObjectParameterReferences: 0
+    variables: {fileID: 0}
+  parameterIDs: 01000000000000000200000003000000
   setParameters: 0
   runMode: 2
   hasUpgradedAgain: 1

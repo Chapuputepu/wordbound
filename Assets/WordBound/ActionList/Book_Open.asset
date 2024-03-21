@@ -36,7 +36,7 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 187
+    height: 207
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
@@ -91,8 +91,8 @@ MonoBehaviour:
   isSkippable: 1
   actionListType: 0
   unfreezePauseMenus: 1
-  useParameters: 0
-  canRunMultipleInstances: 1
+  useParameters: 1
+  canRunMultipleInstances: 0
   canSurviveSceneChanges: 0
   revertToDefaultParametersAfterRunning: 0
   parameters:
@@ -101,7 +101,7 @@ MonoBehaviour:
       \u043F\u0440\u0435\u0434\u043B\u043E\u0436\u0435\u043D\u0438\u044F "
     ID: 0
     parameterType: 0
-    intValue: -1
+    intValue: 136004
     constantID: 0
     popUpID: 0
     floatValue: 0
@@ -146,17 +146,17 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 17
+    x: 14
     y: 321
     width: 300
-    height: 207
+    height: 152
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
   listSource: 0
   actionList: {fileID: 0}
-  constantID: 136004
-  parameterID: -1
+  constantID: 0
+  parameterID: 0
   invActionList: {fileID: 0}
   assetParameterID: -1
   runFromStart: 1
@@ -164,7 +164,7 @@ MonoBehaviour:
   jumpToActionParameterID: -1
   jumpToActionActual: {fileID: 0}
   runInParallel: 1
-  isSkippable: 0
+  isSkippable: 1
   localParameters: []
   parameterIDs: 
   setParameters: 0

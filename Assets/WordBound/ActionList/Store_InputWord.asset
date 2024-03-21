@@ -1,5 +1,62 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7366421445550182510
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea4c3ba658ee84d51a7ccd6f9fc22176, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 1
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 958
+    y: 1065.25
+    width: 300
+    height: 152
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  listSource: 0
+  actionList: {fileID: 0}
+  constantID: 0
+  parameterID: 3
+  invActionList: {fileID: 0}
+  assetParameterID: -1
+  runFromStart: 1
+  jumpToAction: 0
+  jumpToActionParameterID: -1
+  jumpToActionActual: {fileID: 0}
+  runInParallel: 1
+  isSkippable: 1
+  localParameters: []
+  parameterIDs: 
+  setParameters: 0
+  runMode: 0
+  hasUpgradedAgain: 0
 --- !u!114 &-6459625290482607657
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -175,6 +232,7 @@ MonoBehaviour:
   - {fileID: 7585353664828348045}
   - {fileID: 5356817408900175435}
   - {fileID: -545500829281670663}
+  - {fileID: -7366421445550182510}
   isSkippable: 1
   actionListType: 0
   unfreezePauseMenus: 1
@@ -215,6 +273,22 @@ MonoBehaviour:
     description: 
     ID: 2
     parameterType: 4
+    intValue: -1
+    constantID: 0
+    popUpID: 0
+    floatValue: 0
+    stringValue: 
+    gameObject: {fileID: 0}
+    objectValue: {fileID: 0}
+    vector3Value: {x: 0, y: 0, z: 0}
+    gameObjectParameterReferences: 0
+    variables: {fileID: 0}
+  - label: Cutscene01
+    description: "\u043A\u0430\u0442\u0441\u0446\u0435\u043D\u0430 \u0435\u0441\u043B\u0438
+      \u0441\u0440\u0430\u0431\u043E\u0442\u0430\u043B\u043E \u0441\u043B\u043E\u0432\u043E
+      01"
+    ID: 3
+    parameterType: 0
     intValue: -1
     constantID: 0
     popUpID: 0
@@ -294,7 +368,7 @@ MonoBehaviour:
   isAdditive: 0
   boolValue: 1
   boolCondition: 0
-  stringValue: "\u0432\u043E\u043B\u043E\u0441\u0430\u0442\u043E\u0435 \u043C\u044F\u0441\u043E"
+  stringValue: "\u043E\u0433\u043D\u044F"
   checkCase: 0
   vector3Value: {x: 0, y: 0, z: 0}
   vectorCondition: 0
@@ -401,9 +475,9 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   endings:
-  - resultAction: 1
-    skipAction: -1
-    skipActionActual: {fileID: 0}
+  - resultAction: 2
+    skipAction: 10
+    skipActionActual: {fileID: -7366421445550182510}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -414,7 +488,7 @@ MonoBehaviour:
     x: 958
     y: 741
     width: 300
-    height: 252
+    height: 272
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
@@ -478,7 +552,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: "\u0440\u0430\u0431\u043E\u0442\u0430\u0435\u0442"
+  messageText: "\u0441\u0440\u0430\u0431\u043E\u0442\u0430\u043B\u043E!"
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -538,7 +612,7 @@ MonoBehaviour:
   isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
-  messageText: "\u043D\u0435 \u0440\u0430\u0431"
+  messageText: "\u0447\u0442\u043E-\u0442\u043E \u043D\u0435 \u043F\u043E\u0434\u0445\u043E\u0434\u0438\u0442."
   lineID: -1
   multiLineIDs: 
   isBackground: 0
