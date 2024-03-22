@@ -54,6 +54,46 @@ MonoBehaviour:
     textValLineID: -1
     popUpsLineID: -1
     description: 
+  - label: Success comment
+    id: 2
+    type: 2
+    val: 0
+    floatVal: 0
+    textVal: "\u0421\u0440\u0430\u0431\u043E\u0442\u0430\u043B\u043E"
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    ignorePresets: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
+  - label: Fail comment
+    id: 3
+    type: 2
+    val: 0
+    floatVal: 0
+    textVal: "\u043D\u0435 \u0442\u043E \u0437\u0430\u043A\u043B\u0438\u043D\u0430\u043D\u0438\u0435"
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    ignorePresets: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
   varPresets: []
   updateRuntime: 1
   popUpLabelData:

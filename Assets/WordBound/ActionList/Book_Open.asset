@@ -147,7 +147,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 321
+    y: 267
     width: 300
     height: 152
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -157,7 +157,7 @@ MonoBehaviour:
   actionList: {fileID: 0}
   constantID: 0
   parameterID: 0
-  invActionList: {fileID: 0}
+  invActionList: {fileID: 11400000, guid: 697cd295f18166f478782b62e6d56af7, type: 2}
   assetParameterID: -1
   runFromStart: 1
   jumpToAction: 0
