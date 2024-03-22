@@ -959,16 +959,13 @@ MonoBehaviour:
     uiButtonID: 292394
     sprite: {fileID: 0}
   - uiButton: {fileID: 0}
-    uiButtonID: 301156
+    uiButtonID: 61176
     sprite: {fileID: 0}
   - uiButton: {fileID: 0}
-    uiButtonID: 299036
+    uiButtonID: 61286
     sprite: {fileID: 0}
   - uiButton: {fileID: 0}
-    uiButtonID: 297358
-    sprite: {fileID: 0}
-  - uiButton: {fileID: 0}
-    uiButtonID: 295142
+    uiButtonID: 61396
     sprite: {fileID: 0}
   uiPointerState: 0
   textEffects: 0
@@ -977,11 +974,11 @@ MonoBehaviour:
   effectColour: {r: 0, g: 0, b: 0, a: 1}
   inventoryBoxType: 0
   actionListOnClick: {fileID: 0}
-  maxSlots: 5
+  maxSlots: 4
   limitToCategory: 1
   limitToDefinedInteractions: 1
   categoryID: -1
-  categoryIDs: 00000000
+  categoryIDs: 04000000
   linkUIGraphic: 0
   preventInteractions: 0
   preventSelection: 0
@@ -1738,7 +1735,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 2
   title: Button
-  slotSize: {x: 11.647727, y: 3.5353534}
+  slotSize: {x: 11.635638, y: 3.5460992}
   sizeType: 0
   positionType: 1
   slotSpacing: 0
@@ -1765,8 +1762,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 110
     y: 100
-    width: 205
-    height: 34.999996
+    width: 175
+    height: 30
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -4893,7 +4890,7 @@ MonoBehaviour:
   rectTransformID: 276360
   uiTransitionType: 0
   uiPositionType: 0
-  _isLocked: 1
+  _isLocked: 0
   id: 3
   title: WordInventory
   manualSize: {x: 100, y: 12.60303}
@@ -4906,7 +4903,7 @@ MonoBehaviour:
   pauseWhenEnabled: 0
   showWhenPaused: 0
   canClickInCutscene: 0
-  enabledOnStart: 0
+  enabledOnStart: 1
   actionListOnTurnOn: {fileID: 0}
   actionListOnTurnOff: {fileID: 0}
   updateWhenFadeOut: 1
@@ -6543,10 +6540,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 8.8
-    y: 52.599995
-    width: 447.04
-    height: 45.539997
+    x: 7.52
+    y: 45.04
+    width: 382.016
+    height: 38.916
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   label: 
@@ -6828,7 +6825,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ID: 0
   title: Label
-  slotSize: {x: 13.238636, y: 3.5353534}
+  slotSize: {x: 13.297873, y: 3.5460992}
   sizeType: 0
   positionType: 0
   slotSpacing: 0
@@ -6853,10 +6850,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 8.8
-    y: 8.8
-    width: 233
-    height: 34.999996
+    x: 7.52
+    y: 7.52
+    width: 200
+    height: 30
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
@@ -7094,9 +7091,9 @@ MonoBehaviour:
   _isLocked: 0
   id: 19
   title: InputWord
-  manualSize: {x: 26.4, y: 14.525253}
+  manualSize: {x: 26.399998, y: 16.25532}
   positionType: 0
-  manualPosition: {x: 880, y: 495}
+  manualPosition: {x: 752, y: 423}
   positionSmoothing: 0
   alignment: 4
   toggleKey: 
@@ -7169,13 +7166,13 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 455.84, y: 135}
+  biggestElementSize: {x: 389.53598, y: 130}
   rect:
     serializedVersion: 2
-    x: 647.68
-    y: 423.1
-    width: 464.63998
-    height: 143.8
+    x: 553.47205
+    y: 354.24
+    width: 397.05597
+    height: 137.52
 --- !u!114 &8807270569687275888
 MonoBehaviour:
   m_ObjectHideFlags: 1

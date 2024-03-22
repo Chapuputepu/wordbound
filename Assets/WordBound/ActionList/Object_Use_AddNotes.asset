@@ -36,13 +36,13 @@ MonoBehaviour:
     x: 14
     y: 348
     width: 300
-    height: 152
+    height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
   invAction: 0
-  parameterID: -1
-  invID: 0
+  parameterID: 1
+  invID: 5
   replaceParameterID: -1
   invIDReplace: 0
   setAmount: 0
@@ -123,7 +123,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3cc1f751990d444ef9e1381090933b8b, type: 3}
-  m_Name: Object_Use
+  m_Name: Object_Use_AddNotes
   m_EditorClassIdentifier: 
   actions:
   - {fileID: -1224106882026888007}
