@@ -10,21 +10,35 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3cc1f751990d444ef9e1381090933b8b, type: 3}
-  m_Name: StartGame
+  m_Name: Cs_Object_Examine
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 2506514038679190615}
+  - {fileID: 6536976220570588290}
   isSkippable: 1
   actionListType: 0
   unfreezePauseMenus: 1
-  useParameters: 0
+  useParameters: 1
   canRunMultipleInstances: 0
   canSurviveSceneChanges: 0
   revertToDefaultParametersAfterRunning: 0
-  parameters: []
+  parameters:
+  - label: "\u041A\u043E\u043C\u043C\u0435\u043D\u0442 \u043D\u0430 \u043E\u0431\u044A\u0435\u043A\u0442"
+    description: 
+    ID: 0
+    parameterType: 4
+    intValue: -1
+    constantID: 0
+    popUpID: 0
+    floatValue: 0
+    stringValue: 
+    gameObject: {fileID: 0}
+    objectValue: {fileID: 0}
+    vector3Value: {x: 0, y: 0, z: 0}
+    gameObjectParameterReferences: 0
+    variables: {fileID: 0}
   tagID: 0
   backupData: []
---- !u!114 &2506514038679190615
+--- !u!114 &6536976220570588290
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -33,7 +47,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c47ef24c0855d41f4a4073c476ef37a2, type: 3}
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   id: 0
@@ -42,11 +56,16 @@ MonoBehaviour:
   comment: 
   willWait: 0
   endAction: 0
-  skipAction: -99
+  skipAction: -1
   skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
-  endings: []
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
   isEnabled: 1
   isAssetFile: 1
   isBreakPoint: 0
@@ -55,15 +74,27 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 144
+    height: 212
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
-  endGameType: 3
-  chooseSceneBy: 0
-  sceneNumber: 1
-  sceneNumberParameterID: -1
-  sceneName: Tutorial_1
-  sceneNameParameterID: -1
-  resetMenus: 1
-  killActionLists: 0
+  constantID: 176856
+  parameterID: -1
+  messageParameterID: 0
+  isPlayer: 1
+  playerID: -1
+  speaker: {fileID: 0}
+  messageText: 
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0

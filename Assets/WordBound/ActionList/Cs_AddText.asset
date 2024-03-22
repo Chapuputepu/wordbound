@@ -29,14 +29,14 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 0
+  isAssetFile: 1
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 7
-    y: 305
+    x: 14
+    y: 264
     width: 300
-    height: 172
+    height: 192
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
@@ -48,17 +48,17 @@ MonoBehaviour:
   replaceConstantID: 0
   relativeGameObject: {fileID: 0}
   relativeGameObjectID: 0
-  relativeGameObjectParameterID: -1
+  relativeGameObjectParameterID: 1
   relativeVectorParameterID: -1
   relativeVector: {x: 0, y: 0, z: 0}
   vectorVarParameterID: -1
   vectorVarID: 0
   variableLocation: 0
   invAction: 0
-  positionRelativeTo: 0
+  positionRelativeTo: 3
   variables: {fileID: 0}
   variablesConstantID: 0
-  spawnedObjectParameterID: 5
+  spawnedObjectParameterID: -1
 --- !u!114 &-8505668244316833944
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -92,8 +92,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 203
-    y: 1070
+    x: 14
+    y: 1012
     width: 300
     height: 192
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -103,7 +103,7 @@ MonoBehaviour:
   setVarMethodString: 0
   setVarMethodIntBool: 0
   setVarMethodVector: 0
-  parameterID: 6
+  parameterID: 5
   variableID: 0
   variableNumber: 0
   setParameterID: -1
@@ -159,12 +159,12 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 0
+  isAssetFile: 1
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 7
-    y: 649
+    x: 14
+    y: 608
     width: 300
     height: 152
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -204,12 +204,12 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 0
+  isAssetFile: 1
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 7
-    y: 507
+    x: 14
+    y: 466
     width: 300
     height: 112
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -227,7 +227,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3cc1f751990d444ef9e1381090933b8b, type: 3}
-  m_Name: Cutscene_AddText
+  m_Name: Cs_AddText
   m_EditorClassIdentifier: 
   actions:
   - {fileID: 547318189387143622}
@@ -258,11 +258,11 @@ MonoBehaviour:
     vector3Value: {x: 0, y: 0, z: 0}
     gameObjectParameterReferences: 0
     variables: {fileID: 0}
-  - label: "\u043C\u0435\u0441\u0442\u043E\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u0435"
-    description: 
+  - label: Text_Marker
+    description: Marker for text position
     ID: 1
     parameterType: 0
-    intValue: 80788
+    intValue: -1
     constantID: 0
     popUpID: 0
     floatValue: 0
@@ -314,24 +314,9 @@ MonoBehaviour:
     vector3Value: {x: -12.095, y: 22.946, z: 18.91}
     gameObjectParameterReferences: 0
     variables: {fileID: 0}
-  - label: Text_Marker
+  - label: Var for check
     description: 
     ID: 5
-    parameterType: 0
-    intValue: -1
-    constantID: 0
-    popUpID: 0
-    floatValue: 0
-    stringValue: 
-    gameObject: {fileID: 0}
-    objectValue: {fileID: 0}
-    vector3Value: {x: 0, y: 0, z: 0}
-    gameObjectParameterReferences: 0
-    variables: {fileID: 0}
-  - label: object for check
-    description: "\u043F\u0440\u043E\u0432\u0435\u0440\u043A\u0430 \u043F\u043E\u0432\u0442\u043E\u0440\u0435\u043D\u0438\u044F
-      \u0442\u0435\u043A\u0441\u0442 \u043E\u0431\u044A\u0435\u043A\u0442\u0430"
-    ID: 6
     parameterType: 11
     intValue: 0
     constantID: 0
@@ -400,7 +385,7 @@ MonoBehaviour:
   skipActionFailActual: {fileID: 0}
   linkedCutsceneFail: {fileID: 0}
   linkedAssetFail: {fileID: 0}
-  parameterID: 6
+  parameterID: 5
   variableID: 0
   variableNumber: 0
   checkParameterID: -1
@@ -458,8 +443,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 7
-    y: 831
+    x: 14
+    y: 790
     width: 300
     height: 192
   overrideColor: {r: 1, g: 1, b: 1, a: 1}

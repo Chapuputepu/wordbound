@@ -236,7 +236,7 @@ MonoBehaviour:
     x: 1934.4945
     y: 432.95694
     width: 300
-    height: 252.12439
+    height: 252
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
@@ -349,7 +349,7 @@ MonoBehaviour:
     x: 2399.9524
     y: 555.4092
     width: 300
-    height: 252.12439
+    height: 252
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
@@ -589,7 +589,7 @@ MonoBehaviour:
   isAdditive: 0
   boolValue: 1
   boolCondition: 0
-  stringValue: 
+  stringValue: "\u043E\u0433\u043D\u044F"
   checkCase: 0
   vector3Value: {x: 0, y: 0, z: 0}
   vectorCondition: 0
@@ -638,7 +638,7 @@ MonoBehaviour:
     x: 1935.4945
     y: 727.9569
     width: 300
-    height: 272.1244
+    height: 272
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
@@ -763,7 +763,7 @@ MonoBehaviour:
     x: 958
     y: 741
     width: 300
-    height: 272.1244
+    height: 272
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
@@ -905,7 +905,7 @@ MonoBehaviour:
   isAdditive: 0
   boolValue: 1
   boolCondition: 0
-  stringValue: 
+  stringValue: "\u043F\u0438\u0432\u0430"
   checkCase: 0
   vector3Value: {x: 0, y: 0, z: 0}
   vectorCondition: 0
@@ -954,7 +954,7 @@ MonoBehaviour:
     x: 957
     y: 446
     width: 300
-    height: 252.12439
+    height: 252
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
@@ -1014,7 +1014,7 @@ MonoBehaviour:
     x: 2399.9524
     y: 248.40944
     width: 300
-    height: 252.12439
+    height: 252
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
@@ -1105,7 +1105,7 @@ MonoBehaviour:
   isAdditive: 0
   boolValue: 1
   boolCondition: 0
-  stringValue: 
+  stringValue: "\u043F\u0438\u0432\u043E"
   checkCase: 0
   vector3Value: {x: 0, y: 0, z: 0}
   vectorCondition: 0
@@ -1185,7 +1185,7 @@ MonoBehaviour:
   isAdditive: 0
   boolValue: 1
   boolCondition: 0
-  stringValue: 
+  stringValue: "\u043F\u043B\u0430\u043C\u0435\u043D\u0438"
   checkCase: 0
   vector3Value: {x: 0, y: 0, z: 0}
   vectorCondition: 0

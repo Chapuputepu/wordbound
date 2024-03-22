@@ -29,7 +29,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 1
+  isAssetFile: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -101,7 +101,7 @@ MonoBehaviour:
       \u043F\u0440\u0435\u0434\u043B\u043E\u0436\u0435\u043D\u0438\u044F "
     ID: 0
     parameterType: 0
-    intValue: 136004
+    intValue: 0
     constantID: 0
     popUpID: 0
     floatValue: 0
@@ -142,12 +142,12 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 1
+  isAssetFile: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 267
+    x: 15
+    y: 303
     width: 300
     height: 152
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
