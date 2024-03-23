@@ -1844,13 +1844,13 @@ MonoBehaviour:
     spriteDirections: []
     isUpgraded: 0
   angleSnapping: 0
-  walkSpeedScale: 1.5
+  walkSpeedScale: 1.2
   runSpeedScale: 3
   reverseSpeedFactor: 1
   canRunInReverse: 1
   turnSpeed: 30
   acceleration: 2
-  deceleration: 4
+  deceleration: 2
   turnBeforeWalking: 0
   runDistanceThreshold: 1
   antiGlideMode: 0

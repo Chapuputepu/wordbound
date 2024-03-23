@@ -4903,7 +4903,7 @@ MonoBehaviour:
   pauseWhenEnabled: 0
   showWhenPaused: 0
   canClickInCutscene: 0
-  enabledOnStart: 1
+  enabledOnStart: 0
   actionListOnTurnOn: {fileID: 0}
   actionListOnTurnOff: {fileID: 0}
   updateWhenFadeOut: 1
