@@ -953,7 +953,7 @@ MonoBehaviour:
     width: 1747.2001
     height: 108.899994
   relativePosition: {x: 0, y: 0}
-  numSlots: 13
+  numSlots: 4
   uiSlots:
   - uiButton: {fileID: 0}
     uiButtonID: 292394
@@ -4109,16 +4109,16 @@ MonoBehaviour:
   positionSmoothing: 0
   alignment: 4
   toggleKey: 
-  ignoreMouseClicks: 1
-  pauseWhenEnabled: 1
+  ignoreMouseClicks: 0
+  pauseWhenEnabled: 0
   showWhenPaused: 0
   canClickInCutscene: 0
-  enabledOnStart: 1
+  enabledOnStart: 0
   actionListOnTurnOn: {fileID: 0}
   actionListOnTurnOff: {fileID: 0}
   updateWhenFadeOut: 1
   hideDuringSaveScreenshots: 1
-  fitWithinScreen: 1
+  fitWithinScreen: 0
   backgroundTexture: {fileID: 2800000, guid: 5f4f3dd6223164fe49aea7eb6c0bc529, type: 3}
   visibleElements:
   - {fileID: -6175429444716755268}
@@ -4127,7 +4127,7 @@ MonoBehaviour:
   - {fileID: -7727392657311305196}
   - {fileID: -5889301627915840823}
   transitionProgress: 0
-  appearType: 14
+  appearType: 0
   speechMenuType: 0
   speechMenuLimit: 0
   limitToCharacters: 
@@ -4911,8 +4911,8 @@ MonoBehaviour:
   fitWithinScreen: 0
   backgroundTexture: {fileID: 2800000, guid: 5f4f3dd6223164fe49aea7eb6c0bc529, type: 3}
   visibleElements:
-  - {fileID: 0}
   - {fileID: -8142761167100697437}
+  - {fileID: 0}
   - {fileID: 0}
   transitionProgress: 0
   appearType: 0
