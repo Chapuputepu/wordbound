@@ -24,23 +24,23 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 1
-    skipActionActual: {fileID: 7498845081221425500}
+    skipAction: 2
+    skipActionActual: {fileID: 555758399833512190}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 0
+  isAssetFile: 1
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
     x: 14
     y: 14
     width: 300
-    height: 252
+    height: 247
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
-  constantID: 0
+  constantID: 176856
   parameterID: -1
   messageParameterID: -1
   isPlayer: 0
@@ -75,33 +75,18 @@ MonoBehaviour:
   actions:
   - {fileID: -1520607661940263861}
   - {fileID: 7498845081221425500}
-  - {fileID: 469018488095740833}
+  - {fileID: 555758399833512190}
   isSkippable: 0
   actionListType: 0
   unfreezePauseMenus: 1
-  useParameters: 1
+  useParameters: 0
   canRunMultipleInstances: 0
   canSurviveSceneChanges: 1
-  revertToDefaultParametersAfterRunning: 0
-  parameters:
-  - label: Next Scene Name
-    description: "\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u0441\u0446\u0435\u043D\u044B
-      \u043F\u0435\u0440\u0435\u0445\u043E\u0434\u0430"
-    ID: 0
-    parameterType: 4
-    intValue: -1
-    constantID: 0
-    popUpID: 0
-    floatValue: 0
-    stringValue: MainMenu
-    gameObject: {fileID: 0}
-    objectValue: {fileID: 0}
-    vector3Value: {x: 0, y: 0, z: 0}
-    gameObjectParameterReferences: 0
-    variables: {fileID: 0}
+  revertToDefaultParametersAfterRunning: 1
+  parameters: []
   tagID: 0
   backupData: []
---- !u!114 &469018488095740833
+--- !u!114 &555758399833512190
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,7 +96,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f1d11677f69f745f88dbe9922511d53f, type: 3}
-  m_Name: (Clone)
+  m_Name: 
   m_EditorClassIdentifier: 
   id: 0
   isDisplayed: 1
@@ -119,7 +104,7 @@ MonoBehaviour:
   comment: 
   willWait: 0
   endAction: 0
-  skipAction: -99
+  skipAction: -1
   skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
@@ -130,22 +115,22 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 0
+  isAssetFile: 1
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 512
-    y: 440
+    x: 454
+    y: 426
     width: 300
     height: 248
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
-  chooseSceneBy: 1
-  sceneNumber: 0
+  chooseSceneBy: 0
+  sceneNumber: 3
   sceneNumberParameterID: -1
-  sceneName: Tutorial_2
-  sceneNameParameterID: 0
+  sceneName: 
+  sceneNameParameterID: -1
   assignScreenOverlay: 1
   onlyPreload: 0
   relativePosition: 0
@@ -176,9 +161,9 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   endings:
-  - resultAction: 0
-    skipAction: -1
-    skipActionActual: {fileID: 0}
+  - resultAction: 1
+    skipAction: 2
+    skipActionActual: {fileID: 555758399833512190}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   - resultAction: 1
@@ -187,12 +172,12 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 0
+  isAssetFile: 1
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 14
-    y: 296
+    x: 17
+    y: 547
     width: 300
     height: 175
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
