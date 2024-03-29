@@ -42,11 +42,16 @@ MonoBehaviour:
   comment: 
   willWait: 0
   endAction: 1
-  skipAction: -1
+  skipAction: -99
   skipActionActual: {fileID: 0}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
-  endings: []
+  endings:
+  - resultAction: 1
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
   isEnabled: 1
   isAssetFile: 1
   isBreakPoint: 0
@@ -63,9 +68,9 @@ MonoBehaviour:
   deleteProfileType: 0
   profileIndex: 0
   profileIndexParameterID: -1
-  varID: 0
+  varID: -1
   slotVarID: 0
-  customLabel: 
+  customLabel: '[var:0]'
   useCustomLabel: 0
   preProcessTokens: 1
   menuName: 
