@@ -924,4 +924,10 @@ MonoBehaviour:
     description: This is for fixing player angle.
     isEnabled: 1
     color: {r: 1, g: 1, b: 1, a: 1}
+  - fileName: PlayerAttack
+    category: 21
+    title: Player Attack
+    description: Player attack a certain value
+    isEnabled: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
   defaultActionCategoryDatas: []
