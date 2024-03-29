@@ -24,12 +24,12 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 2
-    skipActionActual: {fileID: 555758399833512190}
+    skipAction: 1
+    skipActionActual: {fileID: 7498845081221425500}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 1
+  isAssetFile: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -79,11 +79,25 @@ MonoBehaviour:
   isSkippable: 0
   actionListType: 0
   unfreezePauseMenus: 1
-  useParameters: 0
+  useParameters: 1
   canRunMultipleInstances: 0
   canSurviveSceneChanges: 1
   revertToDefaultParametersAfterRunning: 1
-  parameters: []
+  parameters:
+  - label: Scene Number
+    description: 
+    ID: 0
+    parameterType: 6
+    intValue: -1
+    constantID: 0
+    popUpID: 0
+    floatValue: 0
+    stringValue: 
+    gameObject: {fileID: 0}
+    objectValue: {fileID: 0}
+    vector3Value: {x: 0, y: 0, z: 0}
+    gameObjectParameterReferences: 0
+    variables: {fileID: 0}
   tagID: 0
   backupData: []
 --- !u!114 &555758399833512190
@@ -115,12 +129,12 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 1
+  isAssetFile: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 454
-    y: 426
+    x: 485
+    y: 470
     width: 300
     height: 248
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -128,7 +142,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 0}
   chooseSceneBy: 0
   sceneNumber: 3
-  sceneNumberParameterID: -1
+  sceneNumberParameterID: 0
   sceneName: 
   sceneNameParameterID: -1
   assignScreenOverlay: 1
@@ -161,7 +175,7 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   endings:
-  - resultAction: 1
+  - resultAction: 2
     skipAction: 2
     skipActionActual: {fileID: 555758399833512190}
     linkedCutscene: {fileID: 0}
@@ -172,14 +186,14 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 1
+  isAssetFile: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 17
-    y: 547
+    x: 36
+    y: 334
     width: 300
-    height: 175
+    height: 195
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}

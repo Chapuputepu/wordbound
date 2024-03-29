@@ -4426,7 +4426,7 @@ MonoBehaviour:
   maxDepthThreshold: 40
   minNormalsThreshold: 0
   maxNormalsThreshold: 0.25
-  material: {fileID: 2047847330}
+  material: {fileID: 1955416564}
 --- !u!1001 &549679228
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6493,7 +6493,7 @@ MonoBehaviour:
   - {fileID: 1627397162}
   - {fileID: 873307329}
   isSkippable: 0
-  triggerTime: 1
+  triggerTime: 0.35
   autosaveAfter: 0
   actionListType: 0
   conversation: {fileID: 0}
@@ -16389,6 +16389,35 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8268931578414279166, guid: 62257a34878d0154f869d925170c9580, type: 3}
   m_PrefabInstance: {fileID: 1954284752}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &1955416564
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/OutlinePlus
+  m_Shader: {fileID: 4800000, guid: f0e778543e4d8a34295b7995426495da, type: 3}
+  m_ValidKeywords:
+  - OUTLINE_USE_DEPTH
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
 --- !u!1001 &1972822864
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17436,35 +17465,6 @@ MonoBehaviour:
   constantID: 5466
   retainInPrefab: 0
   autoManual: 0
---- !u!21 &2047847330
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/OutlinePlus
-  m_Shader: {fileID: 4800000, guid: f0e778543e4d8a34295b7995426495da, type: 3}
-  m_ValidKeywords:
-  - OUTLINE_USE_DEPTH
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats: []
-    m_Colors: []
-  m_BuildTextureStacks: []
 --- !u!1001 &2049700186
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18578,7 +18578,7 @@ MonoBehaviour:
   unfreezePauseMenus: 1
   useParameters: 1
   parameters:
-  - label: Next Scene Name
+  - label: Scene Number
     description: 
     ID: 0
     parameterType: 6
@@ -18589,34 +18589,6 @@ MonoBehaviour:
     stringValue: Tutorial_2
     gameObject: {fileID: 0}
     objectValue: {fileID: 102900000, guid: d76f43d681fee434a9386e8d4268d1f7, type: 3}
-    vector3Value: {x: 0, y: 0, z: 0}
-    gameObjectParameterReferences: 0
-    variables: {fileID: 0}
-  - label: Item to remove 01
-    description: 
-    ID: 1
-    parameterType: 1
-    intValue: -1
-    constantID: 0
-    popUpID: 0
-    floatValue: 0
-    stringValue: 
-    gameObject: {fileID: 0}
-    objectValue: {fileID: 0}
-    vector3Value: {x: 0, y: 0, z: 0}
-    gameObjectParameterReferences: 0
-    variables: {fileID: 0}
-  - label: Item to remove 02
-    description: 
-    ID: 2
-    parameterType: 1
-    intValue: -1
-    constantID: 0
-    popUpID: 0
-    floatValue: 0
-    stringValue: 
-    gameObject: {fileID: 0}
-    objectValue: {fileID: 0}
     vector3Value: {x: 0, y: 0, z: 0}
     gameObjectParameterReferences: 0
     variables: {fileID: 0}
