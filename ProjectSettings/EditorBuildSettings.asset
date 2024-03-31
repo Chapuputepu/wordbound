@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/WordBound/Scenes/Tutorial_3.unity
     guid: 5e6877c03b93d824eb9e725c42093f7e
+  - enabled: 1
+    path: Assets/WordBound/Scenes/Prototype_mechanic.unity
+    guid: 677d64391011ff040ae2528d58ab62fa
   m_configObjects: {}

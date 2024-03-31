@@ -138,7 +138,7 @@ MonoBehaviour:
     id: 6
     type: 3
     val: 0
-    floatVal: 3
+    floatVal: 1
     textVal: 
     gameObjectVal: {fileID: 0}
     gameObjectSaveReferences: 1
@@ -294,6 +294,86 @@ MonoBehaviour:
     textValLineID: -1
     popUpsLineID: -1
     description: 
+  - label: Player Defence
+    id: 14
+    type: 1
+    val: 5
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    ignorePresets: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
+  - label: isDefending
+    id: 15
+    type: 0
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    ignorePresets: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
+  - label: EnemyDefeated
+    id: 16
+    type: 0
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    ignorePresets: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
+  - label: SceneSequence
+    id: 17
+    type: 1
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    ignorePresets: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
   varPresets: []
   updateRuntime: 1
   popUpLabelData:
@@ -303,4 +383,4 @@ MonoBehaviour:
     lineID: -1
     canTranslate: 0
   timers: []
-  scrollPos: {x: 0, y: 0}
+  scrollPos: {x: 0, y: 39}
