@@ -28,7 +28,7 @@ MonoBehaviour:
     label: Walk to
     lineID: -1
   addHotspotPrefix: 0
-  allowInteractionCursor: 0
+  allowInteractionCursor: 1
   allowInteractionCursorForInventory: 0
   cycleCursors: 0
   onlyAnimateOverHotspots: 0
@@ -169,7 +169,41 @@ MonoBehaviour:
     label: Look at
     lineID: -1
     id: 2
+  - texture: {fileID: 2800000, guid: ad87f1d60341f454d82bd527395fa6f7, type: 3}
+    isAnimated: 0
+    numFrames: 1
+    numRows: 1
+    numCols: 1
+    size: 0.05
+    animSpeed: 4
+    endAnimOnLastFrame: 0
+    skipFirstFrameWhenLooping: 0
+    clickOffset: {x: -0.3, y: 0.4}
+    frameSpeeds: []
+    alwaysAnimate: 0
+    dontCycle: 0
+    label: Write
+    lineID: -1
+    id: 3
+  - texture: {fileID: 2800000, guid: a9173e83dc4787640812aedb821deb1f, type: 3}
+    isAnimated: 0
+    numFrames: 1
+    numRows: 1
+    numCols: 1
+    size: 0.05
+    animSpeed: 4
+    endAnimOnLastFrame: 0
+    skipFirstFrameWhenLooping: 0
+    clickOffset: {x: 0, y: 0}
+    frameSpeeds: []
+    alwaysAnimate: 0
+    dontCycle: 0
+    label: Erase
+    lineID: -1
+    id: 4
   unhandledCursorInteractions:
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}

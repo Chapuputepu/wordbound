@@ -93,7 +93,7 @@ MonoBehaviour:
   - label: Pen
     id: 0
     altLabel: "\u041F\u0435\u0440\u043E"
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars:
@@ -170,7 +170,7 @@ MonoBehaviour:
   - label: Eraser
     id: 2
     altLabel: "\u041B\u0430\u0441\u0442\u0438\u043A"
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars:
@@ -324,7 +324,7 @@ MonoBehaviour:
   - label: "Notes: \u043E\u0433\u043E\u043D\u044C"
     id: 4
     altLabel: "\u041E\u0433\u043E\u043D\u044C"
-    carryOnStart: 0
+    carryOnStart: 1
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []
@@ -379,7 +379,7 @@ MonoBehaviour:
   - label: "Notes: \u043F\u0438\u0432\u043E"
     id: 5
     altLabel: "\u041F\u0438\u0432\u043E"
-    carryOnStart: 0
+    carryOnStart: 1
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []
@@ -530,7 +530,18 @@ MonoBehaviour:
     onCreateRecipe: 0
     invActionList: {fileID: 0}
     actionListOnCreate: {fileID: 0}
-  documents: []
+  documents:
+  - ID: 0
+    title: (Untitled)
+    titleLineID: -1
+    rememberLastOpenPage: 0
+    carryOnStart: 0
+    texture: {fileID: 0}
+    pages:
+    - lineID: -1
+      text: 
+      texture: {fileID: 0}
+    binID: -1
   objectives: []
   objectiveStateActiveLabel:
     label: Active
