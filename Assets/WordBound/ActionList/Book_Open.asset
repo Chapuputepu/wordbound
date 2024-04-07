@@ -106,7 +106,7 @@ MonoBehaviour:
   journalPageIndex: -1
   journalPageIndexParameterID: -1
   preprocessTextTokens: 0
---- !u!114 &-5266895174598235737
+--- !u!114 &-3002591016655042562
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2314b8a5519074a1fadc27b4aa968f97, type: 3}
+  m_Script: {fileID: 11500000, guid: a23cea76e14804ca49ce03fec05afd8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   id: 0
@@ -142,41 +142,43 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 232
+    height: 207
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
+  constantID: 671606
   parameterID: -1
-  constantID: 0
-  _anim: {fileID: 0}
-  runtimeAnim: {fileID: 0}
-  clip: {fileID: 0}
-  fadeTime: 0
-  clipParameterID: -1
-  _anim2D: {fileID: 0}
-  runtimeAnim2D: {fileID: 0}
-  animator: {fileID: 0}
-  runtimeAnimator: {fileID: 0}
-  clip2D: 
-  clip2DParameterID: -1
-  wrapMode2D: 0
-  layerInt: 0
-  shapeObject: {fileID: 0}
-  runtimeShapeObject: {fileID: 0}
-  shapeKey: 0
-  shapeValue: 0
-  isPlayer: 0
-  methodMecanim: 0
-  mecanimParameterType: 0
-  parameterName: 
-  parameterNameID: -1
-  parameterValue: 0
-  parameterValueParameterID: -1
-  method: 0
-  blendMode: 0
-  playMode: 0
-  animationEngine: 3
-  customClassName: 
+  linkedCamera: {fileID: 0}
+  transitionTime: 0
+  transitionTimeParameterID: -1
+  timeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  moveMethod: 0
+  returnToLast: 0
+  retainPreviousSpeed: 0
+  waitForAnimation: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,7 +192,7 @@ MonoBehaviour:
   m_Name: Book_Open
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: -5266895174598235737}
+  - {fileID: -3002591016655042562}
   - {fileID: -8495651683682985317}
   - {fileID: -5381227195458396302}
   isSkippable: 1

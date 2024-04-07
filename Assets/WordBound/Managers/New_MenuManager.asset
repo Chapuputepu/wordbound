@@ -4728,8 +4728,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5f455f0e4a864975bf60bc153fbe20d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuSource: 2
-  canvas: {fileID: 0}
+  menuSource: 1
+  canvas: {fileID: 22300000, guid: 000df3630760a4c43a8317b255546d10, type: 3}
   canvasAssetKey: 
   canvasID: 672636
   rectTransform: {fileID: 0}
@@ -4749,7 +4749,7 @@ MonoBehaviour:
   pauseWhenEnabled: 0
   showWhenPaused: 0
   canClickInCutscene: 0
-  enabledOnStart: 0
+  enabledOnStart: 1
   actionListOnTurnOn: {fileID: 0}
   actionListOnTurnOff: {fileID: 0}
   updateWhenFadeOut: 1
