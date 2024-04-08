@@ -29,7 +29,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 0
+  isAssetFile: 1
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -71,7 +71,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 0
+  isAssetFile: 1
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -184,7 +184,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 0
+  isAssetFile: 1
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -199,7 +199,7 @@ MonoBehaviour:
   actionList: {fileID: 0}
   constantID: 0
   parameterID: -1
-  invActionList: {fileID: 11400000, guid: 98a95764e4cf9044dab0f667dd6badb6, type: 2}
+  invActionList: {fileID: 11400000, guid: e7d11148fa6979f44960cfff616d215f, type: 2}
   assetParameterID: 0
   runFromStart: 1
   jumpToAction: 0
@@ -241,7 +241,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 0
+  isAssetFile: 1
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -254,7 +254,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 0}
   menuName: Book
   menuNameParameterID: -1
-  elementName: Text02
+  elementName: Text01
   elementNameParameterID: 2
   newLabel: '[compvar:31632:2]'
   newLabelParameterID: 1
@@ -295,7 +295,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 0
+  isAssetFile: 1
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -337,7 +337,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 0
+  isAssetFile: 1
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -352,7 +352,7 @@ MonoBehaviour:
   actionList: {fileID: 0}
   constantID: 0
   parameterID: -1
-  invActionList: {fileID: 11400000, guid: 98a95764e4cf9044dab0f667dd6badb6, type: 2}
+  invActionList: {fileID: 11400000, guid: e7d11148fa6979f44960cfff616d215f, type: 2}
   assetParameterID: 0
   runFromStart: 1
   jumpToAction: 0
