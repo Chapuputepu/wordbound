@@ -36,14 +36,14 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 247
+    height: 232
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
   constantID: 176856
   parameterID: -1
   messageParameterID: -1
-  isPlayer: 0
+  isPlayer: 1
   playerID: -1
   speaker: {fileID: 0}
   messageText: "\u041F\u043E\u043A\u0438\u043D\u0443\u0442\u044C \u043B\u043E\u043A\u0430\u0446\u0438\u044E?"
@@ -141,7 +141,7 @@ MonoBehaviour:
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
   chooseSceneBy: 0
-  sceneNumber: 3
+  sceneNumber: 2
   sceneNumberParameterID: 0
   sceneName: 
   sceneNameParameterID: -1

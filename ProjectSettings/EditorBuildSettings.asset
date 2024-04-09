@@ -9,15 +9,6 @@ EditorBuildSettings:
     path: Assets/WordBound/Scenes/MainMenu.unity
     guid: faaf5a78a90658c4590750c87bc73591
   - enabled: 1
-    path: Assets/WordBound/Scenes/Outside_magicPortal.unity
-    guid: 625b3f35578797b429ee560592f41719
-  - enabled: 1
-    path: Assets/WordBound/Scenes/Kitchen.unity
-    guid: d76f43d681fee434a9386e8d4268d1f7
-  - enabled: 1
-    path: Assets/WordBound/Scenes/Crypt.unity
-    guid: 5e6877c03b93d824eb9e725c42093f7e
-  - enabled: 1
-    path: Assets/WordBound/Scenes/Prototype_combat_old.unity
-    guid: 677d64391011ff040ae2528d58ab62fa
+    path: Assets/WordBound/Scenes/Storage.unity
+    guid: 26d4e2cfe215c504d8834fa7d2df57db
   m_configObjects: {}
