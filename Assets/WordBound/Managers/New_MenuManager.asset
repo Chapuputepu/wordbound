@@ -1943,7 +1943,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 6
-  title: Button
+  title: EditBt
   slotSize: {x: 10, y: 5}
   sizeType: 0
   positionType: 0

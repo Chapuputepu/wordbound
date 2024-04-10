@@ -61,10 +61,10 @@ MonoBehaviour:
   shapeValue: 0
   isPlayer: 0
   methodMecanim: 0
-  mecanimParameterType: 3
-  parameterName: Dissolve03
+  mecanimParameterType: 1
+  parameterName: Int03
   parameterNameID: -1
-  parameterValue: 1
+  parameterValue: -1
   parameterValueParameterID: -1
   method: 0
   blendMode: 0

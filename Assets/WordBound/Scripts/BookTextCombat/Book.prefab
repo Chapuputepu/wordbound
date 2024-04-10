@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4643859048150812890}
   - component: {fileID: 289154605}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Book
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59,6 +59,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Item_Book_05
       objectReference: {fileID: 0}
+    - target: {fileID: 1375076497467396, guid: c6503af5b57ac2744962b2b79a1e25aa, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4647469108316672, guid: c6503af5b57ac2744962b2b79a1e25aa, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -69,7 +73,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4647469108316672, guid: c6503af5b57ac2744962b2b79a1e25aa, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.0159
       objectReference: {fileID: 0}
     - target: {fileID: 4647469108316672, guid: c6503af5b57ac2744962b2b79a1e25aa, type: 3}
       propertyPath: m_LocalPosition.z
