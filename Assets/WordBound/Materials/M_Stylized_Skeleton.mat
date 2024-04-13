@@ -10,7 +10,7 @@ Material:
   m_Name: M_Stylized_Skeleton
   m_Shader: {fileID: 4800000, guid: bee44b4a58655ee4cbff107302a3e131, type: 3}
   m_ValidKeywords:
-  - DR_RIM_ON
+  - DR_SPECULAR_ON
   - _TEXTUREBLENDINGMODE_MULTIPLY
   m_InvalidKeywords:
   - _CELPRIMARYMODE_NONE
@@ -104,13 +104,13 @@ Material:
     - _OverrideLightmapDir: 0
     - _Parallax: 0.02
     - _QueueOffset: 0
-    - _RimEnabled: 1
+    - _RimEnabled: 0
     - _SelfShadingSize: 0.719
     - _SelfShadingSizeExtra: 0.63
     - _ShadowEdgeSize: 0.097
     - _ShadowEdgeSizeExtra: 0.076
     - _SmoothnessTextureChannel: 0
-    - _SpecularEnabled: 0
+    - _SpecularEnabled: 1
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _Surface: 0
@@ -123,15 +123,15 @@ Material:
     - _VertexColorsEnabled: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.894, g: 0.8286849, b: 0.8613425, a: 1}
+    - _Color: {r: 0.8867924, g: 0.6232645, b: 0.7627793, a: 1}
     - _ColorDim: {r: 0.8773585, g: 0.7669207, b: 0.75734246, a: 1}
     - _ColorDimCurve: {r: 0.8962264, g: 0.6275626, b: 0.48616055, a: 1}
-    - _ColorDimExtra: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorDimExtra: {r: 0.9150943, g: 0.28057137, b: 0.28057137, a: 1}
     - _ColorDimSteps: {r: 0.894, g: 0.8286849, b: 0.8613425, a: 1}
     - _ColorGradient: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FlatRimColor: {r: 0.54901963, g: 0.17136085, b: 0.13725491, a: 1}
-    - _FlatSpecularColor: {r: 0.46226418, g: 0.11992704, b: 0.3849393, a: 1}
+    - _FlatRimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FlatSpecularColor: {r: 1, g: 0.8066038, b: 0.8280045, a: 1}
     - _LightmapDirection: {r: 0, g: 1, b: 0, a: 0}
     - _UnityShadowColor: {r: 0.85023, g: 0.85034, b: 0.8504499, a: 0.85056}
   m_BuildTextureStacks: []

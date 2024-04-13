@@ -3606,23 +3606,31 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 8a824d77d50d3ba4388262325ceccfa6, type: 2}
     - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: selectedOption.ID
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: options.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: selectedOption.label
-      value: "\u042F\u0449\u0435\u0440"
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
+      propertyPath: options.Array.data[1].ID
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: options.Array.data[2].ID
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: options.Array.data[3].ID
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
+      propertyPath: options.Array.data[1].isOn
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: options.Array.data[2].isOn
@@ -3634,15 +3642,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: selectedOption.autoTurnOff
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
+      propertyPath: options.Array.data[1].label
+      value: "\u042F\u0449\u0435\u0440"
       objectReference: {fileID: 0}
     - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: options.Array.data[2].label
-      value: "\u042F\u0449\u0435\u0440"
+      value: "\u041B\u0435\u0441\u0442\u043D\u0438\u0446\u0430"
       objectReference: {fileID: 0}
     - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: options.Array.data[3].label
       value: "\u041B\u0435\u0441\u0442\u043D\u0438\u0446\u0430"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
+      propertyPath: options.Array.data[1].lineID
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: options.Array.data[2].lineID
@@ -3655,14 +3671,22 @@ PrefabInstance:
     - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: selectedOption.dialogueOption
       value: 
-      objectReference: {fileID: 133805578}
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
+      propertyPath: selectedOption.cursorIcon.size
+      value: 0.015
+      objectReference: {fileID: 0}
     - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: selectedOption.linkToInventory
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: selectedOption.linkedInventoryID
-      value: 8
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
+      propertyPath: options.Array.data[1].autoTurnOff
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: options.Array.data[2].autoTurnOff
@@ -3674,16 +3698,44 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: selectedOption.conversationAction
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
+      propertyPath: selectedOption.cursorIcon.numCols
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
-      propertyPath: options.Array.data[2].dialogueOption
+      propertyPath: selectedOption.cursorIcon.numRows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
+      propertyPath: selectedOption.cursorIcon.animSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
+      propertyPath: selectedOption.cursorIcon.numFrames
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
+      propertyPath: options.Array.data[1].dialogueOption
       value: 
       objectReference: {fileID: 133805578}
+    - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
+      propertyPath: options.Array.data[2].dialogueOption
+      value: 
+      objectReference: {fileID: 3036691105340055802}
     - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: options.Array.data[3].dialogueOption
       value: 
       objectReference: {fileID: 3036691105340055802}
+    - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
+      propertyPath: options.Array.data[1].cursorIcon.size
+      value: 0.015
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
+      propertyPath: options.Array.data[1].linkToInventory
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: options.Array.data[2].cursorIcon.size
       value: 0.015
@@ -3701,12 +3753,28 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
-      propertyPath: options.Array.data[2].linkedInventoryID
+      propertyPath: options.Array.data[1].linkedInventoryID
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
+      propertyPath: options.Array.data[2].linkedInventoryID
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: options.Array.data[3].linkedInventoryID
       value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
+      propertyPath: options.Array.data[1].conversationAction
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
+      propertyPath: options.Array.data[1].cursorIcon.numCols
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
+      propertyPath: options.Array.data[1].cursorIcon.numRows
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: options.Array.data[2].conversationAction
@@ -3730,6 +3798,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: options.Array.data[3].cursorIcon.numRows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
+      propertyPath: options.Array.data[1].cursorIcon.animSpeed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
+      propertyPath: options.Array.data[1].cursorIcon.numFrames
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8205033634381286089, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
