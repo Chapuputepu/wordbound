@@ -321,9 +321,9 @@ MonoBehaviour:
     carryOnStartID: -1
     useSeparateSlots: 0
     selectSingle: 0
-  - label: "Notes: \u043E\u0433\u043E\u043D\u044C"
+  - label: "Notes: \u0422\u044E\u043B\u044C"
     id: 4
-    altLabel: "\u041E\u0433\u043E\u043D\u044C"
+    altLabel: "\u0422\u044E\u043B\u044C"
     carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
@@ -654,7 +654,7 @@ MonoBehaviour:
   - label: "Notes: \u0445\u043E\u0442\u0434\u043E\u0433"
     id: 10
     altLabel: "\u0425\u043E\u0442\u0434\u043E\u0433"
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []

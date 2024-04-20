@@ -29,12 +29,12 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 1
+  isAssetFile: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 691
-    y: 18
+    x: 687.38696
+    y: 15.591385
     width: 300
     height: 192
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -82,12 +82,12 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 1
+  isAssetFile: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 1403
-    y: 230
+    x: 1399.3875
+    y: 227.59137
     width: 300
     height: 232
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -212,12 +212,12 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 1
+  isAssetFile: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 1020.7999
-    y: 38
+    x: 1017.18665
+    y: 35.591385
     width: 300
     height: 160
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -253,7 +253,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 1
+  isAssetFile: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -321,12 +321,12 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings: []
   isEnabled: 1
-  isAssetFile: 1
+  isAssetFile: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 1391
-    y: 35
+    x: 1387.3875
+    y: 32.591385
     width: 300
     height: 124
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -372,12 +372,12 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 1
+  isAssetFile: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 359
-    y: 19
+    x: 355.38702
+    y: 16.591385
     width: 300
     height: 192
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
