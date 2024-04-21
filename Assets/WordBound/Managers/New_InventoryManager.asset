@@ -323,7 +323,7 @@ MonoBehaviour:
     selectSingle: 0
   - label: "Notes: \u0422\u044E\u043B\u044C"
     id: 4
-    altLabel: "\u0422\u044E\u043B\u044C"
+    altLabel: "\u0422\u042E\u041B\u042C"
     carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
@@ -376,9 +376,9 @@ MonoBehaviour:
     carryOnStartID: -1
     useSeparateSlots: 0
     selectSingle: 0
-  - label: "Notes: \u043F\u0438\u0432\u043E"
+  - label: "Notes: \u0422\u0430\u0440\u0430\u043A\u0430\u043D\u044B"
     id: 5
-    altLabel: "\u041F\u0438\u0432\u043E"
+    altLabel: "\u0422\u0410\u0420\u0410\u041A\u0410\u041D\u042B"
     carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
@@ -431,9 +431,9 @@ MonoBehaviour:
     carryOnStartID: -1
     useSeparateSlots: 0
     selectSingle: 0
-  - label: "Notes: \u0432\u0430\u043B\u0443\u043D"
+  - label: "Notes: \u0423\u0431\u043E\u0440\u0449\u0438\u043A\u0438"
     id: 6
-    altLabel: "\u0412\u0430\u043B\u0443\u043D"
+    altLabel: "\u0423\u0431\u043E\u0440\u0449\u0438\u043A\u0438"
     carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000

@@ -267,7 +267,7 @@ Transform:
   - {fileID: 1793552048}
   - {fileID: 1658467713}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &76398077
 GameObject:
@@ -699,13 +699,12 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 814642487}
-  - {fileID: 292788916}
   - {fileID: 1297995223}
   - {fileID: 725772157}
   - {fileID: 651223451}
   - {fileID: 1397879915}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &292788915
 GameObject:
@@ -718,7 +717,7 @@ GameObject:
   - component: {fileID: 292788916}
   m_Layer: 0
   m_Name: _Conversations
-  m_TagString: Untagged
+  m_TagString: EditorOnly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -737,8 +736,8 @@ Transform:
   m_Children:
   - {fileID: 4497218036435355249}
   - {fileID: 999685815658896460}
-  m_Father: {fileID: 260910733}
-  m_RootOrder: 1
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &293969290
 GameObject:
@@ -946,7 +945,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &404265931
 MonoBehaviour:
@@ -1542,7 +1541,7 @@ GameObject:
   - component: {fileID: 640990117}
   m_Layer: 0
   m_Name: _DialogueOptions
-  m_TagString: Untagged
+  m_TagString: EditorOnly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1594,139 +1593,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 260910733}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &653122276
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 653122277}
-  - component: {fileID: 653122279}
-  - component: {fileID: 653122278}
-  m_Layer: 0
-  m_Name: OnStart_setText_3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &653122277
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 653122276}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.44, y: -20.79, z: -16.12}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1881518072}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &653122278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 653122276}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  constantID: 15818
-  retainInPrefab: 0
-  autoManual: 0
---- !u!114 &653122279
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 653122276}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d92fe80d068b41b585731413487d0f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  actions:
-  - {fileID: 1077431100}
-  - {fileID: 1010069081}
-  - {fileID: 235466295}
-  isSkippable: 0
-  triggerTime: 0
-  autosaveAfter: 0
-  actionListType: 1
-  conversation: {fileID: 0}
-  assetFile: {fileID: 11400000, guid: 63429cdf2b873de44a9aa7deb120431c, type: 2}
-  source: 1
-  unfreezePauseMenus: 1
-  useParameters: 1
-  parameters:
-  - label: Appear Effect
-    description: 
-    ID: 0
-    parameterType: 8
-    intValue: 0
-    constantID: 0
-    popUpID: 0
-    floatValue: 0
-    stringValue: 
-    gameObject: {fileID: 0}
-    objectValue: {fileID: 11400000, guid: d2f15be27c438a945a8cd2f1ddfd02f5, type: 2}
-    vector3Value: {x: 0, y: 0, z: 0}
-    gameObjectParameterReferences: 0
-    variables: {fileID: 0}
-  - label: Menu element
-    description: 
-    ID: 1
-    parameterType: 4
-    intValue: -1
-    constantID: 0
-    popUpID: 0
-    floatValue: 0
-    stringValue: Text03
-    gameObject: {fileID: 0}
-    objectValue: {fileID: 0}
-    vector3Value: {x: 0, y: 0, z: 0}
-    gameObjectParameterReferences: 0
-    variables: {fileID: 0}
-  - label: Text token
-    description: 
-    ID: 2
-    parameterType: 4
-    intValue: -1
-    constantID: 0
-    popUpID: 0
-    floatValue: 0
-    stringValue: '[localvar:9]'
-    gameObject: {fileID: 0}
-    objectValue: {fileID: 0}
-    vector3Value: {x: 0, y: 0, z: 0}
-    gameObjectParameterReferences: 0
-    variables: {fileID: 0}
-  tagID: 0
-  syncParamValues: 0
-  backupData:
-  - className: AC.ActionRunActionList
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":true,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":1,"skipAction":3,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":0},"listSource":1,"actionList":{"instanceID":0},"constantID":0,"parameterID":-1,"invActionList":{"instanceID":29070},"assetParameterID":-1,"runFromStart":true,"jumpToAction":0,"jumpToActionParameterID":-1,"jumpToActionActual":{"instanceID":0},"runInParallel":true,"isSkippable":false,"localParameters":[],"parameterIDs":[],"setParameters":false,"runMode":0,"hasUpgradedAgain":false}'
-    endingReferencesBuffer: 00
-    endingOverrideIndex: 00000000
-  - className: AC.ActionMenuSetInputBox
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":2,"skipActionActual":{"instanceID":28700},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":216.0,"width":300.0,"height":212.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":0},"menuName":"Book","menuNameParameterID":-1,"elementName":"[localvar:1]","elementNameParameterID":-1,"newLabel":"[compvar:31632:2]","newLabelParameterID":-1,"newLabelLineID":-1,"preProcessTokens":true,"setMenuInputBoxSource":0,"elementContentType":0,"varID":0,"varParameterID":-1,"newTexture":{"instanceID":0},"newTextureParameterID":-1}'
-    endingReferencesBuffer: 01
-    endingOverrideIndex: 02000000
-  - className: AC.ActionPause
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":1,"skipAction":0,"skipActionActual":{"instanceID":28796},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":12.0,"y":491.0,"width":300.0,"height":92.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":0},"parameterID":-1,"timeToPause":0.5}'
-    endingReferencesBuffer: 00
-    endingOverrideIndex: 00000000
 --- !u!114 &665067234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1794,48 +1662,6 @@ MonoBehaviour:
   animatorParameterName: 
   parameterLabel: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u0442\u0435\u043A\u0441\u0442\u0430
     1"
---- !u!114 &675911860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9289eb0ca58ef471f9062a5f77161403, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 1
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 2
-    skipAction: 5
-    skipActionActual: {fileID: 856478681}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 1043
-    y: 307
-    width: 300
-    height: 112
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 70240280}
-  parameterID: -1
-  timeToPause: 0.2
 --- !u!114 &681223586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2050,63 +1876,6 @@ MonoBehaviour:
   menuParameterID: -1
   elementParameterID: -1
   numSockets: 0
---- !u!114 &684056353
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea4c3ba658ee84d51a7ccd6f9fc22176, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 1
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 1
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 347
-    y: 44
-    width: 300
-    height: 152
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 7040589289564467746}
-  listSource: 1
-  actionList: {fileID: 0}
-  constantID: 0
-  parameterID: -1
-  invActionList: {fileID: 11400000, guid: 61b4a847ca7c54b45b83312115cebb85, type: 2}
-  assetParameterID: -1
-  runFromStart: 1
-  jumpToAction: 0
-  jumpToActionParameterID: -1
-  jumpToActionActual: {fileID: 0}
-  runInParallel: 1
-  isSkippable: 0
-  localParameters: []
-  parameterIDs: 
-  setParameters: 0
-  runMode: 0
-  hasUpgradedAgain: 0
 --- !u!1 &698969700
 GameObject:
   m_ObjectHideFlags: 0
@@ -2444,7 +2213,7 @@ Transform:
   m_Children:
   - {fileID: 489817522}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &723458678
 GameObject:
@@ -2513,7 +2282,7 @@ Transform:
   - {fileID: 3056103693878537648}
   - {fileID: 3058404420074166986}
   m_Father: {fileID: 260910733}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &761146332
 GameObject:
@@ -2622,63 +2391,6 @@ MonoBehaviour:
   constantID: 0
   parameterID: -1
   invActionList: {fileID: 11400000, guid: 0cf98d68d9057de4fa08e552208ae94e, type: 2}
-  assetParameterID: -1
-  runFromStart: 1
-  jumpToAction: 0
-  jumpToActionParameterID: -1
-  jumpToActionActual: {fileID: 0}
-  runInParallel: 1
-  isSkippable: 0
-  localParameters: []
-  parameterIDs: 
-  setParameters: 0
-  runMode: 0
-  hasUpgradedAgain: 0
---- !u!114 &856478681
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea4c3ba658ee84d51a7ccd6f9fc22176, type: 3}
-  m_Name: (Clone)
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 1
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 1
-    skipAction: 7
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 1384
-    y: 66
-    width: 300
-    height: 172
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 70240280}
-  listSource: 0
-  actionList: {fileID: 653122279}
-  constantID: 0
-  parameterID: -1
-  invActionList: {fileID: 0}
   assetParameterID: -1
   runFromStart: 1
   jumpToAction: 0
@@ -2914,7 +2626,7 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 6
+    skipAction: 4
     skipActionActual: {fileID: 467362345}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
@@ -3215,7 +2927,7 @@ Transform:
   m_Children:
   - {fileID: 1927191766}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1235307309
 GameObject:
@@ -3518,7 +3230,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 260910733}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1327370318
 MonoBehaviour:
@@ -3769,7 +3481,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 260910733}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1402489345
 MonoBehaviour:
@@ -4049,7 +3761,7 @@ Transform:
   - {fileID: 1328692191}
   - {fileID: 1241942500}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1477652306
 MonoBehaviour:
@@ -4199,7 +3911,7 @@ MonoBehaviour:
     floatValue: 0
     stringValue: 
     gameObject: {fileID: 0}
-    objectValue: {fileID: 11400000, guid: 341c2cb715ce02b41a9017ee3130282a, type: 2}
+    objectValue: {fileID: 11400000, guid: 91c626d292bcb0c408e93b2b3ade2775, type: 2}
     vector3Value: {x: 0, y: 0, z: 0}
     gameObjectParameterReferences: 0
     variables: {fileID: 0}
@@ -4225,7 +3937,7 @@ MonoBehaviour:
     constantID: 0
     popUpID: 0
     floatValue: 0
-    stringValue: Text03
+    stringValue: Text02
     gameObject: {fileID: 0}
     objectValue: {fileID: 0}
     vector3Value: {x: 0, y: 0, z: 0}
@@ -4262,6 +3974,62 @@ MonoBehaviour:
   - label: Appear Action
     description: 
     ID: 5
+    parameterType: 8
+    intValue: -1
+    constantID: 0
+    popUpID: 0
+    floatValue: 0
+    stringValue: 
+    gameObject: {fileID: 0}
+    objectValue: {fileID: 11400000, guid: 98a95764e4cf9044dab0f667dd6badb6, type: 2}
+    vector3Value: {x: 0, y: 0, z: 0}
+    gameObjectParameterReferences: 0
+    variables: {fileID: 0}
+  - label: Dissolve Action 3
+    description: 
+    ID: 6
+    parameterType: 8
+    intValue: -1
+    constantID: 0
+    popUpID: 0
+    floatValue: 0
+    stringValue: 
+    gameObject: {fileID: 0}
+    objectValue: {fileID: 11400000, guid: 341c2cb715ce02b41a9017ee3130282a, type: 2}
+    vector3Value: {x: 0, y: 0, z: 0}
+    gameObjectParameterReferences: 0
+    variables: {fileID: 0}
+  - label: Text Token 3
+    description: 
+    ID: 7
+    parameterType: 4
+    intValue: -1
+    constantID: 0
+    popUpID: 0
+    floatValue: 0
+    stringValue: 
+    gameObject: {fileID: 0}
+    objectValue: {fileID: 0}
+    vector3Value: {x: 0, y: 0, z: 0}
+    gameObjectParameterReferences: 0
+    variables: {fileID: 0}
+  - label: MenuTxt 3
+    description: 
+    ID: 8
+    parameterType: 4
+    intValue: -1
+    constantID: 0
+    popUpID: 0
+    floatValue: 0
+    stringValue: Text03
+    gameObject: {fileID: 0}
+    objectValue: {fileID: 0}
+    vector3Value: {x: 0, y: 0, z: 0}
+    gameObjectParameterReferences: 0
+    variables: {fileID: 0}
+  - label: ApperAction 3
+    description: 
+    ID: 9
     parameterType: 8
     intValue: -1
     constantID: 0
@@ -4617,7 +4385,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 70240280, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: actions.Array.size
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 70240280, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: actions.Array.data[0]
@@ -4638,11 +4406,11 @@ PrefabInstance:
     - target: {fileID: 70240280, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: actions.Array.data[4]
       value: 
-      objectReference: {fileID: 675911860}
+      objectReference: {fileID: 467362345}
     - target: {fileID: 70240280, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: actions.Array.data[5]
       value: 
-      objectReference: {fileID: 856478681}
+      objectReference: {fileID: 467362345}
     - target: {fileID: 70240280, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: actions.Array.data[6]
       value: 
@@ -4993,7 +4761,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8205033635193104129, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 8205033635193104129, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: m_AnchorMax.x
@@ -5084,7 +4852,7 @@ GameObject:
   - component: {fileID: 1699761554}
   m_Layer: 0
   m_Name: _Cutscenes
-  m_TagString: Untagged
+  m_TagString: EditorOnly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5241,7 +5009,7 @@ Transform:
   - {fileID: 307337488}
   - {fileID: 1609401820}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1779283961
 GameObject:
@@ -5395,11 +5163,6 @@ MonoBehaviour:
   copyRotation: 0
   variables: {fileID: 0}
   variablesConstantID: 0
---- !u!224 &1881518072 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 8205033635193104129, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
-  m_PrefabInstance: {fileID: 1695132299}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1885663621
 GameObject:
   m_ObjectHideFlags: 0
@@ -5475,7 +5238,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1909206735
 MonoBehaviour:
@@ -5686,9 +5449,9 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   endings:
-  - resultAction: 2
+  - resultAction: 1
     skipAction: 4
-    skipActionActual: {fileID: 675911860}
+    skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -5699,7 +5462,7 @@ MonoBehaviour:
     x: 1047
     y: 73
     width: 300
-    height: 192
+    height: 172
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 70240280}
@@ -6474,7 +6237,7 @@ MonoBehaviour:
       alwaysAnimate: 0
     isOn: 1
     isLocked: 0
-    conversationAction: 1
+    conversationAction: 0
     newConversation: {fileID: 0}
     ID: 1
     hasBeenChosen: 0
@@ -6515,7 +6278,7 @@ MonoBehaviour:
     customScriptObject: {fileID: 0}
     customScriptFunction: 
   selectedOption:
-    label: "\u0412\u0435\u0440\u043D\u0443\u0442\u044C\u0441\u044F"
+    label: "\u0417\u0430\u043F\u0438\u0441\u0430\u0442\u044C"
     lineID: -1
     icon: {fileID: 0}
     cursorIcon:
@@ -6533,14 +6296,14 @@ MonoBehaviour:
       alwaysAnimate: 0
     isOn: 1
     isLocked: 0
-    conversationAction: 1
+    conversationAction: 0
     newConversation: {fileID: 0}
-    ID: 2
+    ID: 1
     hasBeenChosen: 0
-    autoTurnOff: 0
+    autoTurnOff: 1
     linkToInventory: 0
     linkedInventoryID: 0
-    dialogueOption: {fileID: 2053255006326812455}
+    dialogueOption: {fileID: 7040589289564467746}
     assetFile: {fileID: 0}
     customScriptObject: {fileID: 0}
     customScriptFunction: 
@@ -7939,7 +7702,6 @@ MonoBehaviour:
   actions:
   - {fileID: 1327370318}
   - {fileID: 1982950708}
-  - {fileID: 684056353}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -8009,7 +7771,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 1.5, y: 1, z: 1.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7255131349026628256
 MonoBehaviour:
@@ -8559,7 +8321,11 @@ MonoBehaviour:
       \u0444\u0438\u0433\u0443\u0440\u0430 \u0427\u0435\u0440\u0432\u043E\u0443\u0441\u0442\u0430
       \u0441\u043C\u043E\u0433\u043B\u0430 \u0440\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C
       \u043F\u043E\u043C\u0435\u0449\u0435\u043D\u0438\u0435. \u0421\u043A\u043B\u0430\u0434
-      \u043D\u0438\u0447\u0443\u0442\u044C \u043D\u0435 \u0438\u0437\u043C\u0435\u043D\u0438\u043B\u0441\u044F. "
+      \u043D\u0438\u0447\u0443\u0442\u044C \u043D\u0435 \u0438\u0437\u043C\u0435\u043D\u0438\u043B\u0441\u044F.
+      \n\u0412\u0441\u0451 \u0442\u043E\u0442 \u0436\u0435 \u0433\u043E\u0434\u043E\u0432\u043E\u0439
+      \u0437\u0430\u043F\u0430\u0441 \u0447\u0430\u044F \u0438 \u0433\u0440\u0443\u0434\u0430
+      \u0432\u043E\u043B\u044B\u043D\u043E\u043A, \u043A\u043E\u0442\u043E\u0440\u044B\u043C\u0438
+      \u043C\u043E\u0436\u043D\u043E "
     gameObjectVal: {fileID: 0}
     gameObjectSaveReferences: 1
     objectVal: {fileID: 0}
@@ -8579,11 +8345,14 @@ MonoBehaviour:
     type: 2
     val: 0
     floatVal: 0
-    textVal: "\u0412\u0441\u0451 \u0442\u043E\u0442 \u0436\u0435 \u0433\u043E\u0434\u043E\u0432\u043E\u0439
-      \u0437\u0430\u043F\u0430\u0441 \u0447\u0430\u044F \u0438 \u0433\u0440\u0443\u0434\u0430
-      \u0432\u043E\u043B\u044B\u043D\u043E\u043A, \u043A\u043E\u0442\u043E\u0440\u044B\u043C\u0438
-      \u043C\u043E\u0436\u043D\u043E \u0431\u044B\u043B\u043E \u0431\u044B \u0441\u043D\u0430\u0440\u044F\u0434\u0438\u0442\u044C
-      \u0446\u0435\u043B\u044B\u0439 \u0431\u0430\u0442\u0430\u043B\u044C\u043E\u043D.\r\n"
+    textVal: "\u0431\u044B\u043B\u043E \u0431\u044B \u0441\u043D\u0430\u0440\u044F\u0434\u0438\u0442\u044C
+      \u0446\u0435\u043B\u044B\u0439 \u0431\u0430\u0442\u0430\u043B\u044C\u043E\u043D.\r\n\u0412
+      \u0441\u043A\u0432\u043E\u0437\u043D\u043E\u043C \u043E\u0442\u0432\u0435\u0440\u0441\u0442\u0438\u0438
+      \u0442\u043E\u0440\u0447\u0430\u043B \u0447\u0435\u0439-\u0442\u043E \u043F\u0430\u043B\u0435\u0446.
+      \u041E\u0434\u043D\u0430\u043A\u043E \u043F\u043E\u043C\u0438\u043C\u043E \u044D\u0442\u043E
+      \u0434\u043E\u0440\u043E\u0433\u0443 \u0434\u0430\u043B\u044C\u0448\u0435 \u043C\u0435\u0440\u0437\u043A\u043E\u043C\u0443
+      \u0432\u0440\u0435\u0434\u0438\u0442\u0435\u043B\u044E \u043F\u0440\u0435\u0433\u0440\u0430\u0436\u0434\u0430\u043B\u0430
+      <color=orange>\u0414\u0412\u0415\u0420\u042C</color>.\r"
     gameObjectVal: {fileID: 0}
     gameObjectSaveReferences: 1
     objectVal: {fileID: 0}
@@ -8603,11 +8372,7 @@ MonoBehaviour:
     type: 2
     val: 0
     floatVal: 0
-    textVal: "\u0412 \u0441\u043A\u0432\u043E\u0437\u043D\u043E\u043C \u043E\u0442\u0432\u0435\u0440\u0441\u0442\u0438\u0438
-      \u0442\u043E\u0440\u0447\u0430\u043B \u0447\u0435\u0439-\u0442\u043E \u043F\u0430\u043B\u0435\u0446.
-      \u0412\u0438\u0434\u0438\u043C\u043E \u043F\u0440\u043E\u0448\u043B\u044B\u0439
-      \u043F\u0440\u043E\u0445\u043E\u0434\u0438\u043C\u0435\u0446 \u0437\u0430\u0431\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u0430\u043B
-      \u0434\u0432\u0435\u0440\u044C \u043D\u0430\u0441\u043E\u0432\u0441\u0435\u043C.\r"
+    textVal: 
     gameObjectVal: {fileID: 0}
     gameObjectSaveReferences: 1
     objectVal: {fileID: 0}
@@ -8731,29 +8496,6 @@ MonoBehaviour:
     textValLineID: -1
     popUpsLineID: -1
     description: 
-  - label: Text 03
-    id: 9
-    type: 2
-    val: 0
-    floatVal: 0
-    textVal: "\u041E\u0434\u043D\u0430\u043A\u043E \u043F\u043E\u043C\u0438\u043C\u043E
-      \u044D\u0442\u043E \u0434\u043E\u0440\u043E\u0433\u0443 \u0434\u0430\u043B\u044C\u0448\u0435
-      \u043C\u0435\u0440\u0437\u043A\u043E\u043C\u0443 \u0432\u0440\u0435\u0434\u0438\u0442\u0435\u043B\u044E
-      \u043F\u0440\u0435\u0433\u0440\u0430\u0436\u0434\u0430\u043B\u0430 <color=orange>\u0414\u0412\u0415\u0420\u042C</color>.\r\n"
-    gameObjectVal: {fileID: 0}
-    gameObjectSaveReferences: 1
-    objectVal: {fileID: 0}
-    popUps: []
-    vector3Val: {x: 0, y: 0, z: 0}
-    link: 0
-    pmVar: 
-    updateLinkOnStart: 0
-    canTranslate: 1
-    popUpID: 0
-    ignorePresets: 0
-    textValLineID: -1
-    popUpsLineID: -1
-    description: 
   - label: "\u0418\u0433\u0440\u043E\u043A \u041A\u0438\u043B\u0442"
     id: 10
     type: 2
@@ -8801,10 +8543,14 @@ MonoBehaviour:
     type: 2
     val: 0
     floatVal: 0
-    textVal: "\u041E\u0434\u043D\u0430\u043A\u043E \u043F\u043E\u043C\u0438\u043C\u043E
-      \u044D\u0442\u043E \u0434\u043E\u0440\u043E\u0433\u0443 \u0434\u0430\u043B\u044C\u0448\u0435
-      \u043C\u0435\u0440\u0437\u043A\u043E\u043C\u0443 \u0432\u0440\u0435\u0434\u0438\u0442\u0435\u043B\u044E
-      \u043F\u0440\u0435\u0433\u0440\u0430\u0436\u0434\u0430\u043B\u0430 <color=orange>\u0422\u044E\u043B\u044C</color>.\r"
+    textVal: "\u0431\u044B\u043B\u043E \u0431\u044B \u0441\u043D\u0430\u0440\u044F\u0434\u0438\u0442\u044C
+      \u0446\u0435\u043B\u044B\u0439 \u0431\u0430\u0442\u0430\u043B\u044C\u043E\u043D.\r\n\u0412
+      \u0441\u043A\u0432\u043E\u0437\u043D\u043E\u043C \u043E\u0442\u0432\u0435\u0440\u0441\u0442\u0438\u0438
+      \u0442\u043E\u0440\u0447\u0430\u043B \u0447\u0435\u0439-\u0442\u043E \u043F\u0430\u043B\u0435\u0446.
+      \u041E\u0434\u043D\u0430\u043A\u043E \u043F\u043E\u043C\u0438\u043C\u043E \u044D\u0442\u043E
+      \u0434\u043E\u0440\u043E\u0433\u0443 \u0434\u0430\u043B\u044C\u0448\u0435 \u043C\u0435\u0440\u0437\u043A\u043E\u043C\u0443
+      \u0432\u0440\u0435\u0434\u0438\u0442\u0435\u043B\u044E \u043F\u0440\u0435\u0433\u0440\u0430\u0436\u0434\u0430\u043B\u0430
+      <color=orange>\u0422\u044E\u043B\u044C</color>.\r"
     gameObjectVal: {fileID: 0}
     gameObjectSaveReferences: 1
     objectVal: {fileID: 0}

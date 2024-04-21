@@ -445,6 +445,69 @@ MonoBehaviour:
   copyRotation: 0
   variables: {fileID: 0}
   variablesConstantID: 0
+--- !u!114 &103128716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0643024da91f402a9281e781736a4c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 1
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 300
+    height: 60
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 7925118585054864305}
+  charToMoveParameterID: -1
+  markerParameterID: -1
+  charToMoveID: 0
+  markerID: 0
+  marker: {fileID: 4467975445385551464}
+  isPlayer: 0
+  playerID: -1
+  playerParameterID: -1
+  charToMove: {fileID: 0}
+  speed: 0
+  pathFind: 1
+  doFloat: 0
+  positionOffset: {x: 0, y: 0, z: 0}
+  positionOffsetParameterID: -1
+  doTimeLimit: 0
+  maxTimeParameterID: -1
+  maxTime: 10
+  onReachTimeLimit: 0
+  minDistance: 0
+  movePathNode: 0
+  nodeIndex: 0
+  nodeIndexParameterID: -1
+  faceAfter: 0
 --- !u!114 &151033090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -658,7 +721,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &275320106
 GameObject:
@@ -948,7 +1011,7 @@ Transform:
   m_Children:
   - {fileID: 812182925}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &408075753
 MonoBehaviour:
@@ -1452,63 +1515,6 @@ MonoBehaviour:
   journalPageIndex: -1
   journalPageIndexParameterID: -1
   preprocessTextTokens: 0
---- !u!114 &745828390
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d6eb1e3901d6a40d19282460c74e68c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 1
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 14
-    width: 300
-    height: 240
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 7925118585054864305}
-  npcToMoveParameterID: -1
-  charToFollowParameterID: -1
-  npcToMoveID: 0
-  charToFollowID: 0
-  npcToMove: {fileID: 1566447825}
-  charToFollow: {fileID: 0}
-  followPlayer: 1
-  followPlayerID: -1
-  movePlayer: 0
-  movePlayerID: 0
-  faceWhenIdle: 0
-  updateFrequency: 1
-  followDistance: 1
-  followDistanceMax: 2
-  followType: 0
-  randomDirection: 0
-  followAcrossScenes: 0
 --- !u!1 &770977233
 GameObject:
   m_ObjectHideFlags: 0
@@ -2601,7 +2607,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4643859048150812890, guid: dc8cc46836e1d114c970946418b1eb37, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4643859048150812890, guid: dc8cc46836e1d114c970946418b1eb37, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3041,11 +3047,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05ac5d1aa43234b1a948b4f8f3072f17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &1566447826 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7206893181238282733, guid: 51d068c9d24b8c94ca7b4fcbc334e73e, type: 3}
-  m_PrefabInstance: {fileID: 1922422783}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1610222981
 GameObject:
   m_ObjectHideFlags: 0
@@ -3122,7 +3123,7 @@ MonoBehaviour:
   charToFollowParameterID: -1
   npcToMoveID: 0
   charToFollowID: 0
-  npcToMove: {fileID: 1566447825}
+  npcToMove: {fileID: 0}
   charToFollow: {fileID: 0}
   followPlayer: 1
   followPlayerID: -1
@@ -3299,7 +3300,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8205033635193104129, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 8205033635193104129, guid: bae12064b310ca4429daa5ec452430ed, type: 3}
       propertyPath: m_AnchorMax.x
@@ -4144,26 +4145,6 @@ PrefabInstance:
       propertyPath: walkToMarker
       value: 
       objectReference: {fileID: 5425978106304572619}
-    - target: {fileID: 5987784831582785648, guid: 51d068c9d24b8c94ca7b4fcbc334e73e, type: 3}
-      propertyPath: useButtons.Array.data[0].interaction
-      value: 
-      objectReference: {fileID: 7688887119460835054}
-    - target: {fileID: 5987784831582785650, guid: 51d068c9d24b8c94ca7b4fcbc334e73e, type: 3}
-      propertyPath: turnSpeed
-      value: 25
-      objectReference: {fileID: 0}
-    - target: {fileID: 5987784831582785650, guid: 51d068c9d24b8c94ca7b4fcbc334e73e, type: 3}
-      propertyPath: moveSpeedParameter
-      value: Walk
-      objectReference: {fileID: 0}
-    - target: {fileID: 5987784831582785650, guid: 51d068c9d24b8c94ca7b4fcbc334e73e, type: 3}
-      propertyPath: groundCheckLayerMask
-      value: 257
-      objectReference: {fileID: 0}
-    - target: {fileID: 5987784831582785650, guid: 51d068c9d24b8c94ca7b4fcbc334e73e, type: 3}
-      propertyPath: useRigidbodyForMovement
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7206893181238282733, guid: 51d068c9d24b8c94ca7b4fcbc334e73e, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -4208,6 +4189,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7440793929306602166, guid: 51d068c9d24b8c94ca7b4fcbc334e73e, type: 3}
+      propertyPath: actions.Array.data[0]
+      value: 
+      objectReference: {fileID: 595742184}
     - target: {fileID: 8020866435038630743, guid: 51d068c9d24b8c94ca7b4fcbc334e73e, type: 3}
       propertyPath: m_Name
       value: DarkPriest_fem
@@ -6167,95 +6152,17 @@ MonoBehaviour:
   constantID: 114744
   retainInPrefab: 0
   autoManual: 0
---- !u!114 &7440793929306602166
+--- !u!114 &7440793929306602166 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 7440793929306602166, guid: 51d068c9d24b8c94ca7b4fcbc334e73e, type: 3}
+  m_PrefabInstance: {fileID: 1922422783}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7440793929313652564}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3e7440785f8cf4f76a05644d04c212f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actions:
-  - {fileID: 595742184}
-  isSkippable: 1
-  triggerTime: 0
-  autosaveAfter: 0
-  actionListType: 0
-  conversation: {fileID: 0}
-  assetFile: {fileID: 0}
-  source: 0
-  unfreezePauseMenus: 1
-  useParameters: 0
-  parameters: []
-  tagID: 0
-  syncParamValues: 1
-  backupData:
-  - className: AC.ActionRunActionList
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":7440793929306602166_0},"listSource":0,"actionList":{"instanceID":520839035214819018_0},"constantID":0,"parameterID":-1,"invActionList":{"instanceID":0},"assetParameterID":-1,"runFromStart":true,"jumpToAction":0,"jumpToActionParameterID":-1,"jumpToActionActual":{"instanceID":0},"runInParallel":true,"isSkippable":false,"localParameters":[],"parameterIDs":[],"setParameters":false,"runMode":0,"hasUpgradedAgain":false}'
-    endingReferencesBuffer: 00
-    endingOverrideIndex: 00000000
-  detects: 0
-  obToDetect: {fileID: 0}
-  detectComponent: 
-  triggerType: 0
-  cancelInteractions: 0
-  triggerReacts: 0
-  detectionMethod: 0
-  detectsPlayer: 1
-  detectsAllPlayers: 0
-  obsToDetect: []
-  canInterruptSelf: 1
-  gameObjectParameterID: -1
---- !u!4 &7440793929313162100
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7440793929313652564}
-  m_LocalRotation: {x: -0, y: -0.858159, z: -0, w: 0.513384}
-  m_LocalPosition: {x: 0.030646484, y: 0.6, z: 0.091918975}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1566447826}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7440793929313652564
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7440793929313162100}
-  - component: {fileID: 7440793929319786324}
-  - component: {fileID: 7440793929306602166}
-  m_Layer: 2
-  m_Name: Trigger_Priest
-  m_TagString: Untagged
-  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!65 &7440793929319786324
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7440793929313652564}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &7468835960432697638
 Transform:
   m_ObjectHideFlags: 0
@@ -6514,7 +6421,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 745828390}
+  - {fileID: 103128716}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
