@@ -42,7 +42,7 @@ MonoBehaviour:
   playerSwitching: 1
   legacyPlayer: {fileID: 0}
   playerPrefab:
-    playerOb: {fileID: 6566090262595056999, guid: d49e3f8b87801ec4aa607930d3699d92, type: 3}
+    playerOb: {fileID: 6530553284440068595, guid: 766a1d1b4ea04864a8991c7bf2b2ec89, type: 3}
     ID: 0
     isDefault: 0
     startingSceneIndex: 0
@@ -250,7 +250,7 @@ MonoBehaviour:
   showDebugLogs: 0
   printActionCommentsInConsole: 0
   actionCommentLogging: 0
-  showActiveActionLists: 1
+  showActiveActionLists: 0
   references:
     version: 2
     RefIds: []
