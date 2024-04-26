@@ -3083,13 +3083,13 @@ MonoBehaviour:
   rightArmBone: {fileID: 0}
   neckBone: {fileID: 0}
   animCrossfadeSpeed: 0.2
-  groundCheckLayerMask: 1
+  groundCheckLayerMask: 257
   moveSpeedParameter: Speed
   verticalMovementParameter: 
   isGroundedParameter: 
   jumpParameter: 
   turnParameter: 
-  talkParameter: IsTalking
+  talkParameter: 
   directionParameter: Direction
   angleParameter: Angle
   headYawParameter: 
@@ -3135,10 +3135,10 @@ MonoBehaviour:
   reverseSpeedFactor: 1
   canRunInReverse: 1
   turnSpeed: 30
-  acceleration: 2
-  deceleration: 2
+  acceleration: 5
+  deceleration: 10
   turnBeforeWalking: 0
-  runDistanceThreshold: 1
+  runDistanceThreshold: 0
   antiGlideMode: 0
   retroPathfinding: 0
   ignoreGravity: 0
