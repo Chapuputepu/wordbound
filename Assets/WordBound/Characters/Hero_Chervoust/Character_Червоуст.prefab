@@ -3089,7 +3089,7 @@ MonoBehaviour:
   isGroundedParameter: 
   jumpParameter: 
   turnParameter: 
-  talkParameter: 
+  talkParameter: isTalking
   directionParameter: Direction
   angleParameter: Angle
   headYawParameter: 
