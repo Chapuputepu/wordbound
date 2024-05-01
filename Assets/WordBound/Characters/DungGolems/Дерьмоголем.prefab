@@ -672,7 +672,7 @@ PrefabInstance:
     - target: {fileID: -2005937690799119434, guid: 0c176c305619d854c99207600bccf534, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 5beec9e17b43b6949b4a4d5d47626858, type: 2}
+      objectReference: {fileID: 2100000, guid: f398dd17030c77e4f9d4f444e56d0a99, type: 2}
     - target: {fileID: 919132149155446097, guid: 0c176c305619d854c99207600bccf534, type: 3}
       propertyPath: m_Name
       value: DungGolem
