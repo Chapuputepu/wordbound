@@ -30,11 +30,13 @@ MonoBehaviour:
     startString: _
     color: {r: 0.9803922, g: 1, b: 0, a: 0.08627451}
   tree:
-    enabled: 0
-    drawOverlayOnColoredPrefabs: 0
-    dividerHeigth: 2.36
+    enabled: 1
+    drawOverlayOnColoredPrefabs: 1
+    dividerHeigth: 0
     baseLevelColor: {r: 0.3490566, g: 0.3490566, b: 0.3490566, a: 1}
     branches:
     - overlayColor: {r: 0.93, g: 1, b: 0.42, a: 0.019607844}
       colors:
       - {r: 1, g: 0.5568628, b: 0, a: 0.34117648}
+      - {r: 1, g: 0, b: 0.8506589, a: 0.34117648}
+      - {r: 0, g: 0.5893059, b: 1, a: 0.34117648}
