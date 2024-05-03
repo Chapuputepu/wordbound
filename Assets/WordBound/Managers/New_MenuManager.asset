@@ -1853,6 +1853,7 @@ MonoBehaviour:
   visibleElements:
   - {fileID: -6248412437987341103}
   - {fileID: -6469615325790366152}
+  - {fileID: 997105172554397095}
   transitionProgress: 0
   appearType: 6
   speechMenuType: 0
@@ -1867,6 +1868,7 @@ MonoBehaviour:
   elements:
   - {fileID: -6248412437987341103}
   - {fileID: -6469615325790366152}
+  - {fileID: 997105172554397095}
   spacing: 0
   sizeType: 1
   autoSizeEveryFrame: 0
@@ -2068,7 +2070,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 6
-  title: EditBt
+  title: FeatherBt
   slotSize: {x: 10, y: 5}
   sizeType: 0
   positionType: 0
@@ -2181,7 +2183,7 @@ MonoBehaviour:
   outlineSize: 2
   effectColour: {r: 0, g: 0, b: 0, a: 1}
   buttonClickType: 3
-  actionList: {fileID: 11400000, guid: 96ec0bc756441c34581f17eab3b7adef, type: 2}
+  actionList: {fileID: 11400000, guid: 3be3ce4dc98f27f4aa268a8ecce26e7f, type: 2}
   parameterID: -1
   parameterValue: 0
   doFade: 0
@@ -4455,6 +4457,69 @@ MonoBehaviour:
   resetOffsetWhenRestart: 1
   limitMaxScroll: 1
   elementSlotMapping: 0
+--- !u!114 &997105172554397095
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 611a3370e9fc74eebbb277d7159c4851, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 2
+  title: SpeakerIcon
+  slotSize: {x: 10, y: 5}
+  sizeType: 0
+  positionType: 0
+  slotSpacing: 0
+  lineID: -1
+  alternativeInputButton: 
+  font: {fileID: 0}
+  fontScaleFactor: 2
+  fontColor: {r: 1, g: 1, b: 1, a: 1}
+  fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
+  isVisible: 1
+  isClickable: 0
+  orientation: 1
+  gridWidth: 3
+  backgroundTexture: {fileID: 0}
+  singleSlotBackgrounds: 0
+  highlightTexture: {fileID: 0}
+  hoverSound: {fileID: 0}
+  clickSound: {fileID: 0}
+  changeCursor: 0
+  cursorID: 0
+  linkedUiID: 178462
+  maxAutoWidthFactor: 0.5
+  relativeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  relativePosition: {x: 0, y: 0}
+  numSlots: 1
+  uiImage: {fileID: 0}
+  graphicType: 1
+  graphic:
+    texture: {fileID: 0}
+    isAnimated: 0
+    numFrames: 1
+    numRows: 1
+    numCols: 1
+    size: 0.015
+    animSpeed: 4
+    endAnimOnLastFrame: 0
+    skipFirstFrameWhenLooping: 0
+    clickOffset: {x: 0, y: 0}
+    frameSpeeds: []
+    alwaysAnimate: 0
+  uiRawImage: {fileID: 0}
+  uiImageType: 0
+  linkedJournalElementName: 
 --- !u!114 &1007884187192046716
 MonoBehaviour:
   m_ObjectHideFlags: 1

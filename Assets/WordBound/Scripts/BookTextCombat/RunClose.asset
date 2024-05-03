@@ -55,7 +55,7 @@ MonoBehaviour:
   skipActionFailActual: {fileID: 0}
   linkedCutsceneFail: {fileID: 0}
   linkedAssetFail: {fileID: 0}
-  parameterID: -1
+  parameterID: 0
   variableID: 21
   variableNumber: 21
   checkParameterID: -1
@@ -73,7 +73,7 @@ MonoBehaviour:
   vectorCondition: 0
   gameObjectValue: {fileID: 0}
   unityObjectValue: {fileID: 0}
-  location: 0
+  location: 1
   variables: {fileID: 0}
   variablesConstantID: 0
   compareVariables: {fileID: 0}
@@ -133,77 +133,6 @@ MonoBehaviour:
   journalPageIndex: -1
   journalPageIndexParameterID: -1
   preprocessTextTokens: 0
---- !u!114 &-7822051460611396102
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0f86ace5fdd94f0a86553230ec9308f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 1
-    skipAction: -1
-    skipActionActual: {fileID: 0}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 1
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 752
-    y: 252
-    width: 300
-    height: 152
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  setVarMethod: 0
-  setVarMethodString: 0
-  setVarMethodIntBool: 0
-  setVarMethodVector: 0
-  parameterID: -1
-  variableID: 21
-  variableNumber: 21
-  setParameterID: -1
-  slotNumber: 0
-  slotNumberParameterID: -1
-  slotAccountsForOffset: 0
-  doLoop: 0
-  intValue: 0
-  floatValue: 0
-  boolValue: 0
-  stringValue: 
-  formula: 
-  vector3Value: {x: 0, y: 0, z: 0}
-  gameObjectValue: {fileID: 0}
-  unityObjectValue: {fileID: 0}
-  preProcessTokens: 1
-  lineID: -1
-  location: 0
-  menuName: 
-  elementName: 
-  animator: {fileID: 0}
-  parameterName: 
-  variables: {fileID: 0}
-  variablesConstantID: 0
-  placeholderType: 0
-  placeholderPopUpLabelDataID: -1
 --- !u!114 &-7563910046377652345
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -446,7 +375,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3cc1f751990d444ef9e1381090933b8b, type: 3}
-  m_Name: BookClose
+  m_Name: RunClose
   m_EditorClassIdentifier: 
   actions:
   - {fileID: -8825421263937537671}
@@ -459,15 +388,43 @@ MonoBehaviour:
   - {fileID: 4343786264697266256}
   - {fileID: -872360847899290709}
   - {fileID: 6666200007236669201}
-  - {fileID: -7822051460611396102}
   isSkippable: 0
   actionListType: 0
   unfreezePauseMenus: 1
-  useParameters: 0
+  useParameters: 1
   canRunMultipleInstances: 0
   canSurviveSceneChanges: 0
   revertToDefaultParametersAfterRunning: 0
-  parameters: []
+  parameters:
+  - label: Condition bool
+    description: "\u041F\u0435\u0440\u0432\u044B\u0439 \u0440\u0430\u0437?"
+    ID: 0
+    parameterType: 3
+    intValue: 0
+    constantID: 0
+    popUpID: 0
+    floatValue: 0
+    stringValue: 
+    gameObject: {fileID: 0}
+    objectValue: {fileID: 0}
+    vector3Value: {x: 0, y: 0, z: 0}
+    gameObjectParameterReferences: 0
+    variables: {fileID: 0}
+  - label: Cutscene first time
+    description: "\u041A\u0430\u0442\u0441\u0446\u0435\u043D\u0430 \u043F\u043E\u0441\u043B\u0435
+      \u043F\u0435\u0440\u0432\u043E\u0433\u043E \u043E\u0442\u043A\u0440\u044B\u0442\u0438\u044F"
+    ID: 1
+    parameterType: 0
+    intValue: -1
+    constantID: 0
+    popUpID: 0
+    floatValue: 0
+    stringValue: 
+    gameObject: {fileID: 0}
+    objectValue: {fileID: 0}
+    vector3Value: {x: 0, y: 0, z: 0}
+    gameObjectParameterReferences: 0
+    variables: {fileID: 0}
   tagID: 0
   backupData: []
 --- !u!114 &2871847021191542784
@@ -599,7 +556,7 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   endings:
-  - resultAction: 0
+  - resultAction: 1
     skipAction: 9
     skipActionActual: {fileID: 6666200007236669201}
     linkedCutscene: {fileID: 0}
@@ -612,14 +569,14 @@ MonoBehaviour:
     x: 741
     y: 22
     width: 300
-    height: 187
+    height: 152
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
   listSource: 0
   actionList: {fileID: 0}
-  constantID: 152102
-  parameterID: -1
+  constantID: 0
+  parameterID: 1
   invActionList: {fileID: 0}
   assetParameterID: -1
   runFromStart: 1

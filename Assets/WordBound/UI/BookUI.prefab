@@ -1773,7 +1773,7 @@ MonoBehaviour:
   m_Location: 1
   m_Width: 0.5
   m_Softness: 0.5
-  m_Color: {r: 0, g: 0.25, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.12941177, b: 0, a: 1}
   m_ColorMode: 2
   m_EffectMaterial: {fileID: 21068288719974348, guid: 2ac9a8033337c4b908c54c087abd31e8, type: 2}
 --- !u!1 &8329404155192529641
