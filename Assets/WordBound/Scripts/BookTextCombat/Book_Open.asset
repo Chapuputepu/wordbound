@@ -33,8 +33,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 433
-    y: 85
+    x: 719.40186
+    y: 85.00001
     width: 300
     height: 152
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -77,8 +77,8 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 2
-    skipActionActual: {fileID: -3002591016655042562}
+    skipAction: 3
+    skipActionActual: {fileID: -8495651683682985317}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -86,8 +86,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 41
-    y: 215
+    x: 365.2479
+    y: 144.42232
     width: 300
     height: 227
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -134,8 +134,8 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 7
-    skipActionActual: {fileID: 5869141375278490187}
+    skipAction: 3
+    skipActionActual: {fileID: -8495651683682985317}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -143,8 +143,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 42
-    y: 513
+    x: 328.40195
+    y: 513.00024
     width: 300
     height: 207
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -207,13 +207,13 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 3
-    skipActionActual: {fileID: -8495651683682985317}
+    skipAction: 1
+    skipActionActual: {fileID: -4049001602003105042}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   - resultAction: 2
-    skipAction: 1
-    skipActionActual: {fileID: -4049001602003105042}
+    skipAction: 2
+    skipActionActual: {fileID: -3002591016655042562}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -310,7 +310,7 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 857
+    x: 1143.4023
     y: 393
     width: 300
     height: 112
@@ -352,7 +352,7 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 842
+    x: 1128.4023
     y: 15.999939
     width: 300
     height: 152
@@ -405,7 +405,7 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 458
+    x: 744.40186
     y: 322
     width: 300
     height: 267
@@ -476,7 +476,7 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 1255
+    x: 1541.4021
     y: 32
     width: 300
     height: 152
@@ -533,8 +533,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 859
-    y: 195.4497
+    x: 1145.4023
+    y: 195.44968
     width: 300
     height: 152
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
