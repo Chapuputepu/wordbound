@@ -2092,7 +2092,7 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   changeCursor: 1
   cursorID: 3
-  linkedUiID: 233408
+  linkedUiID: 272104
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
@@ -2163,7 +2163,7 @@ MonoBehaviour:
   clickSound: {fileID: 0}
   changeCursor: 0
   cursorID: 0
-  linkedUiID: 28428
+  linkedUiID: 295782
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
@@ -5088,7 +5088,7 @@ MonoBehaviour:
   actionListOnTurnOff: {fileID: 0}
   updateWhenFadeOut: 1
   hideDuringSaveScreenshots: 1
-  fitWithinScreen: 0
+  fitWithinScreen: 1
   backgroundTexture: {fileID: 2800000, guid: 5f4f3dd6223164fe49aea7eb6c0bc529, type: 3}
   visibleElements:
   - {fileID: 2956037443226020345}
@@ -5149,7 +5149,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   panDistance: 0.5
-  fadeSpeed: 0.25
+  fadeSpeed: 0
   zoomAnchor: 4
   zoomElements: 0
   oneMenuPerSpeech: 0
