@@ -249,8 +249,8 @@ MonoBehaviour:
   defaultSpeechVolume: 1
   showDebugLogs: 0
   printActionCommentsInConsole: 0
-  actionCommentLogging: 0
-  showActiveActionLists: 0
+  actionCommentLogging: 1
+  showActiveActionLists: 1
   references:
     version: 2
     RefIds: []

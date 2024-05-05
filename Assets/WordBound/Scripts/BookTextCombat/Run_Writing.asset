@@ -74,7 +74,7 @@ MonoBehaviour:
   isSkippable: 1
   actionListType: 0
   unfreezePauseMenus: 1
-  useParameters: 1
+  useParameters: 0
   canRunMultipleInstances: 0
   canSurviveSceneChanges: 0
   revertToDefaultParametersAfterRunning: 0

@@ -108,5 +108,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constantID: 671606
-  retainInPrefab: 0
+  retainInPrefab: 1
   autoManual: 0

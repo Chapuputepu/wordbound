@@ -16,7 +16,7 @@ MonoBehaviour:
   isDisplayed: 1
   showComment: 0
   comment: 
-  willWait: 1
+  willWait: 0
   endAction: 0
   skipAction: -1
   skipActionActual: {fileID: 0}
@@ -72,7 +72,7 @@ MonoBehaviour:
   actions:
   - {fileID: -3965610314993962109}
   isSkippable: 0
-  actionListType: 0
+  actionListType: 1
   unfreezePauseMenus: 1
   useParameters: 1
   canRunMultipleInstances: 0

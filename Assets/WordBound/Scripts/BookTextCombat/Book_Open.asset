@@ -24,8 +24,8 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 7
-    skipActionActual: {fileID: 5869141375278490187}
+    skipAction: 9
+    skipActionActual: {fileID: 2937609461524430550}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -86,8 +86,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 365.2479
-    y: 144.42232
+    x: 349.2479
+    y: 138.42232
     width: 300
     height: 227
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -97,14 +97,14 @@ MonoBehaviour:
   actionList: {fileID: 0}
   constantID: 369804
   parameterID: -1
-  invActionList: {fileID: 0}
+  invActionList: {fileID: 11400000, guid: 08dec31d3308d444b9902b20fc3965d2, type: 2}
   assetParameterID: -1
   runFromStart: 1
   jumpToAction: 0
   jumpToActionParameterID: -1
   jumpToActionActual: {fileID: 0}
   runInParallel: 1
-  isSkippable: 1
+  isSkippable: 0
   localParameters: []
   parameterIDs: 
   setParameters: 0
@@ -251,8 +251,9 @@ MonoBehaviour:
   - {fileID: 7825562193114475446}
   - {fileID: 5869141375278490187}
   - {fileID: 2164225485401735422}
+  - {fileID: 2937609461524430550}
   isSkippable: 1
-  actionListType: 0
+  actionListType: 1
   unfreezePauseMenus: 1
   useParameters: 1
   canRunMultipleInstances: 0
@@ -319,6 +320,59 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 0}
   parameterID: -1
   timeToPause: 1
+--- !u!114 &2937609461524430550
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74813bf97090c47b39d9f3d0ec84a80b, type: 3}
+  m_Name: (Clone)
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 2
+    skipAction: 7
+    skipActionActual: {fileID: 5869141375278490187}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 1
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 727.75
+    y: 244
+    width: 300
+    height: 172
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 0}
+  changeType: 0
+  removeJournalPageMethod: 0
+  menuToChange: FeatherUI
+  menuToChangeParameterID: -1
+  elementToChange: 
+  elementToChangeParameterID: -1
+  journalText: 
+  onlyAddNewJournal: 0
+  doFade: 1
+  lineID: -1
+  journalPageIndex: -1
+  journalPageIndexParameterID: -1
+  preprocessTextTokens: 0
 --- !u!114 &3750411300998812326
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -405,8 +459,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 744.40186
-    y: 322
+    x: 725.40186
+    y: 434
     width: 300
     height: 267
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -494,7 +548,7 @@ MonoBehaviour:
   jumpToActionParameterID: -1
   jumpToActionActual: {fileID: 0}
   runInParallel: 1
-  isSkippable: 1
+  isSkippable: 0
   localParameters: []
   parameterIDs: 
   setParameters: 0
