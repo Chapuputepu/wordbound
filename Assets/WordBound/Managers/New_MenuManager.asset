@@ -5139,7 +5139,6 @@ MonoBehaviour:
   - {fileID: -9210727097954560397}
   - {fileID: -4082791886120846307}
   - {fileID: 8905217427875904957}
-  - {fileID: 6749108925182683956}
   transitionProgress: 0
   appearType: 0
   speechMenuType: 0
@@ -6724,7 +6723,7 @@ MonoBehaviour:
   fontScaleFactor: 2
   fontColor: {r: 1, g: 1, b: 1, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
-  isVisible: 1
+  isVisible: 0
   isClickable: 0
   orientation: 1
   gridWidth: 3

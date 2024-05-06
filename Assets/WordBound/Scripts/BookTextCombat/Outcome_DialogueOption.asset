@@ -29,7 +29,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 0
+  isAssetFile: 1
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -42,7 +42,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 0}
   invAction: 1
   parameterID: 3
-  invID: 6
+  invID: -1
   replaceParameterID: -1
   invIDReplace: 0
   setAmount: 0
@@ -82,7 +82,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 0
+  isAssetFile: 1
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -181,7 +181,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 0
+  isAssetFile: 1
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -238,7 +238,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 0
+  isAssetFile: 1
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -292,7 +292,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 0
+  isAssetFile: 1
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -307,7 +307,7 @@ MonoBehaviour:
   actionList: {fileID: 0}
   constantID: 6526
   parameterID: -1
-  invActionList: {fileID: 11400000, guid: d2f15be27c438a945a8cd2f1ddfd02f5, type: 2}
+  invActionList: {fileID: 0}
   assetParameterID: 9
   runFromStart: 1
   jumpToAction: 0
@@ -564,7 +564,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 0
+  isAssetFile: 1
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -576,7 +576,7 @@ MonoBehaviour:
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
   parameterID: -1
-  timeToPause: 2.5
+  timeToPause: 2
 --- !u!114 &803968258727365650
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -606,7 +606,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 0
+  isAssetFile: 1
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -705,7 +705,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 0
+  isAssetFile: 1
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -718,7 +718,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 0}
   menuName: Book
   menuNameParameterID: -1
-  elementName: Text03
+  elementName: 
   elementNameParameterID: 8
   newLabel: '[compvar:31632:2]'
   newLabelParameterID: 7
@@ -759,7 +759,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 0
+  isAssetFile: 1
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -801,7 +801,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 0
+  isAssetFile: 1
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -816,7 +816,7 @@ MonoBehaviour:
   actionList: {fileID: 0}
   constantID: 6526
   parameterID: -1
-  invActionList: {fileID: 11400000, guid: 341c2cb715ce02b41a9017ee3130282a, type: 2}
+  invActionList: {fileID: 0}
   assetParameterID: 6
   runFromStart: 1
   jumpToAction: 0
