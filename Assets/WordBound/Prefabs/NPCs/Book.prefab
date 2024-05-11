@@ -51,7 +51,7 @@ MonoBehaviour:
   motionControl: 0
   talkingAnimation: 0
   separateTalkingLayer: 0
-  speechLabel: "\u0421\u0438\u0441\u0442\u0435\u043C\u0430"
+  speechLabel: "\u041A\u043D\u0438\u0433\u0430"
   lineID: -1
   displayLineID: -1
   speechColor: {r: 1, g: 0.8040121, b: 0.06132078, a: 1}

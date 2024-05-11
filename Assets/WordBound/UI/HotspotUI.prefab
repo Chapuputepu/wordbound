@@ -263,7 +263,7 @@ MonoBehaviour:
   transformToControl: {fileID: 0}
   minAnchorPoint: {x: 0.5, y: 0.5}
   maxAnchorPoint: {x: 0.5, y: 0.5}
-  updatePosition: 0
+  updatePosition: 1
   updateScale: 1
 --- !u!1 &175392
 GameObject:
@@ -302,9 +302,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -8.05022}
   m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: -1.2}
+  m_Pivot: {x: 0.5, y: -1.5}
 --- !u!114 &11475398
 MonoBehaviour:
   m_ObjectHideFlags: 0
