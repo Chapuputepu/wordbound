@@ -54,15 +54,15 @@ MonoBehaviour:
   speechLabel: "\u041A\u043D\u0438\u0433\u0430"
   lineID: -1
   displayLineID: -1
-  speechColor: {r: 1, g: 0.8040121, b: 0.06132078, a: 1}
+  speechColor: {r: 0.7075472, g: 0.15438107, b: 0.030037368, a: 1}
   portraitIcon:
-    texture: {fileID: 2800000, guid: a840be9b1fe77db469bbaa750dbd616c, type: 3}
+    texture: {fileID: 2800000, guid: 856fe4490d325e74ab5e866f15ec22a3, type: 3}
     isAnimated: 1
-    numFrames: 30
+    numFrames: 13
     numRows: 1
-    numCols: 30
+    numCols: 13
     size: 0.015
-    animSpeed: 20
+    animSpeed: 8
     endAnimOnLastFrame: 0
     skipFirstFrameWhenLooping: 0
     clickOffset: {x: 0, y: 0}
