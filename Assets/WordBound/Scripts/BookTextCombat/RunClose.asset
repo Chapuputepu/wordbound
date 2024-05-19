@@ -56,7 +56,7 @@ MonoBehaviour:
   linkedCutsceneFail: {fileID: 0}
   linkedAssetFail: {fileID: 0}
   parameterID: 0
-  variableID: 0
+  variableID: 16
   variableNumber: 21
   checkParameterID: -1
   getVarMethod: 0
@@ -292,8 +292,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 669.9582
-    y: 426.28946
+    x: 665.9582
+    y: 446.28946
     width: 300
     height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -619,8 +619,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 669.9582
-    y: 224.28947
+    x: 665.9582
+    y: 249.28947
     width: 300
     height: 172
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
