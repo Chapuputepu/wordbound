@@ -200,12 +200,12 @@ MonoBehaviour:
   navMeshLayer: NavMesh
   backgroundImageLayer: BackgroundImage
   deactivatedLayer: Ignore Raycast
-  useLoadingScreen: 0
+  useLoadingScreen: 1
   manualSceneActivation: 0
   loadingSceneIs: 0
   loadScenesFromAddressable: 0
   loadingSceneName: 
-  loadingScene: 0
+  loadingScene: 4
   useAsyncLoading: 1
   loadingDelay: 0
   blackOutWhenInitialising: 1

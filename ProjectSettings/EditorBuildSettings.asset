@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/WordBound/Scenes/Restrooms.unity
     guid: 28ead965c1998a145a1747f3e04c3a34
+  - enabled: 1
+    path: Assets/WordBound/Scenes/Church.unity
+    guid: 0237154469f551e4cb4013238a303ced
+  - enabled: 1
+    path: Assets/WordBound/Scenes/LoadingScreen.unity
+    guid: cf81bd4517fb0e84c9faa67ff19ba471
   m_configObjects: {}
