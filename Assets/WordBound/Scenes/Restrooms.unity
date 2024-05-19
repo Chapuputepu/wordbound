@@ -7953,13 +7953,13 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 172
+    height: 192
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 2034918320}
   constantID: 0
   parameterID: -1
-  linkedCamera: {fileID: 0}
+  linkedCamera: {fileID: 1584209411}
   transitionTime: 0.5
   transitionTimeParameterID: -1
   timeCurve:
@@ -7987,7 +7987,7 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   moveMethod: 0
-  returnToLast: 1
+  returnToLast: 0
   retainPreviousSpeed: 0
   waitForAnimation: 0
 --- !u!1001 &528307370

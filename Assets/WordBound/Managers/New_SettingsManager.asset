@@ -250,7 +250,7 @@ MonoBehaviour:
   showDebugLogs: 0
   printActionCommentsInConsole: 0
   actionCommentLogging: 1
-  showActiveActionLists: 1
+  showActiveActionLists: 0
   references:
     version: 2
     RefIds: []
