@@ -47,7 +47,7 @@ MonoBehaviour:
     canBeLowerCase: 0
     maxCount: 999
     itemStackingMode: 0
-    tex: {fileID: 2800000, guid: 3dc1d0cdd23580c4fb373154af63866d, type: 3}
+    tex: {fileID: 2800000, guid: 80409d92a600c194c97d45e453d575f9, type: 3}
     activeTex: {fileID: 0}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
@@ -489,7 +489,7 @@ MonoBehaviour:
   - label: "Notes: \u0422\u0440\u0435\u043D\u0430\u0436\u0435\u0440\u044B"
     id: 7
     altLabel: "\u0422\u0420\u0415\u041D\u0410\u0416\u0415\u0420\u042B"
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []
@@ -544,7 +544,7 @@ MonoBehaviour:
   - label: "Notes: \u041C\u0430\u0442\u0440\u0430\u0441\u044B"
     id: 8
     altLabel: "\u041C\u0410\u0422\u0420\u0410\u0421\u042B"
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []

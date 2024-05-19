@@ -3018,7 +3018,7 @@ MonoBehaviour:
   speechLabel: "\u0419\u043E\u0434\u0435\u0437\u043B"
   lineID: -1
   displayLineID: -1
-  speechColor: {r: 1, g: 1, b: 1, a: 1}
+  speechColor: {r: 0.26415092, g: 0, b: 0, a: 1}
   portraitIcon:
     texture: {fileID: 0}
     isAnimated: 0

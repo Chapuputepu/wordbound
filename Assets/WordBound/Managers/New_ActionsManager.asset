@@ -587,12 +587,6 @@ MonoBehaviour:
     description: Checks the visibility of a GameObject.
     isEnabled: 1
     color: {r: 1, g: 1, b: 1, a: 1}
-  - fileName: ActionDestroyByTag
-    category: 12
-    title: Destroy by tag
-    description: Destroys all objects with the specified tag.
-    isEnabled: 1
-    color: {r: 1, g: 1, b: 1, a: 1}
   - fileName: ActionSpriteFade
     category: 12
     title: Fade sprite
@@ -922,6 +916,12 @@ MonoBehaviour:
     category: 21
     title: ChangeScale
     description: This is for change palyer scale.
+    isEnabled: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - fileName: ActionDestroyByTag
+    category: 21
+    title: Destroy by tag
+    description: Destroys all objects with the specified tag.
     isEnabled: 1
     color: {r: 1, g: 1, b: 1, a: 1}
   - fileName: FixAngle
