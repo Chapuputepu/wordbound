@@ -206,8 +206,8 @@ MonoBehaviour:
   loadScenesFromAddressable: 0
   loadingSceneName: 
   loadingScene: 4
-  useAsyncLoading: 1
-  loadingDelay: 0
+  useAsyncLoading: 0
+  loadingDelay: 1
   blackOutWhenInitialising: 1
   spawnPersistentEnginePrefab: 1
   autoCallUnloadUnusedAssets: 1

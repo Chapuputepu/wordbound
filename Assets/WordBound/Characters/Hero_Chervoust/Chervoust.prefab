@@ -4159,7 +4159,7 @@ MonoBehaviour:
   speechLabel: "\u0427\u0435\u0440\u0432\u043E\u0443\u0441\u0442"
   lineID: -1
   displayLineID: -1
-  speechColor: {r: 0.038828027, g: 0.03404236, b: 0.4811321, a: 1}
+  speechColor: {r: 0.08235294, g: 0.05490196, b: 0.4745098, a: 1}
   portraitIcon:
     texture: {fileID: 0}
     isAnimated: 0

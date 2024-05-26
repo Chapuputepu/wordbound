@@ -2,27 +2,29 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: PolygonFantasyKingdom_Mat_Water
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON
+  m_Shader: {fileID: 4800000, guid: c5617dffeb9944fa3a50334e9f9f8c5e, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _ALPHAPREMULTIPLY_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
-  stringTagMap:
-    RenderType: Transparent
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+        m_Texture: {fileID: 2800000, guid: 6630628f1b8a442d69da16b374c1eb0e, type: 3}
+        m_Scale: {x: 11.88, y: 2.23}
+        m_Offset: {x: 3.65, y: 0}
     - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -32,6 +34,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortionTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -55,23 +61,104 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ReflectionTex:
+        m_Texture: {fileID: 2800000, guid: 187afe5ca0307ba419a4c82a6abb1402, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex:
+        m_Texture: {fileID: 2800000, guid: 2a212c79262976345be9edbe5856c8e3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
+    - Vector1_10ed4378b97e491c87be8332ef96772d: 10
+    - Vector1_24ff6e9cb7b74dc3b52ca4f73ada0afa: 100
+    - Vector1_32e6be4cabf24aa4ad12240993018757: 1
+    - Vector1_568276ead9984cda9075833e28330979: 2
+    - Vector1_8028ba5d1357411db27b2787d5e5bfc1: 1
+    - Vector1_97194a2f68ad49d6a97d9679dabf3470: 1
+    - Vector1_c0e9288568be4bd78ddb56ee0a140829: 1
+    - Vector1_c3b9d1d3701047c7a5740d3181d250e2: 0.5
+    - _Alpha: 0.5
     - _BumpScale: 1
     - _Cutoff: 0.5
+    - _Depth_Fade: 1
     - _DetailNormalMapScale: 1
+    - _DistortionPower: 4
     - _DstBlend: 10
+    - _FresnelScale: 1.69
+    - _Fresnel_Colour_Bias: 0
+    - _Fresnel_Colour_Scale: 1
+    - _GerstnerIntensity: 1
+    - _Gloss: 0.601
     - _GlossMapScale: 1
     - _Glossiness: 0.2
     - _GlossyReflections: 1
+    - _MaxTreshold: 0.5
     - _Metallic: 0
     - _Mode: 3
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _QueueControl: -1
+    - _QueueOffset: 0
+    - _Shininess: 106
     - _SmoothnessTextureChannel: 0
+    - _Spec: 0.667
     - _SpecularHighlights: 1
+    - _Speed: 4.22
     - _SrcBlend: 1
+    - _TargetValue: 0
+    - _Tex_World_Scale: 0.5
+    - _TimeScale1: 30
+    - _TimeScale2: 5
+    - _TresholdDensity: 20
+    - _TresholdFalloff: 1.2
     - _UVSec: 0
+    - _Water_Colour_Power: 2
+    - _WavesDensity: 10
     - _ZWrite: 0
+    - __dirty: 1
     m_Colors:
+    - Color_30f6d212bd794f14a1bba9e8d660aeaa: {r: 1, g: 1, b: 1, a: 0.8}
+    - Color_95c20e50d1264b89ab876f2aac68625d: {r: 0, g: 0.8768053, b: 1, a: 0}
+    - Color_ade3598b96c441028a9427d412d014b5: {r: 0, g: 0.22272366, b: 1, a: 0}
+    - _AnimationDirection: {r: 0, g: 0, b: 0, a: 0}
+    - _AnimationTiling: {r: 2.2, g: 2.2, b: -1.1, a: -1.1}
+    - _BaseColor: {r: 0.18992925, g: 0.31132078, b: 0.0044054748, a: 0.5}
+    - _BumpDirection: {r: 1, g: 1, b: -1, a: 1}
+    - _BumpTiling: {r: 0, g: 0, b: -2, a: 3}
     - _Color: {r: 0.07904412, g: 0.30636406, b: 0.31617647, a: 0.69}
+    - _Color_1: {r: 0.41718584, g: 0.6090767, b: 0.7075472, a: 0.003921569}
+    - _Color_2: {r: 0.9333333, g: 0.9333333, b: 0.9333333, a: 0.003921569}
+    - _Depth_Color: {r: 0.62745106, g: 0.654902, b: 0.6784314, a: 0.003921569}
+    - _DistortParams: {r: 1, g: 1, b: 2, a: 1.15}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _GAmplitude: {r: 0, g: 0, b: 0, a: 0}
+    - _GDirectionAB: {r: 0.3, g: 0.85, b: 0.85, a: 0.25}
+    - _GDirectionCD: {r: 0.1, g: 0.9, b: 0.5, a: 0.5}
+    - _GFrequency: {r: 1.3, g: 1.35, b: 1.25, a: 1.25}
+    - _GSpeed: {r: 1.2, g: 1.375, b: 1.1, a: 1.5}
+    - _GSteepness: {r: 1, g: 1, b: 1, a: 1}
+    - _InvFadeParemeter: {r: 0, g: 0, b: 0, a: 1}
+    - _ReflectionColor: {r: 0.022561418, g: 0.30533582, b: 0.3679245, a: 0.5}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _SpecularColor: {r: 0.4528302, g: 0.4528302, b: 0.4528302, a: 1}
+    - _WavesColor: {r: 0.33294767, g: 0.5471698, b: 0.44741055, a: 0.25}
+    - _WorldLightDir: {r: 0, g: 0.1, b: -0.5, a: 0}
+  m_BuildTextureStacks: []

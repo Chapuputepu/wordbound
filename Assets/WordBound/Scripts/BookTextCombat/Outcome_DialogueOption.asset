@@ -307,7 +307,7 @@ MonoBehaviour:
   actionList: {fileID: 0}
   constantID: 6526
   parameterID: -1
-  invActionList: {fileID: 0}
+  invActionList: {fileID: 11400000, guid: d2f15be27c438a945a8cd2f1ddfd02f5, type: 2}
   assetParameterID: 9
   runFromStart: 1
   jumpToAction: 0
@@ -718,7 +718,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 0}
   menuName: Book
   menuNameParameterID: -1
-  elementName: 
+  elementName: Text03
   elementNameParameterID: 8
   newLabel: '[compvar:31632:2]'
   newLabelParameterID: 7
@@ -816,7 +816,7 @@ MonoBehaviour:
   actionList: {fileID: 0}
   constantID: 6526
   parameterID: -1
-  invActionList: {fileID: 0}
+  invActionList: {fileID: 11400000, guid: 341c2cb715ce02b41a9017ee3130282a, type: 2}
   assetParameterID: 6
   runFromStart: 1
   jumpToAction: 0
