@@ -4729,11 +4729,11 @@ MonoBehaviour:
   updateHotspotLabelWhenHover: 0
   hoverSoundOverEmptySlots: 0
   containerSelectMode: 1
-  displayType: 0
+  displayType: 2
   uiHideStyle: 1
   autoOpenDocument: 1
   emptySlotTexture: {fileID: 0}
-  inventoryItemCountDisplay: 0
+  inventoryItemCountDisplay: 2
   objectiveDisplayType: 0
   objectiveSorting: 0
 --- !u!114 &1183539041764560504
