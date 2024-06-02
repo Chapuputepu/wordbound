@@ -34,7 +34,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 1
+  isAssetFile: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -56,7 +56,7 @@ MonoBehaviour:
   linkedCutsceneFail: {fileID: 0}
   linkedAssetFail: {fileID: 0}
   parameterID: 0
-  variableID: 16
+  variableID: 1
   variableNumber: 21
   checkParameterID: -1
   getVarMethod: 0
@@ -109,7 +109,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 1
+  isAssetFile: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -162,7 +162,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 1
+  isAssetFile: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -235,7 +235,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 1
+  isAssetFile: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -288,7 +288,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 1
+  isAssetFile: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -341,21 +341,21 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 1
+  isAssetFile: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
     x: 11
     y: 639.25
     width: 300
-    height: 172
+    height: 192
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
   doUpLock: 0
-  doDownLock: 2
-  doLeftLock: 2
-  doRightLock: 2
+  doDownLock: 0
+  doLeftLock: 0
+  doRightLock: 0
   doRunLock: 3
   doJumpLock: 2
   freeAimLock: 2
@@ -393,7 +393,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 1
+  isAssetFile: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -435,7 +435,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 1
+  isAssetFile: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -555,7 +555,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 1
+  isAssetFile: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -626,7 +626,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 1
+  isAssetFile: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -668,7 +668,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 1
+  isAssetFile: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -721,7 +721,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 1
+  isAssetFile: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -774,7 +774,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 1
+  isAssetFile: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -831,7 +831,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 1
+  isAssetFile: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
@@ -904,7 +904,7 @@ MonoBehaviour:
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
-  isAssetFile: 1
+  isAssetFile: 0
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
