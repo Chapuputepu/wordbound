@@ -22,7 +22,7 @@ MonoBehaviour:
   useProfiles: 0
   maxSaves: 5
   orderSavesByUpdateTime: 0
-  reloadSceneWhenLoading: 0
+  reloadSceneWhenLoading: 1
   saveWithThreading: 0
   saveCompression: 0
   saveAssetReferencesWithAddressables: 0
@@ -209,8 +209,8 @@ MonoBehaviour:
   useAsyncLoading: 0
   loadingDelay: 1
   blackOutWhenInitialising: 1
-  spawnPersistentEnginePrefab: 1
-  autoCallUnloadUnusedAssets: 1
+  spawnPersistentEnginePrefab: 0
+  autoCallUnloadUnusedAssets: 0
   playMusicWhilePaused: 1
   playAmbienceWhilePaused: 0
   musicStorages:
