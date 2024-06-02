@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: PolygonFantasyKingdom_Mat_Water
-  m_Shader: {fileID: 4800000, guid: c5617dffeb9944fa3a50334e9f9f8c5e, type: 3}
+  m_Shader: {fileID: 4800000, guid: 8eb3b63437aac374d93a46439d0f21e2, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords:
   - _ALPHAPREMULTIPLY_ON
@@ -45,6 +45,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Foam:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -71,6 +75,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _Tex:
         m_Texture: {fileID: 2800000, guid: 2a212c79262976345be9edbe5856c8e3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterNormal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -100,8 +112,13 @@ Material:
     - _Cutoff: 0.5
     - _Depth_Fade: 1
     - _DetailNormalMapScale: 1
+    - _Distortion: 0.5
     - _DistortionPower: 4
     - _DstBlend: 10
+    - _FoamDepth: 0
+    - _FoamFalloff: 0
+    - _FoamSmoothness: 0
+    - _FoamSpecular: 0
     - _FresnelScale: 1.69
     - _Fresnel_Colour_Bias: 0
     - _Fresnel_Colour_Scale: 1
@@ -113,6 +130,7 @@ Material:
     - _MaxTreshold: 0.5
     - _Metallic: 0
     - _Mode: 3
+    - _NormalScale: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _QueueControl: -1
@@ -130,6 +148,10 @@ Material:
     - _TresholdDensity: 20
     - _TresholdFalloff: 1.2
     - _UVSec: 0
+    - _WaterDepth: 0
+    - _WaterFalloff: 0
+    - _WaterSmoothness: 0
+    - _WaterSpecular: 0
     - _Water_Colour_Power: 2
     - _WavesDensity: 10
     - _ZWrite: 0
@@ -146,6 +168,7 @@ Material:
     - _Color: {r: 0.07904412, g: 0.30636406, b: 0.31617647, a: 0.69}
     - _Color_1: {r: 0.41718584, g: 0.6090767, b: 0.7075472, a: 0.003921569}
     - _Color_2: {r: 0.9333333, g: 0.9333333, b: 0.9333333, a: 0.003921569}
+    - _DeepColor: {r: 0, g: 0, b: 0, a: 0}
     - _Depth_Color: {r: 0.62745106, g: 0.654902, b: 0.6784314, a: 0.003921569}
     - _DistortParams: {r: 1, g: 1, b: 2, a: 1.15}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
@@ -157,6 +180,7 @@ Material:
     - _GSteepness: {r: 1, g: 1, b: 1, a: 1}
     - _InvFadeParemeter: {r: 0, g: 0, b: 0, a: 1}
     - _ReflectionColor: {r: 0.022561418, g: 0.30533582, b: 0.3679245, a: 0.5}
+    - _ShalowColor: {r: 1, g: 1, b: 1, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _SpecularColor: {r: 0.4528302, g: 0.4528302, b: 0.4528302, a: 1}
     - _WavesColor: {r: 0.33294767, g: 0.5471698, b: 0.44741055, a: 0.25}

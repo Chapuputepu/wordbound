@@ -19321,7 +19321,7 @@ MonoBehaviour:
   - label: 1st time
     id: 1
     type: 0
-    val: 0
+    val: 1
     floatVal: 0
     textVal: "\u0422\u0435\u043A\u0441\u0442 2 \u043B\u0447\u043B\u044F\u043B\u044F\u043B\u0430\u043B\u0430\u043B\u044F\u043B\u0430\u043B\u044F\u043B\u0430\u043B\u044F\u043B\u0430\u043B\u044F\u043B\u0430\u043B\u044F\u043B\u0430\u043B\u044F\u043B\u0430\u043B\u044F"
     gameObjectVal: {fileID: 0}
