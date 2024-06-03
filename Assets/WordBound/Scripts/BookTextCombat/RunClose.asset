@@ -56,7 +56,7 @@ MonoBehaviour:
   linkedCutsceneFail: {fileID: 0}
   linkedAssetFail: {fileID: 0}
   parameterID: 0
-  variableID: 1
+  variableID: 16
   variableNumber: 21
   checkParameterID: -1
   getVarMethod: 0

@@ -224,9 +224,9 @@ MonoBehaviour:
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
   doUpLock: 1
-  doDownLock: 2
-  doLeftLock: 2
-  doRightLock: 2
+  doDownLock: 1
+  doLeftLock: 1
+  doRightLock: 1
   doRunLock: 3
   doJumpLock: 2
   freeAimLock: 2

@@ -84,7 +84,7 @@ MonoBehaviour:
     conversationAction: 1
     newConversation: {fileID: 0}
     ID: 1
-    hasBeenChosen: 0
+    hasBeenChosen: 1
     autoTurnOff: 0
     linkToInventory: 0
     linkedInventoryID: 0
@@ -113,7 +113,7 @@ MonoBehaviour:
     conversationAction: 1
     newConversation: {fileID: 0}
     ID: 2
-    hasBeenChosen: 0
+    hasBeenChosen: 1
     autoTurnOff: 0
     linkToInventory: 0
     linkedInventoryID: 0
@@ -122,7 +122,7 @@ MonoBehaviour:
     customScriptObject: {fileID: 0}
     customScriptFunction: 
   selectedOption:
-    label: "\u0414\u0430"
+    label: "\u0415\u0449\u0435 \u043D\u0435\u0442"
     lineID: -1
     icon: {fileID: 0}
     cursorIcon:
@@ -142,8 +142,8 @@ MonoBehaviour:
     isLocked: 0
     conversationAction: 1
     newConversation: {fileID: 0}
-    ID: 1
-    hasBeenChosen: 0
+    ID: 2
+    hasBeenChosen: 1
     autoTurnOff: 0
     linkToInventory: 0
     linkedInventoryID: 0

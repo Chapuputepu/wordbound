@@ -1424,7 +1424,7 @@ MonoBehaviour:
   - label: "\u041D\u043E\u0441"
     id: 24
     altLabel: "\u041D\u043E\u0441"
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []
