@@ -4706,6 +4706,12 @@ MonoBehaviour:
   - uiButton: {fileID: 0}
     uiButtonID: 61396
     sprite: {fileID: 0}
+  - uiButton: {fileID: 0}
+    uiButtonID: 8068
+    sprite: {fileID: 0}
+  - uiButton: {fileID: 0}
+    uiButtonID: 8146
+    sprite: {fileID: 0}
   uiPointerState: 0
   textEffects: 0
   anchor: 4
@@ -4713,7 +4719,7 @@ MonoBehaviour:
   effectColour: {r: 0, g: 0, b: 0, a: 1}
   inventoryBoxType: 0
   actionListOnClick: {fileID: 0}
-  maxSlots: 4
+  maxSlots: 6
   limitToCategory: 1
   limitToDefinedInteractions: 1
   categoryID: -1
