@@ -28,14 +28,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6728386637049162985}
-  m_LocalRotation: {x: 0.28031856, y: -0.5082858, z: 0.17945041, w: 0.79426986}
+  m_LocalRotation: {x: 0.28031892, y: -0.5082846, z: 0.17944664, w: 0.79427135}
   m_LocalPosition: {x: 4.8859076, y: 3.9418683, z: -2.794253}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 30, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 38.882, y: -65.231, z: 0.007}
 --- !u!20 &6728386637049622217
 Camera:
   m_ObjectHideFlags: 0
@@ -119,11 +119,11 @@ MonoBehaviour:
   zLocConstrainType: 0
   xRotConstrainType: 5
   yRotConstrainType: 0
-  xGradient: 1
+  xGradient: 0
   yGradientLoc: 1
   zGradient: 1
   xGradientRot: 2
-  yGradient: 2
+  yGradient: 30
   FOVGradient: 2
   xOffset: 0
   yOffsetLoc: 0
@@ -185,7 +185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  constantID: 489364
+  constantID: 128518
   retainInPrefab: 0
   autoManual: 0
 --- !u!114 &338518898595089667
@@ -203,10 +203,10 @@ MonoBehaviour:
   SCShader: {fileID: 4800000, guid: 04df29b8b9c204e46a0df308fe1e2b77, type: 3}
   Pencil_Color: {r: 0, g: 0, b: 0, a: 0}
   Pencil_Size: 0.0022
-  Pencil_Correction: 1.858
+  Pencil_Correction: 2
   Intensity: 1
   Speed_Animation: 0
   Corner_Lose: 1
   Fade_Paper_to_BackColor: 0
-  Fade_With_Original: 0.552
+  Fade_With_Original: 0.05
   Back_Color: {r: 0.990566, g: 0.9039603, b: 0.65881985, a: 1}

@@ -29,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/WordBound/Scenes/PrincessRoom.unity
     guid: c3f009697ec627141b4d627cd5e5d57f
+  - enabled: 1
+    path: Assets/WordBound/Scenes/Publishers.unity
+    guid: ec1a64fd4682e03469cd286a82f005c5
+  - enabled: 1
+    path: Assets/WordBound/Scenes/Tower(True).unity
+    guid: 9df83c06d9ebf0446a7305df40f5a73d
   m_configObjects: {}

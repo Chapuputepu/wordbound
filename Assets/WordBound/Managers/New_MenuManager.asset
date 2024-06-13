@@ -1837,6 +1837,7 @@ MonoBehaviour:
   - {fileID: -6248412437987341103}
   - {fileID: -6469615325790366152}
   - {fileID: 997105172554397095}
+  - {fileID: 0}
   transitionProgress: 0
   appearType: 6
   speechMenuType: 0
@@ -4692,7 +4693,7 @@ MonoBehaviour:
     width: 1747.2001
     height: 108.899994
   relativePosition: {x: 0, y: 0}
-  numSlots: 4
+  numSlots: 6
   uiSlots:
   - uiButton: {fileID: 0}
     uiButtonID: 292394

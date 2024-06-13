@@ -24,7 +24,7 @@ MonoBehaviour:
   actionNodeWidth: 300
   disableInstaller: 0
   installPath: Assets/AdventureCreator
-  autosaveActionListsInterval: 10
+  autosaveActionListsInterval: 9999
   retainExportFieldData: 1
   allowDragDrop: 0
   actionListAssetPath: 

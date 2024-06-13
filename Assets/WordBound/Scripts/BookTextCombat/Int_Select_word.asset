@@ -151,7 +151,7 @@ MonoBehaviour:
   categoryIDToCheck: 0
   doCount: 0
   intValueParameterID: -1
-  intValue: 1
+  intValue: 0
   intCondition: 3
   setPlayer: 0
   playerID: 0
@@ -320,7 +320,7 @@ MonoBehaviour:
   jumpToActionParameterID: -1
   jumpToActionActual: {fileID: 0}
   runInParallel: 1
-  isSkippable: 0
+  isSkippable: 1
   localParameters: []
   parameterIDs: 
   setParameters: 0

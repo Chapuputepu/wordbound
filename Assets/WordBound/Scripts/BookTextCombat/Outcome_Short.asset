@@ -117,11 +117,11 @@ MonoBehaviour:
   - {fileID: 8188839419289371570}
   - {fileID: 3063030805810160074}
   - {fileID: -161900761413338859}
-  isSkippable: 0
+  isSkippable: 1
   actionListType: 0
-  unfreezePauseMenus: 1
+  unfreezePauseMenus: 0
   useParameters: 1
-  canRunMultipleInstances: 0
+  canRunMultipleInstances: 1
   canSurviveSceneChanges: 0
   revertToDefaultParametersAfterRunning: 0
   parameters:
@@ -216,7 +216,7 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 17
+    x: 27
     y: 357
     width: 300
     height: 112
@@ -354,8 +354,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 12
-    y: 156
+    x: 19
+    y: 138
     width: 300
     height: 192
   overrideColor: {r: 1, g: 1, b: 1, a: 1}

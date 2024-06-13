@@ -50,7 +50,23 @@ MonoBehaviour:
     startingSceneName: 
     useSceneDefaultPlayerStart: 0
     startingPlayerStartID: 0
-  players: []
+  players:
+  - playerOb: {fileID: 586118117455104030, guid: 23a54d3a95afac44992c59e1472c57e3, type: 3}
+    ID: 0
+    isDefault: 1
+    startingSceneIndex: 0
+    chooseSceneBy: 0
+    startingSceneName: 
+    useSceneDefaultPlayerStart: 1
+    startingPlayerStartID: 0
+  - playerOb: {fileID: 586118117455104030, guid: d5fbf38de1ceae04ba20c2b9c89dcaf6, type: 3}
+    ID: 1
+    isDefault: 0
+    startingSceneIndex: 0
+    chooseSceneBy: 0
+    startingSceneName: 
+    useSceneDefaultPlayerStart: 1
+    startingPlayerStartID: 0
   movementMethod: 0
   inputMethod: 0
   simulatedCursorMoveSpeed: 4
