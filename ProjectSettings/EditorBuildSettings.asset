@@ -35,4 +35,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/WordBound/Scenes/Tower(True).unity
     guid: 9df83c06d9ebf0446a7305df40f5a73d
+  - enabled: 1
+    path: Assets/WordBound/Scenes/Graveyard.unity
+    guid: 446866c84a0686d44b83c71c51bff0c0
+  - enabled: 1
+    path: Assets/WordBound/Scenes/Torture room.unity
+    guid: 62d0dcef1917b8b43a3091ab115c06a2
+  - enabled: 1
+    path: Assets/WordBound/Scenes/Finale_1.unity
+    guid: c979f628d3ccced4dbf54e769ad360e9
   m_configObjects: {}
