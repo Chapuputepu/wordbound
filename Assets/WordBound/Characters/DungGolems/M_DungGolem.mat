@@ -375,7 +375,7 @@ Material:
     - _AlbedoColor: {r: 0.74509805, g: 0.58560044, b: 0.39607844, a: 1}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0.38679248, g: 0.22049293, b: 0.016420428, a: 1}
-    - _ColorDim: {r: 0.5943396, g: 0.29537234, b: 0.08130119, a: 1}
+    - _ColorDim: {r: 0.2830189, g: 0.12058773, b: 0.006674973, a: 1}
     - _ColorDimCurve: {r: 0.85023, g: 0.85034, b: 0.8504499, a: 0.85056}
     - _ColorDimExtra: {r: 0.85023, g: 0.85034, b: 0.8504499, a: 0.85056}
     - _ColorDimSteps: {r: 0.85023, g: 0.85034, b: 0.8504499, a: 0.85056}
@@ -384,8 +384,8 @@ Material:
     - _DissolveBorderColor: {r: 1, g: 1, b: 1, a: 1}
     - _DissolveColor: {r: 1, g: 1, b: 1, a: 0.5}
     - _EmissionColor: {r: 0.4245283, g: 0.17015317, b: 0.05807228, a: 1}
-    - _FlatRimColor: {r: 0.7830189, g: 0.2983048, b: 0.025854412, a: 1}
-    - _FlatSpecularColor: {r: 0.3882353, g: 0.2434983, b: 0.015686268, a: 1}
+    - _FlatRimColor: {r: 0.4811321, g: 0.12603241, b: 0, a: 1}
+    - _FlatSpecularColor: {r: 0.3882353, g: 0.13520949, b: 0.015686268, a: 1}
     - _GoochBrightColor: {r: 0.9137255, g: 0.34738886, b: 0.08235291, a: 1}
     - _GoochDarkColor: {r: 0.1981132, g: 0.032707363, b: 0.046047084, a: 1}
     - _IridescenceColor: {r: 0.7075472, g: 0.62411004, b: 0.62411004, a: 1}

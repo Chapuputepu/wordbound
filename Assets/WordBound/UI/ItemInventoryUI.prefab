@@ -699,6 +699,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 22400026}
+  - component: {fileID: 3606397360657086536}
+  - component: {fileID: 927567548785271572}
   m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
@@ -731,6 +733,42 @@ RectTransform:
   m_AnchoredPosition: {x: 0.000016212463, y: 0.00015258789}
   m_SizeDelta: {x: 200, y: 35}
   m_Pivot: {x: 0.5, y: 0.5000002}
+--- !u!95 &3606397360657086536
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100026}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 533d9f1e77e882147b83d029d05e798b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &927567548785271572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 29076
+  retainInPrefab: 1
+  autoManual: 0
 --- !u!1 &100036
 GameObject:
   m_ObjectHideFlags: 0
