@@ -19213,6 +19213,35 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 8005b73e2a5bc204797d1fcf0896f472, type: 3}
+--- !u!21 &1374421181
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/OutlinePlus
+  m_Shader: {fileID: 4800000, guid: f0e778543e4d8a34295b7995426495da, type: 3}
+  m_ValidKeywords:
+  - OUTLINE_USE_NORMALS
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
 --- !u!1001 &1379779141
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21424,7 +21453,7 @@ MonoBehaviour:
   maxDepthThreshold: 35
   minNormalsThreshold: 0.39
   maxNormalsThreshold: 3.03
-  material: {fileID: 1856520790}
+  material: {fileID: 1374421181}
 --- !u!4 &1542522630 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4270316608465070, guid: 6e22efa820c49ea459764a5e57edd79b, type: 3}
@@ -26030,35 +26059,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: dc0f75b179454f048a36a5dab11b2ee9, type: 3}
---- !u!21 &1856520790
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/OutlinePlus
-  m_Shader: {fileID: 4800000, guid: f0e778543e4d8a34295b7995426495da, type: 3}
-  m_ValidKeywords:
-  - OUTLINE_USE_NORMALS
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats: []
-    m_Colors: []
-  m_BuildTextureStacks: []
 --- !u!4 &1857339631 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4018288484331163554, guid: 69d165e95f01e1f4fa09e1cb4cfa0d11, type: 3}
@@ -32777,7 +32777,7 @@ MonoBehaviour:
       \u0447\u0435\u0433\u043E \u0432 \u043C\u0435\u0441\u0442\u043D\u044B\u0445
       \u0443\u0431\u043E\u0440\u043D\u044B\u0445 \u043A\u043E\u043D\u0442\u0440\u043E\u043B\u044C
       \u043D\u0430\u0434 \u043A\u0430\u0431\u0438\u043D\u043A\u0430\u043C\u0438 \u0437\u0430\u0445\u0432\u0430\u0442\u0438\u043B\u0438
-      <color=red>\u0413\u041E\u0412\u041D\u041E\u0414\u0415\u041C\u041E\u041D\u042B</color>."
+      <color=red>\u0414\u0415\u0420\u042C\u041C\u041E\u0413\u041E\u041B\u0415\u041C\u042B</color>."
     gameObjectVal: {fileID: 0}
     gameObjectSaveReferences: 1
     objectVal: {fileID: 0}
