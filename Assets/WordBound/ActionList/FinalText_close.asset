@@ -129,7 +129,7 @@ MonoBehaviour:
   - {fileID: -2528035204334562319}
   - {fileID: 5834055890612277821}
   - {fileID: -5155181107555177182}
-  isSkippable: 1
+  isSkippable: 0
   actionListType: 0
   unfreezePauseMenus: 1
   useParameters: 0
