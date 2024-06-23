@@ -16,7 +16,7 @@ MonoBehaviour:
   - label: Book
     id: 1
     altLabel: 
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars:
@@ -773,7 +773,7 @@ MonoBehaviour:
     canBeLowerCase: 0
     maxCount: 3
     itemStackingMode: 0
-    tex: {fileID: 2800000, guid: f82dfc5fc3c5a8f4080a3550427019c8, type: 3}
+    tex: {fileID: 2800000, guid: 2aa73991380406b48ac214d88e97d3c1, type: 3}
     activeTex: {fileID: 0}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
@@ -1479,7 +1479,7 @@ MonoBehaviour:
   - label: Magic Stick
     id: 25
     altLabel: "\u041C\u0430\u0433\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u043F\u0430\u043B\u043E\u0447\u043A\u0430"
-    carryOnStart: 1
+    carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []
@@ -1984,7 +1984,7 @@ MonoBehaviour:
     canBeLowerCase: 0
     maxCount: 3
     itemStackingMode: 0
-    tex: {fileID: 0}
+    tex: {fileID: 2800000, guid: 59bc15a184b9fc04ca6852ca5343f7ca, type: 3}
     activeTex: {fileID: 0}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
@@ -2039,7 +2039,7 @@ MonoBehaviour:
     canBeLowerCase: 0
     maxCount: 3
     itemStackingMode: 0
-    tex: {fileID: 0}
+    tex: {fileID: 2800000, guid: 627e0cbc7caa0eb4d8044727d54c4851, type: 3}
     activeTex: {fileID: 0}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
@@ -2094,7 +2094,7 @@ MonoBehaviour:
     canBeLowerCase: 0
     maxCount: 3
     itemStackingMode: 0
-    tex: {fileID: 0}
+    tex: {fileID: 2800000, guid: f153a3af36404614cb716e7f3ffc4849, type: 3}
     activeTex: {fileID: 0}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
@@ -2149,7 +2149,7 @@ MonoBehaviour:
     canBeLowerCase: 0
     maxCount: 3
     itemStackingMode: 0
-    tex: {fileID: 0}
+    tex: {fileID: 2800000, guid: e4fd2e52c2e6ccf498e5d8a5852d4268, type: 3}
     activeTex: {fileID: 0}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
