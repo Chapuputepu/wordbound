@@ -1961,7 +1961,7 @@ MonoBehaviour:
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   endings:
-  - resultAction: 1
+  - resultAction: 0
     skipAction: -1
     skipActionActual: {fileID: 0}
     linkedCutscene: {fileID: 0}
@@ -6122,6 +6122,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 496648, guid: 2b04b50db2c33f647a3ac53f54bcf15c, type: 3}
   m_PrefabInstance: {fileID: 389748543}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &393687513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0730368720d23479f8f782e46d149b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 1
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 663
+    y: 261
+    width: 300
+    height: 132
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 6304212500694876265}
+  parameterID: -1
+  constantID: 0
+  hotspot: {fileID: 8461976390581277109}
+  affectChildren: 0
+  changeType: 0
 --- !u!1001 &396777457
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10071,6 +10116,35 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!21 &620836174
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/OutlinePlus
+  m_Shader: {fileID: 4800000, guid: f0e778543e4d8a34295b7995426495da, type: 3}
+  m_ValidKeywords:
+  - OUTLINE_USE_NORMALS
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
 --- !u!1001 &637640890
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24498,7 +24572,7 @@ MonoBehaviour:
     x: 333
     y: 15
     width: 300
-    height: 260.3333
+    height: 262
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 6304212500694876265}
@@ -28282,7 +28356,7 @@ MonoBehaviour:
   maxDepthThreshold: 35
   minNormalsThreshold: 1
   maxNormalsThreshold: 3.03
-  material: {fileID: 1582244951}
+  material: {fileID: 620836174}
 --- !u!1001 &1543708518
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29383,35 +29457,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 492316, guid: 07f4a007d7093a64bbbdc962a82b494a, type: 3}
   m_PrefabInstance: {fileID: 1581784918}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &1582244951
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/OutlinePlus
-  m_Shader: {fileID: 4800000, guid: f0e778543e4d8a34295b7995426495da, type: 3}
-  m_ValidKeywords:
-  - OUTLINE_USE_NORMALS
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats: []
-    m_Colors: []
-  m_BuildTextureStacks: []
 --- !u!1 &1585015413
 GameObject:
   m_ObjectHideFlags: 0
@@ -37783,7 +37828,7 @@ MonoBehaviour:
   doLoop: 0
   intValue: 0
   floatValue: 0
-  boolValue: 1
+  boolValue: 0
   stringValue: 
   formula: 
   vector3Value: {x: 0, y: 0, z: 0}
@@ -44419,6 +44464,7 @@ MonoBehaviour:
   - {fileID: 273675108}
   - {fileID: 1366146098}
   - {fileID: 139542767}
+  - {fileID: 393687513}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0

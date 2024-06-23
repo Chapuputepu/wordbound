@@ -7493,7 +7493,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 1
-  title: Bt_Continue
+  title: Bt_Intro
   slotSize: {x: 10, y: 5}
   sizeType: 0
   positionType: 0
@@ -7527,7 +7527,7 @@ MonoBehaviour:
   numSlots: 1
   uiButton: {fileID: 0}
   uiPointerState: 0
-  _label: "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C"
+  _label: "\u0412\u0441\u0442\u0443\u043F\u043B\u0435\u043D\u0438\u0435"
   hotspotLabel: 
   hotspotLabelID: -1
   anchor: 4
@@ -7535,7 +7535,7 @@ MonoBehaviour:
   outlineSize: 2
   effectColour: {r: 0, g: 0, b: 0, a: 1}
   buttonClickType: 3
-  actionList: {fileID: 11400000, guid: cd16e71e5b1f3c94e99da52de061750b, type: 2}
+  actionList: {fileID: 11400000, guid: f4170965739f7ad4aa613340e5c86343, type: 2}
   parameterID: -1
   parameterValue: 0
   doFade: 0

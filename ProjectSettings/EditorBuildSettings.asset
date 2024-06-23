@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/WordBound/Scenes/Finale_2_NoGerman.unity
     guid: 81ad0d91931b36a46999c784b2e5eee0
+  - enabled: 1
+    path: Assets/WordBound/Scenes/Intro.unity
+    guid: 9ae12dfbe9bdbc943bb652614cd67020
   m_configObjects: {}
