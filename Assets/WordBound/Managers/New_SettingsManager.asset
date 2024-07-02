@@ -178,7 +178,7 @@ MonoBehaviour:
   movingTurning: 3
   hotspotDetection: 0
   closeInteractionMenusIfPlayerLeavesVicinity: 0
-  placeDistantHotspotsOnSeparateLayer: 1
+  placeDistantHotspotsOnSeparateLayer: 0
   hotspotsInVicinity: 0
   highlightAllHotspotsInVicinity: 1
   hotspotIconDisplay: 0
