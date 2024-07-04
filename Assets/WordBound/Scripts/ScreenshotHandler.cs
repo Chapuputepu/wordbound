@@ -7,7 +7,7 @@ public class ScreenshotHandler : MonoBehaviour
     public Camera screenshotCamera;
     public Image displayImage;
 
-    private void Start()
+    void Start()
     {
         GameObject cameraObject = GameObject.FindGameObjectWithTag("ScreenshotCamera");
         if (cameraObject != null)
@@ -33,6 +33,20 @@ public class ScreenshotHandler : MonoBehaviour
         else
         {
             Debug.LogError("No object with tag 'MyImageTag' found.");
+        }
+    }
+
+    public void SetCamera()
+    {
+        GameObject cameraObject = GameObject.FindGameObjectWithTag("ScreenshotCamera");
+        if (cameraObject != null)
+        {
+            screenshotCamera = cameraObject.GetComponent<Camera>();
+        }
+        else
+        {
+            Debug.LogError("No camera with tag 'ScreenshotCamera' found.");
+            screenshotCamera = Camera.main;  // Fallback to the main camera if no tagged camera is found.
         }
     }
 
