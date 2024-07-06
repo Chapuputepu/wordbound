@@ -1988,7 +1988,7 @@ MonoBehaviour:
   ignoreMouseClicks: 1
   pauseWhenEnabled: 0
   showWhenPaused: 0
-  canClickInCutscene: 0
+  canClickInCutscene: 1
   enabledOnStart: 0
   actionListOnTurnOn: {fileID: 0}
   actionListOnTurnOff: {fileID: 0}
@@ -3676,7 +3676,7 @@ MonoBehaviour:
     width: 0
     height: 0
   relativePosition: {x: 0, y: 0}
-  numSlots: 10
+  numSlots: 4
   uiSlots:
   - uiButton: {fileID: 0}
     uiButtonID: 1857130
@@ -4489,7 +4489,7 @@ MonoBehaviour:
   hasUpgraded: 1
   doWindowsPreviewFix: 1
   drawOutlines: 1
-  drawInEditor: 1
+  drawInEditor: 0
 --- !u!114 &86598918714079289
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6441,6 +6441,7 @@ MonoBehaviour:
   backgroundTexture: {fileID: 0}
   visibleElements:
   - {fileID: -966291285984958317}
+  - {fileID: 8475180494775048005}
   transitionProgress: 0
   appearType: 7
   speechMenuType: 0
@@ -6454,6 +6455,7 @@ MonoBehaviour:
   firstSelectedElement: 
   elements:
   - {fileID: -966291285984958317}
+  - {fileID: 8475180494775048005}
   spacing: 0.5
   sizeType: 0
   autoSizeEveryFrame: 0
@@ -7734,6 +7736,85 @@ MonoBehaviour:
   clickTexture: {fileID: 0}
   allowContinuousClick: 0
   uiSelectableHideStyle: 0
+--- !u!114 &8475180494775048005
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9aa9eb3d70f0d45a288b0763258b6f3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 1
+  title: PageInventory
+  slotSize: {x: 6, y: 10}
+  sizeType: 0
+  positionType: 0
+  slotSpacing: 0
+  lineID: -1
+  alternativeInputButton: 
+  font: {fileID: 0}
+  fontScaleFactor: 60
+  fontColor: {r: 1, g: 1, b: 1, a: 1}
+  fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
+  isVisible: 1
+  isClickable: 1
+  orientation: 1
+  gridWidth: 3
+  backgroundTexture: {fileID: 0}
+  singleSlotBackgrounds: 0
+  highlightTexture: {fileID: 0}
+  hoverSound: {fileID: 0}
+  clickSound: {fileID: 0}
+  changeCursor: 0
+  cursorID: 0
+  linkedUiID: 0
+  maxAutoWidthFactor: 0.5
+  relativeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  relativePosition: {x: 0, y: 0}
+  numSlots: 10
+  uiSlots:
+  - uiButton: {fileID: 0}
+    uiButtonID: 13252
+    sprite: {fileID: 0}
+  uiPointerState: 0
+  textEffects: 0
+  anchor: 4
+  outlineSize: 2
+  effectColour: {r: 0, g: 0, b: 0, a: 1}
+  inventoryBoxType: 0
+  actionListOnClick: {fileID: 0}
+  maxSlots: 1
+  limitToCategory: 1
+  limitToDefinedInteractions: 1
+  categoryID: -1
+  categoryIDs: 03000000
+  linkUIGraphic: 0
+  preventInteractions: 0
+  preventSelection: 1
+  limitMaxScroll: 1
+  highlightEmptySlots: 0
+  markAlreadyRead: 0
+  alreadyReadFontColour: {r: 1, g: 1, b: 1, a: 1}
+  alreadyReadFontHighlightedColour: {r: 1, g: 1, b: 1, a: 1}
+  updateHotspotLabelWhenHover: 0
+  hoverSoundOverEmptySlots: 1
+  containerSelectMode: 1
+  displayType: 1
+  uiHideStyle: 0
+  autoOpenDocument: 1
+  emptySlotTexture: {fileID: 0}
+  inventoryItemCountDisplay: 0
+  objectiveDisplayType: 0
+  objectiveSorting: 0
 --- !u!114 &8557549802316026934
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -8197,9 +8278,9 @@ MonoBehaviour:
   enabledOnStart: 0
   actionListOnTurnOn: {fileID: 0}
   actionListOnTurnOff: {fileID: 0}
-  updateWhenFadeOut: 1
+  updateWhenFadeOut: 0
   hideDuringSaveScreenshots: 1
-  fitWithinScreen: 1
+  fitWithinScreen: 0
   backgroundTexture: {fileID: 2800000, guid: 5f4f3dd6223164fe49aea7eb6c0bc529, type: 3}
   visibleElements:
   - {fileID: 8469283446634750400}

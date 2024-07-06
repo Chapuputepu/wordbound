@@ -4137,15 +4137,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3249705241608024771, guid: 19e866844dafdce4bb0e0cfa03fce643, type: 3}
       propertyPath: selectedOption.ID
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3249705241608024771, guid: 19e866844dafdce4bb0e0cfa03fce643, type: 3}
       propertyPath: selectedOption.label
-      value: "\u0417\u0430\u043F\u0438\u0441\u0430\u0442\u044C"
+      value: "\u041E\u0442\u043E\u0439\u0442\u0438"
       objectReference: {fileID: 0}
     - target: {fileID: 3249705241608024771, guid: 19e866844dafdce4bb0e0cfa03fce643, type: 3}
       propertyPath: selectedOption.autoTurnOff
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3249705241608024771, guid: 19e866844dafdce4bb0e0cfa03fce643, type: 3}
       propertyPath: options.Array.data[0].label
@@ -4154,7 +4154,7 @@ PrefabInstance:
     - target: {fileID: 3249705241608024771, guid: 19e866844dafdce4bb0e0cfa03fce643, type: 3}
       propertyPath: selectedOption.dialogueOption
       value: 
-      objectReference: {fileID: 6705248087254919414}
+      objectReference: {fileID: 2210465773516121455}
     - target: {fileID: 3249705241608024771, guid: 19e866844dafdce4bb0e0cfa03fce643, type: 3}
       propertyPath: selectedOption.conversationAction
       value: 1
@@ -8117,35 +8117,6 @@ MonoBehaviour:
       UnityEngine","m_IntArgument":0,"m_FloatArgument":0.0,"m_StringArgument":"","m_BoolArgument":false},"m_CallState":2}]}},"skipEvent":{"m_PersistentCalls":{"m_Calls":[]}},"ignoreWhenSkipping":false}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
---- !u!21 &643752515
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/OutlinePlus
-  m_Shader: {fileID: 4800000, guid: f0e778543e4d8a34295b7995426495da, type: 3}
-  m_ValidKeywords:
-  - OUTLINE_USE_NORMALS
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats: []
-    m_Colors: []
-  m_BuildTextureStacks: []
 --- !u!114 &645709950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17384,6 +17355,35 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!21 &1347079787
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/OutlinePlus
+  m_Shader: {fileID: 4800000, guid: f0e778543e4d8a34295b7995426495da, type: 3}
+  m_ValidKeywords:
+  - OUTLINE_USE_NORMALS
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
 --- !u!114 &1367972393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19658,7 +19658,7 @@ MonoBehaviour:
   maxDepthThreshold: 35
   minNormalsThreshold: 1
   maxNormalsThreshold: 3
-  material: {fileID: 643752515}
+  material: {fileID: 1347079787}
 --- !u!1 &1564504790 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3853168260275895435, guid: c75009d75a4e3b44cbb3790162d25d8b, type: 3}
@@ -27461,7 +27461,7 @@ MonoBehaviour:
     customScriptObject: {fileID: 0}
     customScriptFunction: 
   selectedOption:
-    label: "\u0412\u0441\u0442\u0430\u0432\u0438\u0442\u044C \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u0443"
+    label: "\u041E\u0442\u043E\u0439\u0442\u0438"
     lineID: -1
     icon: {fileID: 0}
     cursorIcon:
@@ -27481,9 +27481,9 @@ MonoBehaviour:
     isLocked: 0
     conversationAction: 1
     newConversation: {fileID: 0}
-    ID: 1
+    ID: 2
     hasBeenChosen: 0
-    autoTurnOff: 1
+    autoTurnOff: 0
     linkToInventory: 0
     linkedInventoryID: 0
     dialogueOption: {fileID: 0}

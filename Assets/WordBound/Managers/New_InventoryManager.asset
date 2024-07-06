@@ -1531,17 +1531,17 @@ MonoBehaviour:
     carryOnStartID: -1
     useSeparateSlots: 0
     selectSingle: 0
-  - label: "\u0421\u0442\u0440\u0430\u043D\u0438\u0446\u0430 1"
+  - label: "\u0421\u0442\u0440\u0430\u043D\u0438\u0446\u0430"
     id: 26
-    altLabel: "\u0421\u0442\u0440\u0430\u043D\u0438\u0446\u0430 \u0433\u0430\u0437\u0435\u0442\u044B"
+    altLabel: "\u0421\u0442\u0440\u0430\u043D\u0438\u0446\u044B"
     carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []
-    canCarryMultiple: 0
+    canCarryMultiple: 1
     count: 1
     canBeLowerCase: 0
-    maxCount: 999
+    maxCount: 3
     itemStackingMode: 0
     tex: {fileID: 2800000, guid: e82e04c527abd374c9e5355739e489e9, type: 3}
     activeTex: {fileID: 0}
@@ -1566,7 +1566,7 @@ MonoBehaviour:
       id: 0
     lineID: -1
     useIconID: 0
-    binID: 1
+    binID: 3
     overrideUseSyntax: 0
     hotspotPrefix1:
       label: Use
@@ -1574,7 +1574,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 0}
+    useActionList: {fileID: 11400000, guid: db0eb54d358afdf45b82631b84f88155, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
@@ -2522,6 +2522,61 @@ MonoBehaviour:
     carryOnStartID: -1
     useSeparateSlots: 0
     selectSingle: 0
+  - label: Book Deactivated
+    id: 44
+    altLabel: "\u041A\u043D\u0438\u0433\u0430 "
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 80409d92a600c194c97d45e453d575f9, type: 3}
+    activeTex: {fileID: 0}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 2
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 11400000, guid: d76947afa6cecba4eaf588817ad7a549, type: 2}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineInteractions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledGiveActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
   bins:
   - label: Objects
     id: 1
@@ -2540,6 +2595,11 @@ MonoBehaviour:
     forDocuments: 0
   - label: Fill
     id: 0
+    notForItems: 0
+    forObjectives: 0
+    forDocuments: 0
+  - label: Pages
+    id: 3
     notForItems: 0
     forObjectives: 0
     forDocuments: 0
