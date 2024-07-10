@@ -19,29 +19,7 @@ MonoBehaviour:
     carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
-    vars:
-    - label: Property 1
-      id: 0
-      type: 0
-      val: 0
-      floatVal: 0
-      textVal: 
-      gameObjectVal: {fileID: 0}
-      gameObjectSaveReferences: 1
-      objectVal: {fileID: 0}
-      popUps: []
-      vector3Val: {x: 0, y: 0, z: 0}
-      link: 0
-      pmVar: 
-      updateLinkOnStart: 0
-      canTranslate: 1
-      popUpID: 0
-      ignorePresets: 0
-      textValLineID: -1
-      popUpsLineID: -1
-      description: 
-      limitToCategories: 0
-      categoryIDs: 
+    vars: []
     canCarryMultiple: 0
     count: 1
     canBeLowerCase: 0
@@ -96,29 +74,7 @@ MonoBehaviour:
     carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
-    vars:
-    - label: Property 1
-      id: 0
-      type: 0
-      val: 0
-      floatVal: 0
-      textVal: 
-      gameObjectVal: {fileID: 0}
-      gameObjectSaveReferences: 1
-      objectVal: {fileID: 0}
-      popUps: []
-      vector3Val: {x: 0, y: 0, z: 0}
-      link: 0
-      pmVar: 
-      updateLinkOnStart: 0
-      canTranslate: 1
-      popUpID: 0
-      ignorePresets: 0
-      textValLineID: -1
-      popUpsLineID: -1
-      description: 
-      limitToCategories: 0
-      categoryIDs: 
+    vars: []
     canCarryMultiple: 0
     count: 1
     canBeLowerCase: 0
@@ -173,29 +129,7 @@ MonoBehaviour:
     carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
-    vars:
-    - label: Property 1
-      id: 0
-      type: 0
-      val: 0
-      floatVal: 0
-      textVal: 
-      gameObjectVal: {fileID: 0}
-      gameObjectSaveReferences: 1
-      objectVal: {fileID: 0}
-      popUps: []
-      vector3Val: {x: 0, y: 0, z: 0}
-      link: 0
-      pmVar: 
-      updateLinkOnStart: 0
-      canTranslate: 1
-      popUpID: 0
-      ignorePresets: 0
-      textValLineID: -1
-      popUpsLineID: -1
-      description: 
-      limitToCategories: 0
-      categoryIDs: 
+    vars: []
     canCarryMultiple: 0
     count: 1
     canBeLowerCase: 0
@@ -250,29 +184,7 @@ MonoBehaviour:
     carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
-    vars:
-    - label: Property 1
-      id: 0
-      type: 0
-      val: 0
-      floatVal: 0
-      textVal: 
-      gameObjectVal: {fileID: 0}
-      gameObjectSaveReferences: 1
-      objectVal: {fileID: 0}
-      popUps: []
-      vector3Val: {x: 0, y: 0, z: 0}
-      link: 0
-      pmVar: 
-      updateLinkOnStart: 0
-      canTranslate: 1
-      popUpID: 0
-      ignorePresets: 0
-      textValLineID: -1
-      popUpsLineID: -1
-      description: 
-      limitToCategories: 0
-      categoryIDs: 
+    vars: []
     canCarryMultiple: 0
     count: 1
     canBeLowerCase: 0
@@ -364,7 +276,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 0}
+    useActionList: {fileID: 11400000, guid: 5f88a8ebbad5c1448a0c64a9e38cdadc, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
@@ -376,9 +288,9 @@ MonoBehaviour:
     carryOnStartID: -1
     useSeparateSlots: 0
     selectSingle: 0
-  - label: "Notes: \u0422\u0430\u0440\u0430\u043A\u0430\u043D\u044B"
+  - label: "Notes: \u0413\u043E\u043B\u043E\u0434\u043D\u044B\u0435"
     id: 5
-    altLabel: "\u0422\u0410\u0420\u0410\u041A\u0410\u041D\u042B"
+    altLabel: "<color=blue>\u0413\u041E\u041B\u041E\u0414\u041D\u042B\u0415</color>"
     carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
@@ -419,7 +331,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 0}
+    useActionList: {fileID: 11400000, guid: 5f88a8ebbad5c1448a0c64a9e38cdadc, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
@@ -486,9 +398,9 @@ MonoBehaviour:
     carryOnStartID: -1
     useSeparateSlots: 0
     selectSingle: 0
-  - label: "Notes: \u0422\u0440\u0435\u043D\u0430\u0436\u0435\u0440\u044B"
+  - label: "Notes: \u041C\u043E\u0445\u0435\u043D\u0442\u043E\u0445\u0435\u043D"
     id: 7
-    altLabel: "\u0422\u0420\u0415\u041D\u0410\u0416\u0415\u0420\u042B"
+    altLabel: "\u041C\u041E\u0425\u0415\u041D\u0422\u041E\u0425\u0415\u041D"
     carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
@@ -529,7 +441,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 0}
+    useActionList: {fileID: 11400000, guid: 5f88a8ebbad5c1448a0c64a9e38cdadc, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
@@ -639,7 +551,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 0}
+    useActionList: {fileID: 11400000, guid: 5f88a8ebbad5c1448a0c64a9e38cdadc, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
@@ -859,7 +771,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 0}
+    useActionList: {fileID: 11400000, guid: 5f88a8ebbad5c1448a0c64a9e38cdadc, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
@@ -969,7 +881,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 0}
+    useActionList: {fileID: 11400000, guid: 5f88a8ebbad5c1448a0c64a9e38cdadc, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
@@ -1024,7 +936,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 0}
+    useActionList: {fileID: 11400000, guid: 5f88a8ebbad5c1448a0c64a9e38cdadc, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
@@ -1079,7 +991,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 0}
+    useActionList: {fileID: 11400000, guid: 5f88a8ebbad5c1448a0c64a9e38cdadc, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
@@ -1134,7 +1046,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 0}
+    useActionList: {fileID: 11400000, guid: 5f88a8ebbad5c1448a0c64a9e38cdadc, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
@@ -1189,7 +1101,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 0}
+    useActionList: {fileID: 11400000, guid: 5f88a8ebbad5c1448a0c64a9e38cdadc, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
@@ -1244,7 +1156,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 0}
+    useActionList: {fileID: 11400000, guid: 5f88a8ebbad5c1448a0c64a9e38cdadc, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
@@ -1428,10 +1340,10 @@ MonoBehaviour:
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []
-    canCarryMultiple: 0
+    canCarryMultiple: 1
     count: 1
     canBeLowerCase: 0
-    maxCount: 999
+    maxCount: 5
     itemStackingMode: 0
     tex: {fileID: 2800000, guid: a9e6e772a3290a64a831c9073b973c24, type: 3}
     activeTex: {fileID: 0}
@@ -1629,7 +1541,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 0}
+    useActionList: {fileID: 11400000, guid: 5f88a8ebbad5c1448a0c64a9e38cdadc, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
@@ -1684,7 +1596,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 0}
+    useActionList: {fileID: 11400000, guid: 5f88a8ebbad5c1448a0c64a9e38cdadc, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
@@ -1739,7 +1651,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 0}
+    useActionList: {fileID: 11400000, guid: 5f88a8ebbad5c1448a0c64a9e38cdadc, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
@@ -1794,7 +1706,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 0}
+    useActionList: {fileID: 11400000, guid: 5f88a8ebbad5c1448a0c64a9e38cdadc, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
@@ -1849,7 +1761,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 0}
+    useActionList: {fileID: 11400000, guid: 5f88a8ebbad5c1448a0c64a9e38cdadc, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
@@ -1905,7 +1817,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 0}
+    useActionList: {fileID: 11400000, guid: 5f88a8ebbad5c1448a0c64a9e38cdadc, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
@@ -1960,7 +1872,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 0}
+    useActionList: {fileID: 11400000, guid: 5f88a8ebbad5c1448a0c64a9e38cdadc, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
@@ -1974,7 +1886,7 @@ MonoBehaviour:
     selectSingle: 0
   - label: "\u0421\u0432\u0435\u0442\u044F\u0449\u0435\u0435 \u0437\u0435\u043B\u044C\u0435"
     id: 34
-    altLabel: "\u0421\u0432\u0435\u0442\u044F\u0449\u0435\u0435 \u0417\u0435\u043B\u044C\u0435"
+    altLabel: "\u0418\u0441\u0446\u0435\u043B\u044F\u044E\u0449\u0435\u0435 \u0417\u0435\u043B\u044C\u0435"
     carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
@@ -2029,7 +1941,7 @@ MonoBehaviour:
     selectSingle: 0
   - label: "\u0417\u0435\u043B\u0435\u043D\u043E\u0435 \u0437\u0435\u043B\u044C\u0435"
     id: 35
-    altLabel: "\u0417\u0435\u043B\u0435\u043D\u043E\u0435 \u0417\u0435\u043B\u044C\u0435"
+    altLabel: "\u0412\u0435\u0441\u0435\u043B\u043E\u0435 \u0417\u0435\u043B\u044C\u0435"
     carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
@@ -2082,9 +1994,9 @@ MonoBehaviour:
     carryOnStartID: -1
     useSeparateSlots: 0
     selectSingle: 0
-  - label: "\u0422\u0435\u043C\u043D\u043E\u0435 \u0437\u0435\u043B\u044C\u0435"
+  - label: "\u042F\u0434\u043E\u0432\u0438\u0442\u043E\u0435 \u0437\u0435\u043B\u044C\u0435"
     id: 36
-    altLabel: 
+    altLabel: "\u042F\u0434\u043E\u0432\u0438\u0442\u043E\u0435 \u0437\u0435\u043B\u044C\u0435"
     carryOnStart: 0
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
@@ -2235,7 +2147,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 0}
+    useActionList: {fileID: 11400000, guid: 5f88a8ebbad5c1448a0c64a9e38cdadc, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
@@ -2290,7 +2202,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 0}
+    useActionList: {fileID: 11400000, guid: 5f88a8ebbad5c1448a0c64a9e38cdadc, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
@@ -2345,7 +2257,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 0}
+    useActionList: {fileID: 11400000, guid: 5f88a8ebbad5c1448a0c64a9e38cdadc, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
@@ -2400,7 +2312,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 0}
+    useActionList: {fileID: 11400000, guid: 5f88a8ebbad5c1448a0c64a9e38cdadc, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
@@ -2455,7 +2367,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 0}
+    useActionList: {fileID: 11400000, guid: 5f88a8ebbad5c1448a0c64a9e38cdadc, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
@@ -2510,7 +2422,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 0}
+    useActionList: {fileID: 11400000, guid: 5f88a8ebbad5c1448a0c64a9e38cdadc, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
@@ -2566,6 +2478,116 @@ MonoBehaviour:
       label: on
       lineID: -1
     useActionList: {fileID: 11400000, guid: d76947afa6cecba4eaf588817ad7a549, type: 2}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineInteractions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledGiveActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+  - label: Mohentohen
+    id: 45
+    altLabel: "\u041C\u043E\u0445\u0435\u043D\u0442\u043E\u0445\u0435\u043D"
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 1
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 5
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 30389dac990c0154693b313abe62af6e, type: 3}
+    activeTex: {fileID: 0}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineInteractions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledGiveActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+  - label: Energy Drink
+    id: 46
+    altLabel: BlueBull
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 1
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 5
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: a3f2a3394f8c8b24f9dda042c070f04d, type: 3}
+    activeTex: {fileID: 0}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 11400000, guid: a4f581ad662ba23468b94934801045ee, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
