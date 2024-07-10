@@ -137,12 +137,12 @@ MonoBehaviour:
     x: 688
     y: 406
     width: 300
-    height: 248
+    height: 248.66667
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
   chooseSceneBy: 0
-  sceneNumber: 3
+  sceneNumber: 6
   sceneNumberParameterID: 0
   sceneName: 
   sceneNameParameterID: -1
