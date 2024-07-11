@@ -1340,12 +1340,12 @@ MonoBehaviour:
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []
-    canCarryMultiple: 1
+    canCarryMultiple: 0
     count: 1
     canBeLowerCase: 0
     maxCount: 5
     itemStackingMode: 0
-    tex: {fileID: 2800000, guid: a9e6e772a3290a64a831c9073b973c24, type: 3}
+    tex: {fileID: 2800000, guid: e06e805bf90b24c48b3cd0a5eaa68fbb, type: 3}
     activeTex: {fileID: 0}
     selectedTex: {fileID: 0}
     linkedPrefab: {fileID: 0}
@@ -1376,7 +1376,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 0}
+    useActionList: {fileID: 11400000, guid: af3346b9a2483a74ea85035de70e4891, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
@@ -2532,7 +2532,7 @@ MonoBehaviour:
     hotspotPrefix2:
       label: on
       lineID: -1
-    useActionList: {fileID: 0}
+    useActionList: {fileID: 11400000, guid: 92aace1025c29114bb738ad1460d7793, type: 2}
     lookActionList: {fileID: 0}
     interactions: []
     combineInteractions: []
