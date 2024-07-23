@@ -2212,7 +2212,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 1
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -2266,7 +2266,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundType: 0
   playWhilePaused: 0
-  relativeVolume: 1
+  relativeVolume: 0.5
   surviveSceneChange: 0
 --- !u!1 &3531331330052457184
 GameObject:
@@ -3959,6 +3959,7 @@ GameObject:
   - component: {fileID: 586118117455104030}
   - component: {fileID: 5302986248374511565}
   - component: {fileID: 7306650196800212718}
+  - component: {fileID: 8664941148640446141}
   m_Layer: 2
   m_Name: Chervoust
   m_TagString: Untagged
@@ -4284,7 +4285,7 @@ MonoBehaviour:
   walkSound: {fileID: 0}
   runSound: {fileID: 0}
   textScrollClip: {fileID: 0}
-  soundChild: {fileID: 0}
+  soundChild: {fileID: 129944329432022844}
   speechAudioSource: {fileID: 0}
   headIKTurnFactor: 1
   bodyIKTurnFactor: 0
@@ -4339,6 +4340,31 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &8664941148640446141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6151561695452097288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a859e9117bee4c3ebcb4598d5468d55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footstepSounds:
+  - {fileID: 8300000, guid: 7cc980017409fbb40a25053ff93a93f4, type: 3}
+  runSounds:
+  - {fileID: 8300000, guid: 64ed19a325faa424f83f96d7c8653a7f, type: 3}
+  soundToPlayFrom: {fileID: 129944329432022844}
+  footstepPlayMethod: 1
+  character: {fileID: 586118117455104030}
+  doGroundedCheck: 0
+  doMovementCheck: 1
+  pitchVariance: 0.25
+  volumeVariance: 0.3
+  walkSeparationTime: 0.5
+  runSeparationTime: 0.25
 --- !u!1 &6330221035342561239
 GameObject:
   m_ObjectHideFlags: 0

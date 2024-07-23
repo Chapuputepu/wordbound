@@ -66,4 +66,4 @@ MonoBehaviour:
   sceneName: Tutorial_1
   sceneNameParameterID: -1
   resetMenus: 1
-  killActionLists: 0
+  killActionLists: 1

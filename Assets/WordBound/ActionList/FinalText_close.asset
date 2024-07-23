@@ -187,7 +187,7 @@ MonoBehaviour:
   elementToChangeParameterID: -1
   journalText: 
   onlyAddNewJournal: 0
-  doFade: 0
+  doFade: 1
   lineID: -1
   journalPageIndex: -1
   journalPageIndexParameterID: -1

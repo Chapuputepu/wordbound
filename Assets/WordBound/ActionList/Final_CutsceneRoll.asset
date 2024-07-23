@@ -205,8 +205,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 365
-    y: 273.1499
+    x: 364
+    y: 297.1499
     width: 300
     height: 160
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -326,7 +326,7 @@ MonoBehaviour:
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}
   parameterID: -1
-  timeToPause: 0.5
+  timeToPause: 2
 --- !u!114 &5573612834881240229
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -363,7 +363,7 @@ MonoBehaviour:
     x: 14
     y: 196
     width: 300
-    height: 256.6667
+    height: 256
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 0}

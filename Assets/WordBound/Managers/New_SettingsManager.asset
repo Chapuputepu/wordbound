@@ -230,15 +230,75 @@ MonoBehaviour:
   playMusicWhilePaused: 1
   playAmbienceWhilePaused: 0
   musicStorages:
-  - ID: 0
-    label: MedievalPotter
-    audioClip: {fileID: 8300000, guid: 9db42a869d4678347ad2eb8a00d41306, type: 3}
-    relativeVolume: 0.504
-    overrideMixerGroup: {fileID: 0}
   - ID: 1
-    label: 
+    label: Office music
     audioClip: {fileID: 8300000, guid: 7c216635658a7244e9084f05246c27dd, type: 3}
-    relativeVolume: 0.53
+    relativeVolume: 0.2
+    overrideMixerGroup: {fileID: 0}
+  - ID: 0
+    label: MainMenu
+    audioClip: {fileID: 8300000, guid: d614c8983be30e448b41dc44a15491ac, type: 3}
+    relativeVolume: 0.3
+    overrideMixerGroup: {fileID: 0}
+  - ID: 2
+    label: Intro
+    audioClip: {fileID: 8300000, guid: 7fbde0e769f1a804cb1f4a6de9f43ae6, type: 3}
+    relativeVolume: 0.3
+    overrideMixerGroup: {fileID: 0}
+  - ID: 3
+    label: Final
+    audioClip: {fileID: 8300000, guid: 82dde02103b78b74e952b1b4a1bd76de, type: 3}
+    relativeVolume: 0.3
+    overrideMixerGroup: {fileID: 0}
+  - ID: 4
+    label: OfficeAmbient
+    audioClip: {fileID: 8300000, guid: 0d54fdbc34ef27b489819fafa5adfdd5, type: 3}
+    relativeVolume: 0.5
+    overrideMixerGroup: {fileID: 0}
+  - ID: 5
+    label: Storage
+    audioClip: {fileID: 8300000, guid: 594483c64ac4746498f92712c3794268, type: 3}
+    relativeVolume: 0.3
+    overrideMixerGroup: {fileID: 0}
+  - ID: 6
+    label: Book Ambient
+    audioClip: {fileID: 8300000, guid: 167acf8e388f00246a92f8df6f1bc7e8, type: 3}
+    relativeVolume: 0.5
+    overrideMixerGroup: {fileID: 0}
+  - ID: 7
+    label: ChurchMusic
+    audioClip: {fileID: 8300000, guid: 1ddd273c81b7b2645930ae8925783a8d, type: 3}
+    relativeVolume: 0.3
+    overrideMixerGroup: {fileID: 0}
+  - ID: 8
+    label: Wind
+    audioClip: {fileID: 8300000, guid: ab05b28fb730bbe40bbb742c04f74024, type: 3}
+    relativeVolume: 1
+    overrideMixerGroup: {fileID: 0}
+  - ID: 9
+    label: PrincessRoom Music
+    audioClip: {fileID: 8300000, guid: 05a35f2f27ceddc4c983c5e08538f021, type: 3}
+    relativeVolume: 0.3
+    overrideMixerGroup: {fileID: 0}
+  - ID: 10
+    label: WaterDripping
+    audioClip: {fileID: 8300000, guid: 470fd241bf6da1a44a2721b17629e1bf, type: 3}
+    relativeVolume: 1
+    overrideMixerGroup: {fileID: 0}
+  - ID: 11
+    label: Spaceship
+    audioClip: {fileID: 8300000, guid: c3ba5f893e4159844b193b108aafb81a, type: 3}
+    relativeVolume: 0.5
+    overrideMixerGroup: {fileID: 0}
+  - ID: 12
+    label: Human theme
+    audioClip: {fileID: 8300000, guid: b9b84c5d3f7eb5c488d616ad3564fd14, type: 3}
+    relativeVolume: 0.3
+    overrideMixerGroup: {fileID: 0}
+  - ID: 13
+    label: Demon theme
+    audioClip: {fileID: 8300000, guid: e2fbc13b12a1aaf498f9d8dc4cf05851, type: 3}
+    relativeVolume: 0.3
     overrideMixerGroup: {fileID: 0}
   ambienceStorages: []
   loadAmbienceFadeTime: 0
