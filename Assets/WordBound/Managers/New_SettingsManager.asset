@@ -300,6 +300,21 @@ MonoBehaviour:
     audioClip: {fileID: 8300000, guid: e2fbc13b12a1aaf498f9d8dc4cf05851, type: 3}
     relativeVolume: 0.3
     overrideMixerGroup: {fileID: 0}
+  - ID: 14
+    label: TrueReveal
+    audioClip: {fileID: 8300000, guid: 96c4e5dcc731ed24faa4a09faf43894e, type: 3}
+    relativeVolume: 0.3
+    overrideMixerGroup: {fileID: 0}
+  - ID: 15
+    label: TrueFin
+    audioClip: {fileID: 8300000, guid: 0d902f91791542e4fad971b96a4528ab, type: 3}
+    relativeVolume: 0.3
+    overrideMixerGroup: {fileID: 0}
+  - ID: 16
+    label: Shrek
+    audioClip: {fileID: 8300000, guid: 33782af125cfcd8419e188fc5602c350, type: 3}
+    relativeVolume: 0.3
+    overrideMixerGroup: {fileID: 0}
   ambienceStorages: []
   loadAmbienceFadeTime: 0
   crossfadeAmbienceWhenLoading: 0
