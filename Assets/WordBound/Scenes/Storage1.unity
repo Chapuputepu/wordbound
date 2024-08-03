@@ -2752,57 +2752,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7218983975434680694, guid: 4a5041d38f0bdae4d8c77eb02ece10cb, type: 3}
   m_PrefabInstance: {fileID: 198824980}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &211400334
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8122ceaf185ff4b929c2329cb3c5c431, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 2
-    skipAction: 1
-    skipActionActual: {fileID: 479610756}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 12
-    y: 235.29987
-    width: 300
-    height: 192
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 3497585663259734436}
-  constantID: 0
-  parameterID: -1
-  soundObject: {fileID: 7895099157078017511}
-  audioClip: {fileID: 0}
-  audioClipParameterID: -1
-  fadeTime: 0
-  loop: 1
-  ignoreIfPlaying: 0
-  soundAction: 0
-  affectChildren: 0
-  autoEndOtherMusicWhenPlayed: 1
 --- !u!1001 &229684430
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9949,35 +9898,6 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
---- !u!21 &812702341
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Hidden/OutlinePlus
-  m_Shader: {fileID: 4800000, guid: f0e778543e4d8a34295b7995426495da, type: 3}
-  m_ValidKeywords:
-  - OUTLINE_USE_NORMALS
-  m_InvalidKeywords: []
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats: []
-    m_Colors: []
-  m_BuildTextureStacks: []
 --- !u!114 &819060122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16283,8 +16203,8 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 7
-    skipActionActual: {fileID: 211400334}
+    skipAction: 1
+    skipActionActual: {fileID: 479610756}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -16295,7 +16215,7 @@ MonoBehaviour:
     x: 14
     y: 14
     width: 300
-    height: 173
+    height: 273
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
   showOutputSockets: 1
   parentActionListInEditor: {fileID: 3497585663259734436}
@@ -16308,7 +16228,7 @@ MonoBehaviour:
   resumeFromStart: 1
   resumeIfPlayedBefore: 0
   willWaitComplete: 0
-  musicAction: 1
+  musicAction: 0
   loopingOverlapTime: 0
 --- !u!4 &924820301 stripped
 Transform:
@@ -22398,7 +22318,7 @@ MonoBehaviour:
   endings:
   - resultAction: 2
     skipAction: 12
-    skipActionActual: {fileID: 1596608254}
+    skipActionActual: {fileID: 849594126}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -23767,7 +23687,7 @@ MonoBehaviour:
   maxDepthThreshold: 35
   minNormalsThreshold: 0.39
   maxNormalsThreshold: 3.03
-  material: {fileID: 812702341}
+  material: {fileID: 1667087271}
 --- !u!114 &1544600698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24700,59 +24620,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4259726223605416, guid: 5a56bea0910e46946a878d51da37757f, type: 3}
   m_PrefabInstance: {fileID: 1594690983}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1596608254
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7080726b31af47438a71d8786bab557, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 2
-    skipAction: 4
-    skipActionActual: {fileID: 770317002}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 17
-    y: 546.75
-    width: 300
-    height: 340
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 0}
-  changeMovementMethod: 0
-  newMovementMethod: 0
-  cursorLock: 2
-  inputLock: 2
-  interactionLock: 2
-  draggableLock: 2
-  menuLock: 2
-  movementLock: 2
-  cameraLock: 2
-  triggerLock: 2
-  playerLock: 0
-  saveLock: 2
-  keyboardGameplayMenusLock: 2
 --- !u!114 &1599204413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25982,6 +25849,35 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!21 &1667087271
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hidden/OutlinePlus
+  m_Shader: {fileID: 4800000, guid: f0e778543e4d8a34295b7995426495da, type: 3}
+  m_ValidKeywords:
+  - OUTLINE_USE_NORMALS
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats: []
+    m_Colors: []
+  m_BuildTextureStacks: []
 --- !u!1001 &1670644400
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26876,7 +26772,7 @@ MonoBehaviour:
     popUpID: 0
     floatValue: 0
     stringValue: 
-    gameObject: {fileID: 0}
+    gameObject: {fileID: 1856631651}
     objectValue: {fileID: 0}
     vector3Value: {x: 0, y: 0, z: 0}
     gameObjectParameterReferences: 0
@@ -27448,8 +27344,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 713
-    y: 537
+    x: 730
+    y: 639
     width: 300
     height: 172
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -35219,7 +35115,6 @@ MonoBehaviour:
   - {fileID: 183099332}
   - {fileID: 1249215639}
   - {fileID: 1426899718}
-  - {fileID: 211400334}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -38110,7 +38005,7 @@ GameObject:
   m_Icon: {fileID: 4892941663561143343, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7895099157087841319
 Transform:
   m_ObjectHideFlags: 0
@@ -38927,15 +38822,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3249705241608024771, guid: 19e866844dafdce4bb0e0cfa03fce643, type: 3}
       propertyPath: selectedOption.ID
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3249705241608024771, guid: 19e866844dafdce4bb0e0cfa03fce643, type: 3}
       propertyPath: selectedOption.label
-      value: "\u0417\u0430\u043F\u0438\u0441\u0430\u0442\u044C"
+      value: "<i>\u041D\u0430\u0437\u0430\u0434</i>"
       objectReference: {fileID: 0}
     - target: {fileID: 3249705241608024771, guid: 19e866844dafdce4bb0e0cfa03fce643, type: 3}
       propertyPath: selectedOption.autoTurnOff
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3249705241608024771, guid: 19e866844dafdce4bb0e0cfa03fce643, type: 3}
       propertyPath: options.Array.data[0].label
@@ -38948,7 +38843,7 @@ PrefabInstance:
     - target: {fileID: 3249705241608024771, guid: 19e866844dafdce4bb0e0cfa03fce643, type: 3}
       propertyPath: selectedOption.dialogueOption
       value: 
-      objectReference: {fileID: 2921768082552405305}
+      objectReference: {fileID: 6225896906306060041}
     - target: {fileID: 3249705241608024771, guid: 19e866844dafdce4bb0e0cfa03fce643, type: 3}
       propertyPath: selectedOption.conversationAction
       value: 1

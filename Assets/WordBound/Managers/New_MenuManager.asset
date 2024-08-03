@@ -440,6 +440,77 @@ MonoBehaviour:
   clickTexture: {fileID: 0}
   allowContinuousClick: 0
   uiSelectableHideStyle: 0
+--- !u!114 &-8728293588815136009
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64747f67d47cb4e04a88bea43b7c1cfd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 12
+  title: lvl11
+  slotSize: {x: 10, y: 5}
+  sizeType: 0
+  positionType: 0
+  slotSpacing: 0
+  lineID: -1
+  alternativeInputButton: 
+  font: {fileID: 0}
+  fontScaleFactor: 2
+  fontColor: {r: 1, g: 1, b: 1, a: 1}
+  fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
+  isVisible: 1
+  isClickable: 1
+  orientation: 1
+  gridWidth: 3
+  backgroundTexture: {fileID: 0}
+  singleSlotBackgrounds: 0
+  highlightTexture: {fileID: 0}
+  hoverSound: {fileID: 0}
+  clickSound: {fileID: 0}
+  changeCursor: 0
+  cursorID: 0
+  linkedUiID: 84700
+  maxAutoWidthFactor: 0.5
+  relativeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  relativePosition: {x: 0, y: 0}
+  numSlots: 1
+  uiButton: {fileID: 0}
+  uiPointerState: 0
+  _label: TrueFinale
+  hotspotLabel: 
+  hotspotLabelID: -1
+  anchor: 4
+  textEffects: 0
+  outlineSize: 2
+  effectColour: {r: 0, g: 0, b: 0, a: 1}
+  buttonClickType: 3
+  actionList: {fileID: 11400000, guid: 440a550f11fdd6c41bac63b7f4ff9e03, type: 2}
+  parameterID: -1
+  parameterValue: 0
+  doFade: 0
+  switchMenuTitle: 
+  inventoryBoxTitle: 
+  shiftInventory: 0
+  shiftAmount: 1
+  onlyShowWhenEffective: 0
+  loopJournal: 0
+  inputAxis: 
+  simulateInput: 0
+  simulateValue: 1
+  clickTexture: {fileID: 0}
+  allowContinuousClick: 0
+  uiSelectableHideStyle: 0
 --- !u!114 &-8522099637689654058
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1709,7 +1780,8 @@ MonoBehaviour:
   - {fileID: -6251848996127967625}
   - {fileID: 5826336060876522927}
   - {fileID: -2417559195006702193}
-  - {fileID: -3093557606119969672}
+  - {fileID: 0}
+  - {fileID: -8728293588815136009}
   transitionProgress: 0
   appearType: 0
   speechMenuType: 0
@@ -1733,7 +1805,7 @@ MonoBehaviour:
   - {fileID: -6251848996127967625}
   - {fileID: 5826336060876522927}
   - {fileID: -2417559195006702193}
-  - {fileID: -3093557606119969672}
+  - {fileID: -8728293588815136009}
   spacing: 0.5
   sizeType: 0
   autoSizeEveryFrame: 0
@@ -3057,70 +3129,6 @@ MonoBehaviour:
   numberOfSteps: 0
   actionListOnChange: {fileID: 0}
   uiSelectableHideStyle: 0
---- !u!114 &-3093557606119969672
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d40ecbe0a1e5041fa8d2703183379581, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ID: 11
-  title: Toggle
-  slotSize: {x: 15, y: 5}
-  sizeType: 0
-  positionType: 0
-  slotSpacing: 0
-  lineID: -1
-  alternativeInputButton: 
-  font: {fileID: 0}
-  fontScaleFactor: 2
-  fontColor: {r: 1, g: 1, b: 1, a: 1}
-  fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
-  isVisible: 1
-  isClickable: 1
-  orientation: 1
-  gridWidth: 3
-  backgroundTexture: {fileID: 0}
-  singleSlotBackgrounds: 0
-  highlightTexture: {fileID: 0}
-  hoverSound: {fileID: 0}
-  clickSound: {fileID: 0}
-  changeCursor: 0
-  cursorID: 0
-  linkedUiID: 860984
-  maxAutoWidthFactor: 0.5
-  relativeRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  relativePosition: {x: 0, y: 0}
-  numSlots: 1
-  uiToggle: {fileID: 0}
-  toggleType: 1
-  actionListOnClick: {fileID: 11400000, guid: e7f9ab2e15defdd4aa9a1b1bafdd8683, type: 2}
-  label: True end for Finale 1
-  labelSuffix: ' : '
-  isOn: 0
-  textEffects: 0
-  outlineSize: 2
-  effectColour: {r: 0, g: 0, b: 0, a: 1}
-  anchor: 3
-  varID: 0
-  appendState: 1
-  onTexture: {fileID: 0}
-  offTexture: {fileID: 0}
-  uiSelectableHideStyle: 0
-  onText: On
-  onTextLineID: -1
-  offText: Off
-  offTextLineID: -1
 --- !u!114 &-3062610005138101804
 MonoBehaviour:
   m_ObjectHideFlags: 1

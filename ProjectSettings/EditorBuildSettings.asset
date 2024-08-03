@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/WordBound/Scenes/Intro.unity
     guid: 9ae12dfbe9bdbc943bb652614cd67020
+  - enabled: 1
+    path: Assets/WordBound/Scenes/Finale_TrueOn.unity
+    guid: 7ef7b8583b897684a9f90f0a57e7bf8f
   m_configObjects: {}

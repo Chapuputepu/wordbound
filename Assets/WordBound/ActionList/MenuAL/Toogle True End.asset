@@ -624,13 +624,13 @@ MonoBehaviour:
   linkedAsset: {fileID: 0}
   endings:
   - resultAction: 2
-    skipAction: 5
-    skipActionActual: {fileID: 7261072338872938236}
+    skipAction: 1
+    skipActionActual: {fileID: -5974557699958934139}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   - resultAction: 2
-    skipAction: 1
-    skipActionActual: {fileID: -5974557699958934139}
+    skipAction: 5
+    skipActionActual: {fileID: 7261072338872938236}
     linkedCutscene: {fileID: 0}
     linkedAsset: {fileID: 0}
   isEnabled: 1
